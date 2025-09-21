@@ -2,7 +2,7 @@
 
 There are several reasons why a new review may be considered. Commissioned calls for evidence synthesis are usually on topics where a gap in knowledge has been identified, prioritized and a question posed. Alternatively, the idea for a review may be investigator led, with a topic identified from an area of practice or research interest; such approaches may or may not be funded. Whatever the motivation for undertaking a review the preparation and conduct should be rigorous.
 
-#### Is a review required?
+## Is a review required?
 
 Before undertaking a systematic review, it is necessary to check whether there are already existing or ongoing reviews, and whether a new review is justified. This process should begin by searching the Database of Abstracts of Reviews of Effects (DARE),1 and the Cochrane Database of Systematic Reviews (CDSR).2 DARE contains critical appraisals of systematic reviews of the effects of health interventions. CDSR contains the full text of regularly updated systematic reviews of the effects of health care interventions carried out by the Cochrane Collaboration. Other sites to consider searching include the National Institute for Health and Clinical Excellence (NICE) and the NIHR Health Technology Assessment (NIHR HTA) program websites. The Campbell Collaboration website3 contains the Campbell Library of Systematic Reviews giving full details of completed and ongoing systematic reviews in education, crime and justice, and social welfare, and the Evidence for Policy and Practice Information (EPPI) Centre,4 whose review fields include education, health promotion, social care and welfare, and public health, has a database of systematic and non systematic reviews of public health interventions (DoPHER). It may also be worth looking at sites such as the National Guidelines Clearinghouse (NGC)5 or the Scottish Intercollegiate Guidelines Network (SIGN),6 as many guidelines are based on systematic review evidence.
 
@@ -36,11 +36,11 @@ Critically appraising review articles
 
 -   Do the authors' conclusions accurately reflect the evidence that was reviewed?
 
-#### The review team
+## The review team
 
 The review team will manage and conduct the review and should have a range of skills. Ideally these should include expertise in systematic review methods, information retrieval, the relevant clinical/topic area, statistics, health economics and/or qualitative research methods where appropriate. It is good practice to have a minimum of two researchers involved so that measures to minimize bias and error can be implemented at all stages of the review. Any conflicts of interest should be explicitly noted early in the process, and steps taken to ensure that these do not impact on the review process.
 
-#### The advisory group
+### The advisory group
 
 In addition to the team who will undertake the review there may be a number of individuals or groups who are consulted at various stages, including for example health care professionals, patient representatives, service users and experts in research methods. Some funding bodies require the establishment of an advisory group who will comment on the protocol and final report and provide input to ensure that the review has practical relevance to likely end users. Even if this is not the case, and even where the review team is knowledgeable about the area, it is still valuable to have an advisory group whose members can be consulted at key stages.
 
@@ -62,9 +62,9 @@ Summary: Getting started
 
 -   The review team may wish to seek advice from a variety of clinical or methodological experts, whether an advisory group is convened.
 
-# THE REVIEW PROTOCOL
+## The protocol
 
-#### Introduction
+### Introduction
 
 The review protocol sets out the methods to be used in the review. Decisions about the review question, inclusion criteria, search strategy, study selection, data extraction, quality assessment, data synthesis and plans for dissemination should be addressed.
 
@@ -74,15 +74,15 @@ If modifications to the protocol are required, these should be clearly documente
 
 Protocol development is often an iterative process that requires communication within the review team and advisory group and sometimes with the funder.
 
-#### Key areas to cover in a review protocol
+### Key areas to cover in a review protocol
 
 This section covers the development of the protocol and the information it should contain. The formulation of the review objectives from the review question and the setting of inclusion criteria are covered in detail here as these must be agreed before starting a review. The search strategy, study selection, data extraction, quality assessment, synthesis and dissemination are also mentioned briefly as they are essential parts of the review protocol. However, to avoid repetition, full details of the issues related to both protocol requirements and carrying out the review are provided in Section 1.3 Undertaking the review.
 
-###### Background
+### Background
 
 The background section should communicate the key contextual factors and conceptual issues relevant to the review question. It should explain why the review is required and provide the rationale underpinning the inclusion criteria and the focus of the review question, for example justifying the choice of interventions to be considered in the review.
 
-###### Review question and inclusion criteria
+### Review question and inclusion criteria
 
 Systematic reviews should set clear questions, the answers to which will provide meaningful information that can be used to guide decision-making. These should be stated clearly and precisely in the protocol. Questions may be extremely specific or very broad, although if broad, it may be more appropriate to break this down into a series of related more specific questions. For example a review to 'assess the evidence on the positive and negative effects of population-wide drinking water fluoridation strategies to prevent caries',13 was undertaken by addressing five objectives:
 
@@ -94,19 +94,17 @@ Objective 3: Does water fluoridation result in a reduction of caries across soci
 
 Objective 4: Does water fluoridation have negative effects?
 
-Objective 5: Are there differences in the effects of natural and artificial water
-
-fluoridation?
+Objective 5: Are there differences in the effects of natural and artificial water fluoridation?
 
 Where there are several objectives it may be necessary to prioritise by importance and likelihood of being able to answer the question. It may even be necessary to restrict the scope of the question to a level that is manageable within set resources. For clarity, the singular term 'review question' is used throughout the guidance.
 
 Example review objective and PICOS elements for a review protocol
 
-##### Review objective
+Review objective
 
-> The objective of this review is to assess the clinical effectiveness of treatments for childhood retinoblastoma.14
+> The objective of this review is to assess the clinical effectiveness of treatments for childhood retinoblastoma.
 
-##### Participants
+Participants
 
 > Studies of participants diagnosed with retinoblastoma at the age of 18 years or under.
 >
@@ -114,33 +112,31 @@ Example review objective and PICOS elements for a review protocol
 >
 > Studies of mixed diagnoses if outcomes were reported separately for children with retinoblastoma.
 
-##### Interventions
+Interventions
 
 > Any intervention or combination of interventions given for the treatment of retinoblastoma, including (but not restricted to) enucleation, external beam radiotherapy, chemotherapy, brachytherapy, cryotherapy, thermotherapy and photocoagulation.
 
-##### Outcomes
+Outcomes
 
 > Any clinical outcome, including (but not restricted to) survival, progression-free survival, tumour response, preservation of the eye, visual acuity, disease remission and adverse effects.
 
-##### Study design
+Study design
 
-> Randomised controlled trials (RCTs) and controlled trials. However, it is not anticipated that many studies of these designs will be available. Therefore, if information from controlled trials is not available, cohort studies are eligible for inclusion provided that data from a comparison group are reported.
->
-> Case series and case reports are excluded from the review owing to the high potential for bias in these study designs. Case--control studies (except where nested as part of a cohort study) and economic evaluations are also excluded.
+> Randomised controlled trials (RCTs) and controlled trials. However, it is not anticipated that many studies of these designs will be available. Therefore, if information from controlled trials is not available, cohort studies are eligible for inclusion provided that data from a comparison group are reported. Case series and case reports are excluded from the review owing to the high potential for bias in these study designs. Case--control studies (except where nested as part of a cohort study) and economic evaluations are also excluded.
+
+### Defining PICOS
 
 The review question can be framed in terms of the population, intervention(s), comparator(s) and outcomes of the studies that will be included in the review. These elements of the review question, together with study design, will then be refined in order to determine the specific inclusion criteria that will be used when selecting studies for the review. Although both the acronyms PICO or PICOS are commonly used, here the term PICOS will be used throughout for consistency. In some situations, not all the elements will be relevant, for example not every review question will specify type of study design to be included. The use of PICOS in the context of reviews incorporating different study designs is discussed in the relevant chapters.
 
 The review question may be presented in general terms, for example, 'What is the best treatment option for retinoblastoma?' More often the actual question is discussed by the review team and an objective, or series of objectives, framed by the population, the intervention and the outcome(s) of interest agreed. For example, 'The objective of this review is to assess the clinical effectiveness of treatments for childhood retinoblastoma.'14
 
-The PICOS elements for this example are shown in Box 1.2.
-
-Population
+#### Population
 
 The included population should be relevant to the population to which the review findings will be applied, and explicit inclusion criteria should be defined in terms of the disease or condition of interest. Any specified restrictions should be clinically justifiable and relevant. Eligibility must usually be applied to the whole study and consideration of how to deal with studies that include a mixed population, some of whom are relevant to the review and some of whom are not, is required. If the inclusion criteria are broad, it may be informative to investigate effectiveness across subgroups of participants.
 
 However, in the absence of individual patient data (IPD), or very detailed reporting of data, broken down by participant characteristics, it is unlikely that inclusion can be restricted to particular types of participant or that detailed subgroup analyses will be possible. Where analysis of participant subgroups is planned, this should be specified in the protocol. Examples of factors that may be investigated include participants' gender, age, disease severity, the presence of any co-morbidities, socio-economic status, ethnicity and geographical area.
 
-Interventions and comparators
+#### Interventions and comparators
 
 The nature of the interventions explored in the review may be framed in very broad terms like 'psychosocial interventions' or may be more specific such as 'cognitive behavioural therapy'. Factors usually specified include the precise nature of the intervention (e.g. the method of administration of a drug), the person delivering the intervention (e.g. a community psychiatric nurse versus a non-professional carer) or setting in which the intervention is delivered (e.g. inpatient or outpatient).
 
@@ -148,7 +144,7 @@ Where comparative studies are to be included, the protocol should also specify w
 
 The protocol should also specify whether any co-interventions carried out at the same time affect eligibility for inclusion; this applies to both the intervention(s) and the comparator(s).
 
-Outcomes
+#### Outcomes
 
 The success or failure of a therapeutic intervention will usually be assessed in terms of differences in mortality or morbidity in the populations treated. Primary outcomes are likely to include measures of mortality and morbidity but other outcomes may also be of importance, for example measures of quality of life and participants' subjective experiences of pain or physical functioning.
 
@@ -160,7 +156,7 @@ The review may also consider the timing of outcome assessment and possible adver
 
 Although the review may aim to consider a series of outcomes, it is rare that inclusion would be restricted to only those studies that report all the outcomes of interest. More usually inclusion criteria will require that included studies report the main outcome.
 
-Study design
+#### Study design
 
 The types of study included in the review will play a major role in determining the reliability of the results and the validity of estimates of effect is linked to the study design. While some study designs are clearly more robust than others, this should not be the only factor in determining which types of study are eligible for inclusion.16
 
@@ -168,7 +164,7 @@ Scoping searches may reveal that there are likely to be only a limited number of
 
 In some cases a range of study designs may be needed to address different questions within the same review. For example, a review seeking to include information on adverse events will often include case-control and/or case-series (see Chapter 4) whilst a review incorporating participants' experiences of an intervention is likely to include qualitative studies (see Chapter 6). The potential biases from the inclusion of a range of study designs are discussed in Section 1.3.4 Quality assessment.
 
-###### Defining inclusion criteria
+### Defining inclusion criteria
 
 The inclusion criteria should be set out in the protocol, to ensure that the boundaries of the review question are clearly defined. In the example in Box 1.2, the population to be studied was specified in the review question as those with 'childhood' retinoblastoma. In addition to qualifying 'childhood' as under 18, appropriate timeframes for disease progression and treatment and the possibilities of concurrent disease processes have been taken into account. In reviews of interventions relating to other diseases it may be necessary to be more specific about how the disease of interest will be verified, and to specify the disease stage and severity. In the simple example given in Box 1.2 the key interventions and outcomes of interest are listed.
 
@@ -178,7 +174,7 @@ Therefore researchers need to be clear about their own definitions and what elem
 
 The inclusion criteria should capture all studies of interest. If the criteria are too narrowly defined there is a risk of missing potentially relevant studies and the generalisability of the results may be reduced. On the other hand, if the criteria are too broad the review may contain information which is hard to compare and synthesise.17,18 Inclusion criteria also need to be practical to apply; if they are too detailed, screening may become overly complicated and time consuming.
 
-Methodological quality
+### Methodological quality
 
 As previously stated, a review should be based on the best quality evidence available (see Box 1.3). Whatever the study design(s) included, it should not be assumed that all studies of the same basic design (e.g. RCT) are equally well-conducted. The quality of the included studies should be formally assessed as this will impact on the reliability of the results and therefore on the conclusions drawn. Although quality assessment can sometimes be used to exclude studies that do not meet certain criteria, this is not standard practice and differential quality is more usually assessed at the synthesis stage through sensitivity analysis. For further information see Section 1.3.4 Quality assessment and Section 1.3.5 Data synthesis.
 
@@ -230,7 +226,7 @@ Case series
 
 Description of a number of cases of an intervention and the outcome (without comparison with a control group). These are not comparative studies.
 
-Language
+### Language
 
 The ideal for most systematic reviews is to include all available relevant evidence. In principle, this includes studies written in any language to avoid the introduction of language bias into the review. Language bias arises because studies with statistically significant results that have been conducted in non-English speaking countries may be more likely to be published in English language journals than those with nonsignificant results.19 In addition, trials originating in certain countries have been found to have unusually high proportions of positive results.20
 
@@ -242,7 +238,7 @@ When a decision is made to include non-English language studies, the review ques
 
 the estimates in reviews of conventional interventions, but may bias the results of complementary or alternative medicines.23 Researchers need to give careful thought as to whether imposing language restrictions may potentially bias the results of their individual review. When non-English language literature is included in a review, its influence on the estimation and precision of effect may be explored in a sensitivity analysis.
 
-Publication type/status
+### Publication type/status
 
 Studies are not always published as full papers in peer-reviewed journals; they may be published as reports, book chapters, conference abstracts, theses or they may be informally reported or remain unpublished. Ideally a review should aim to include all relevant studies, regardless of publication status, in order to avoid publication bias.
 
@@ -254,35 +250,35 @@ may be required to obtain full study details.25 The effects of including any dat
 
 The identification of ongoing studies is important for a number of reasons. They may provide a useful starting point for subsequent reviews and updates; they may also improve the quality of conclusions about future research by indicating where new research has already commenced. Information about ongoing studies may be available as 'partially published research' like conference abstracts -- these can be classified as ongoing studies which may contribute to future reviews.29
 
-###### Identifying research evidence
+### Identifying research evidence
 
 A preliminary search strategy for identifying relevant research should be included in the protocol. This should specify the databases and additional sources that will be searched, and also the likely search terms to be used. The search strategy should be constructed to take into account PICOS, although the outcome(s) of studies and/or study design are not always used. Incorporating decisions about publication status and language restrictions also needs to be made at this stage. In reviews of one year or more duration, or reviews in rapidly evolving fields, provision for repeating the searches towards the end of the review process should also be considered. In addition it may be useful to carry out current awareness searches to identify relevant papers as they are published. The approach taken will depend on the question and the topic, and also on the available time and resources. It is usual to include in the protocol details of the software that will be used to manage references. Further information is given in Section 1.3.1 Identifying research evidence for systematic reviews.
 
-###### Study selection
+#### Study selection
 
 Study selection is usually conducted in two stages: an initial screening of titles and abstracts against the inclusion criteria to identify potentially relevant papers followed by screening of the full papers identified as possibly relevant in the initial screening. The protocol should specify the process by which decisions on the selection of studies will be made. This should include the number of researchers who will screen titles and abstracts and then full papers, and the method for resolving disagreements about study eligibility. Section 1.3.2 Study selection contains more information.
 
-###### Data extraction
+#### Data extraction
 
 The protocol should outline the information that will be extracted from studies identified for inclusion in the review and provide details of any software to be used for recording the data. As with study selection the protocol should state the procedure for data extraction including the number of researchers who will extract the data and how discrepancies will be resolved. The protocol should also specify whether authors of primary studies will be contacted to provide missing or additional data. If foreign language papers are to be included, it may be necessary to specify translation arrangements. Further information is given in Section 1.3.3 Data extraction.
 
-###### Quality assessment
+### Quality assessment
 
 The protocol should provide details of the method of study appraisal to be used, including examples of the specific quality criteria. Details of how the study appraisal is to be used should be specified, for example whether the results will inform sensitivity analyses. The protocol should also specify the process for conducting the appraisal of study quality, the number of researchers involved, and how disagreements will be resolved. For a detailed discussion of these issues see Section 1.3.4 Quality assessment.
 
-###### Data synthesis
+### Data synthesis
 
 As far as possible, the protocol should specify the strategy for data synthesis. It should state whether a meta-analysis is planned, although whether a planned meta-analysis will ultimately prove possible will depend on the studies and data that are available. As analyses will depend on what data are available, and because it is difficult to anticipate all of the statistical issues that may arise, it can be difficult to pre-specify full details of the planned synthesis. However, the protocol should outline how heterogeneity will be explored and quantified, under what circumstances a meta-analysis would be considered appropriate and whether a fixed or random-effects model or both would be used. Where appropriate, the approach to narrative synthesis should also be outlined. The protocol should also specify the outcomes of interest and what effect measures will be used. Any planned subgroup or sensitivity analyses or investigation of publication bias should also be described. Further information is given in Section 1.3.5 Data synthesis.
 
-###### Dissemination
+### Dissemination
 
 Dissemination of findings is an integral part of the review process and fundamental to ensuring that the essential messages from the review reach the appropriate audiences. It is helpful to consider how the review findings will be disseminated from as early a stage as possible to allow adequate time for planning and development and to ensure that the proposed activities are properly resourced. Details are given in Section 1.3.8 Disseminating the findings of systematic reviews.
 
-#### Approval of the draft protocol
+### Approval of the draft protocol
 
 Some commissioning or funding bodies may require that they formally approve the protocol, and will provide input to the draft protocol, in addition to the other stakeholders, such as clinical and methodological experts, patient groups and service users, who may be consulted. For commissioned reviews, even where it is not a specific requirement, it can be useful to communicate with the commissioner at the protocol development stage. This will help to ensure that the protocol meets the commissioning brief or where the review question or the scope of the project has been altered, that this is agreed before work commences.
 
-#### How to deal with protocol amendments during the review
+### How to deal with protocol amendments during the review
 
 Sticking rigidly to a protocol when it becomes apparent that a change of direction is required, can result in a review that is not useful to end users. It is possible that consideration of the primary research may raise questions which were not anticipated at the protocol stage. Where this results from a clearer understanding of the review question, it can be appropriate to carry out documented and justified amendments to the protocol. In the report of the review findings it is helpful to distinguish between the initial review question and any subsequent amendments. It is never appropriate to modify the protocol because of awareness of the results of individual studies, as this is likely to introduce bias and affect the validity of the review's conclusions.
 
@@ -314,9 +310,9 @@ Summary: The review protocol
 
 -   In cases when it becomes apparent that a modification to the protocol is required, protocol amendments should be clearly documented and justified.
 
-# UNDERTAKING THE REVIEW
+## Conducting the synthesis
 
-#### Identifying research evidence for systematic reviews
+### Identifying research evidence for systematic reviews
 
 This section describes how to undertake a systematic search using a range of methods to identify studies, manage the references retrieved by the searches, obtain documents and write up the search process. Practical examples of constructing search strategies are given in Appendix 2, and Appendix 3 provides examples of how the search should be documented. Issues around the identification of research evidence that are specific to review type such as adverse effects or clinical tests are discussed in the relevant chapters.
 
@@ -338,7 +334,7 @@ Studies can be located using a combination of the following approaches:
 
 -   Using a project Internet site to canvas for studies
 
-###### Minimizing publication and language biases
+#### Minimizing publication and language biases
 
 Decisions about where and how to search could unintentionally introduce bias into the review, so the team needs to consider, and try to minimize, the possible impact of search limitations. For example, restricting the searching to the use of electronic databases, which consist mainly of references to published journal articles, could result in the review being subject to publication bias as this approach is unlikely to identify studies that have not been published in peer reviewed journals. Wider searching is needed to identify research results circulated as reports or discussion papers. The identification of grey literature, such as unpublished papers, is difficult, but some are included on databases such as NTIS (National Technical Information Service) and HMIC (Health Management Information Consortium). Libraries of specialist research organizations and professional societies may also provide access to collections of grey literature.
 
@@ -346,7 +342,7 @@ Searching databases and registers that include unpublished studies, such as reco
 
 As already discussed, limiting searches to English language papers can introduce language bias. Large bibliographic databases, such as MEDLINE and EMBASE, do include a small number of non-English language journals.37 Using additional databases such as LILACS (Latin American and Caribbean Health Sciences Literature) that contain collections of non-English language research can minimize potential language bias.
 
-###### Searching electronic databases
+#### Searching electronic databases
 
 The selection of electronic databases to search will depend upon the review topic. Lists of databases are available from libraries and from database providers, such as Dialog and Wolters Kluwer, while subject experts will be familiar with the bibliographic databases in their field.
 
@@ -354,7 +350,7 @@ For reviews of health care interventions, MEDLINE and EMBASE are the databases m
 
 Due to the diversity of questions addressed by systematic reviews, there can be no agreed standard for what constitutes an acceptable search in terms of the number of databases searched. For example, if the review is on a cross-cutting public health topic such as housing and health it is advisable to search a wider range of databases than if the review is of a pharmaceutical intervention for a known health condition (see Chapter 3, Section 3.3 Identifying research evidence).
 
-###### Searching other sources
+#### Searching other sources
 
 In addition to searching electronic databases, published and unpublished research may also be obtained by using one or more of the following methods.
 
@@ -400,7 +396,7 @@ Where it has been agreed that a dedicated website should be set up for the revie
 
 This approach should probably only be considered for 'high profile' reviews and then it should be as an adjunct to active canvassing for unpublished/grey literature.
 
-###### Constructing the search strategy for electronic databases
+#### Constructing the search strategy for electronic databases
 
 Search strategies are explicitly designed to be highly sensitive so as many potentially relevant studies as possible are retrieved. Consequently the searches tend to retrieve a large number of records that do not meet the inclusion criteria. While it is possible to increase the precision of a search strategy, and so reduce the number of irrelevant papers retrieved, this may lead to relevant studies being missed.42
 
@@ -408,23 +404,23 @@ Constructing an effective combination of search terms involves breaking down the
 
 For a detailed discussion of how to structure a search from a review question, including the use of search filters for study design, see Appendix 2.
 
-###### Text mining
+#### Text mining
 
 Text mining is a rapidly developing approach to utilizing the large amount of published text now available. Its potential use in systematic reviews is currently being explored and it may in future be an additional useful way of identifying relevant studies.43, 44 The aim of text mining is to identify connections between seemingly unrelated facts to generate new ideas or hypotheses. A number of processes are involved in the technique: a) Information Retrieval identifies documents to match a user's query; b) Natural Language Processing provides linguistic data needed to perform c) Information Extraction, the process of automatically obtaining structured data from an unstructured natural language document; and d) Data Mining, the process of identifying patterns in large sets of data.45, 46 In future this approach may be helpful in automatically screening and ranking large numbers of potentially eligible studies prior to assessment by the researchers.
 
 There are a variety of text mining tools available, for example TerMine and Acromine47 are tools dealing with term extraction and variation. Also of interest are KLEIO,48 which provides advanced searching facilities across MEDLINE and FACTA, which finds associated concepts using text analysis.49 Further information about text mining and the use of these tools can be found on the National Centre for Text Mining website [(www.nactem.ac.uk/).](http://www.nactem.ac.uk/))
 
-###### Updating literature searches
+#### Updating literature searches
 
 Depending on the scope and timescale of the review, an update of the literature searches towards the end of the project may be required. If the initial searches were carried out some time before the final analysis is undertaken (e.g. six months) it may be necessary to re-run the searches to ensure that no recent papers are missed. To do this successfully the date the original search was conducted and the years covered by the search must have been recorded.
 
 When doing update searches the update date field should be used rather than the actual date. This ensures that anything added to the database since the original search was conducted will be identified. If the database has added a lot of older material (e.g. from 1967) this will be removed by using the original date limits (e.g. 1990-2008) in combination with the update date field. For databases that do not include an update date field it may be better to run the whole search again and then use reference management software to remove those records that have already been identified and assessed.
 
-###### Current awareness
+#### Current awareness
 
 If a review is covering an area where there is rapid change or if a major study is expected to report its findings soon, setting up current awareness alerts can ensure that new papers are identified as soon as they become available. Options for current awareness include e-mail alerts from journals and RSS feeds from databases or websites.
 
-###### Managing references
+#### Managing references
 
 To ensure the retrieved records are managed efficiently the team should agree working practices. For example, who will screen the references and record decisions about which documents to obtain and how to code these decisions; whether decisions about rejecting or obtaining documents should be made blind to others' decisions; and how to store documents received. In addition, one member of the team should be responsible for identifying and removing duplicate references, ordering inter-library loans, recording the receipt of documents, and following up non-arrivals.
 
@@ -432,21 +428,19 @@ Using bibliographic software such as EndNote, Reference Manager or ProCite to re
 
 When an electronic library of references is used, it is important to establish in advance clear rules about which team members can add or amend records in the library, and that consistent terminology is used to record decisions. It is usually preferable to have one person from the team responsible for the library of references.
 
-###### Obtaining documents
+#### Obtaining documents
 
 Obtaining a large number of papers in a short space of time can be very labour intensive. The procedure for acquiring documents will vary according to organisational arrangements and will depend on issues such as cost, what resources are available, and whether access to an inter-library loan network is available. Most libraries in the United Kingdom will be able to obtain articles from the British Library Document Supply Centre's collection although membership is required and there is a charge per article.
 
 Many journals are available in full text on the Internet, although a subscription may be required before articles can be downloaded. It may be cost-effective to travel to a particular library to obtain material if a large number of references are required and are available. The information specialist on the team is likely to know about networks of associated libraries and electronic resources that can be used for obtaining documents.51
 
-###### Documenting the search
+#### Documenting the search
 
 The search process should be reported in sufficient detail so that it could be re-run at a later date. The easiest way to document the search is to record the process and the results contemporaneously. The decisions reached during development and any changes or amendments made should be recorded and explained. It is important to record all searches, including Internet searches, handsearching and contact with experts.
 
 Providing the full detail of searches helps future researchers to re-run or update the searches and enables readers to evaluate the thoroughness of searching. The write up of the search should include information about the databases and interfaces searched (including the dates covered), full detailed search strategies (including any justifications for date or language restrictions) and the number of records retrieved.
 
 When systematic reviews are reported in journal articles, limits on the word count may make it impossible to provide full details of the searches. In these circumstances as much information as possible should be provided within the available space. For example, 'We searched MEDLINE, EMBASE and CINAHL' is more helpful to the reader than 'We conducted computer searches'. Many journals now have an electronic version of the publication where the full search details can be provided. Alternatively, the published report can include the review team's contact details so full details of the search strategies can be requested. If a detailed report is being written for the commissioners of the review, the full search details should be included.
-
-The use of flow charts to demonstrate how relevant papers are identified is detailed in Section 1.3.2 Study selection. Guidance on documenting the different aspects of the searching process is given in Appendix 3.
 
 Summary: Identifying research evidence for systematic reviews
 
@@ -462,11 +456,11 @@ Summary: Identifying research evidence for systematic reviews
 
 -   The search process should be documented in full or details provided of where the strategy can be obtained.
 
-#### Study selection
+### Study selection
 
 Literature searching may result in a large number of potentially eligible records that need to be assessed for inclusion against predetermined criteria, only a small proportion of which may eventually be included in the review. The process for selecting studies should be explicit and conducted in such a way as to minimize the risk of errors and bias. This section explains the steps involved and the issues to be considered when planning and conducting study selection.
 
-###### Process for study selection
+#### Process for study selection
 
 The process by which decisions on the selection of studies will be made should be specified in the protocol, including who will carry out each stage and how it will be performed. The aim of selection is to ensure that all relevant studies are included in the review.
 
@@ -528,7 +522,7 @@ Summary: Study selection
 
 -   The study selection process should be documented, detailing reasons for exclusion of studies that are 'near-misses'.
 
-#### Data extraction
+### Data extraction
 
 Data extraction is the process by which researchers obtain the necessary information about study characteristics and findings from the included studies. Data extraction requirements will vary from review to review, and the extraction forms should be tailored to the review question. The first stage of any data extraction is to plan the type of analyses and list the tables that will be included in the report. This will help to identify which data should be extracted. General guidance on the process is given here, but the specific details will clearly depend on the individual review topic.
 
@@ -540,13 +534,13 @@ The extraction of data is linked to assessment of study quality in that both pro
 
 Standardised data extraction forms can provide consistency in a systematic review, whilst reducing bias and improving validity and reliability.68 Use of an electronic form has the added advantage of being able to combine data extraction and data entry into one step, and to facilitate data analysis and the production of results tables for the final report.
 
-###### Design
+#### Design
 
 Integral to the design of the form is the category of data to be extracted. It may be numerical, fixed text such as yes/no, a 'pick list', or free text. However, the number of free text fields should be limited as much as possible to simplify the analysis of data. The form should be unambiguous and easy to use in order to minimize discrepancies. Instructions for completion should be provided, and each field should have decision rules about coding data in order to avoid ambiguity and to aid consistent completion.
 
 Piloting the form is essential. Paper forms should only be used where access to direct completion of electronic forms is impossible, to reduce risks of error in data transcription.
 
-###### Content
+#### Content
 
 The nature of the data extracted will depend on the type of question being addressed and the types of study available. Box 1.4 gives an example of some of the information that might be extracted for a comparative study.
 
@@ -554,11 +548,11 @@ The results to be extracted from each individual study may be reported in a vari
 
 into a common format. Manipulations of the reported findings are discussed in further detail in Section 1.3.5 Data synthesis, but can include using confidence intervals to determine standard errors or estimating the hazard ratio from a survival curve. Data can be categorised at this stage; however, it is advisable to extract as much of the reported data as is likely to be needed, and categorise at a later stage, so that detailed information is not lost during data extraction.
 
-###### Software
+#### Software
 
 EPPI-Reviewer is a web application that enables researchers to manage all stages of a review in a single location. RevMan and TrialStat SRS are other software packages that can be used in data extraction for systematic reviews. Other tools commonly used include general word processing packages, spreadsheets and databases. Whichever software package is used, ideally it should have the ability to provide different types of question coding. Some software will also allow researchers to develop quality control mechanisms for minimizing data entry errors, for example, by specifying ranges of valid values.
 
-###### Piloting data extraction
+#### Piloting data extraction
 
 Data extraction forms should be piloted on a sample of included studies to ensure that all the relevant information is captured and that resources are not wasted on extracting data not required. The consistency of the data extracted should be assessed to make sure that those extracting the data are interpreting the forms, and the draft instructions and decision rules about coding data, in the same way. This will help to reduce data extraction errors. The exporting, analysis and outputs of the data extraction forms should also be pilot tested where appropriate, on a small sample of included studies.
 
@@ -566,7 +560,7 @@ This will ensure that the exporting of data works correctly and the outputs prov
 
 When using databases, piloting is particularly important as it becomes increasingly difficult to make changes once the template has been created and information has been entered into the database. Early production of the expected output is also the best way to check that the correct data structure has been set up.
 
-###### Process of data extraction
+#### Process of data extraction
 
 Data extraction needs to be as unbiased and reliable as possible, however it is prone to human error and often subjective decisions are required. The number of researchers that will perform data extraction is likely to be influenced by constraints on time and resources. Ideally two researchers should independently perform the data extraction (the level of inter-rater agreement is often measured using a Kappa statistic58). As an accepted minimum, one researcher can extract the data with a second researcher independently checking the data extraction forms for accuracy and completeness. This method may result in significantly more errors than two researchers independently performing data extraction but may also take significantly less time.69 Any disagreements should be noted and resolved by consensus among researchers or by arbitration by an additional independent researcher. A record of corrections or amendments to data extraction forms should be kept for future reference, particularly where there is genuine ambiguity (internal inconsistency) which cannot be resolved after discussion with the study authors. If using an electronic data extraction form that does not keep a record of amendments, completed forms can be printed and amendments recorded manually, before correcting the electronic version.
 
@@ -606,7 +600,7 @@ Example information requirements for data extraction
 >
 > Number of participants in each characteristic category for intervention and control group(s) or mean/median characteristic values (record whether it is the number eligible, enrolled, or randomised that is reported in the study)
 
-##### Intervention and setting
+Intervention and setting
 
 > Setting in which the intervention is delivered
 >
@@ -614,7 +608,7 @@ Example information requirements for data extraction
 >
 > Description of co-interventions
 
-##### Outcome data/results
+Outcome data/results
 
 > Unit of assessment/analysis Statistical technique used
 >
@@ -668,9 +662,9 @@ Summary: Data extraction
 
 -   As a minimum, one researcher should extract the data with a second researcher independently checking the data extraction forms for accuracy and detail. If disagreements occur between assessors, they should be resolved according to a predefined strategy using consensus and arbitration as appropriate.
 
-#### Quality assessment
+### Risk of bias assessment
 
-###### Introduction
+#### Introduction
 
 Research can vary considerably in methodological rigour. Flaws in the design or conduct of a study can result in bias, and in some cases this can have as much influence on observed effects as that of treatment. Important intervention effects, or lack of effect, can therefore be obscured by bias.
 
@@ -678,7 +672,7 @@ Recording the strengths and weaknesses of included studies provides an indicatio
 
 Many useful books discuss the sources of bias in different study designs in detail, or provide an in-depth guide to critical appraisal.73-75 No single approach to assessing methodological quality is appropriate to all systematic reviews. The best approach will be determined by contextual, pragmatic and methodological considerations. However, the following sections describe the underlying principles of quality assessment and the key issues to consider.
 
-###### Defining quality
+#### Defining quality
 
 Quality is a complex concept and the term is used in different ways. For example, a project using the Delphi consensus method with experts in the field of quality assessment of RCTs was unable to generate a definition of quality acceptable to all participants.76
 
@@ -888,13 +882,13 @@ researchers may also consider how closely a study reflects routine practice or t
 
 also on the situation to which the findings are being applied.105 Therefore the issue of generalisability is also raised in Section 1.2 The review protocol in the context of defining inclusion criteria for the review, Section 1.3.3 Data extraction and in Section 1.3.6 Report writing.
 
-###### The impact of study quality on the estimate of effect
+#### The impact of study quality on the estimate of effect
 
 Several empirical studies have explored how quality can influence the results of clinical trials (and therefore the results of reviews of trials). Trials with double-blinding and adequate concealment of allocation have been found to indicate less beneficial treatment effects than trials without these features.106 Similarly, exclusion of lower quality studies has led to less beneficial effects in meta-analyses.106 In meta-analyses of subjectively assessed outcomes (e.g. patient reported outcomes), inadequate allocation concealment and lack of blinding have been associated with substantially more beneficial treatment effects, whereas for objective outcomes (e.g. mortality) there was a modest effect of inadequate allocation concealment and no effect of lack of blinding.107 There is some evidence about the relationship between study quality and the estimate of effect that is contradictory to the above,108, 109 though this may be due to the data sets used and how specific quality criteria were defined.
 
-###### The process of quality assessment in systematic reviews
+#### The process of risk of bias assessment
 
-There are two main approaches towards assessing quality. One involves the use of checklists of quality items and the other of scales which provide an overall numerical quality score for each study.110
+There are two main approaches towards assessing quality. One involves the use of checklists of quality items and the other of scales which provide an overall numerical quality score for each study.
 
 Tools for assessing quality
 
@@ -906,11 +900,9 @@ The use of scales with summary scores to distinguish high and low quality studie
 
 Checklists by type of study design
 
-In general checklists tend to be specific to particular study designs, and where reviews include more than one type of study design, separate lists can be used or a combined list selected or developed. Checklists have also been developed for use with both randomised and non-randomised studies such as that by Downs and Black.111
+In general checklists tend to be specific to particular study designs, and where reviews include more than one type of study design, separate lists can be used or a combined list selected or developed. Checklists have also been developed for use with both randomised and non-randomised studies such as that by Downs and Black.
 
-There are multiple systems available for the evaluation of RCTs,112, 113 in addition to the Cochrane handbook assessment tool for assessing risk of bias.82 In a review of checklists for the assessment of non-randomised studies, nearly 200 tools were identified. From these, six were recommended as being suitable for use in systematic reviews including non-randomised studies.89 The Cochrane Effective Practice and Organisation of Care Group (EPOC) have developed guidelines to assist researchers in making decisions about when to include studies that use interrupted time series designs and how to assess their methodological quality.115, 116 A useful checklist for observational studies
-
-was published as part of the US Agency for Healthcare Research and Quality's (AHRQ) 'Systems to Rate the Strength of Scientific Evidence'.112 The most recent version of the Cochrane Handbook also contains guidance on dealing with non-randomised studies in systematic reviews of interventions, from the protocol to synthesis stages.75
+There are multiple systems available for the evaluation of RCTs, in addition to the Cochrane handbook assessment tool for assessing risk of bias. In a review of checklists for the assessment of non-randomised studies, nearly 200 tools were identified. From these, six were recommended as being suitable for use in systematic reviews including non-randomised studies.89 The Cochrane Effective Practice and Organisation of Care Group (EPOC) have developed guidelines to assist researchers in making decisions about when to include studies that use interrupted time series designs and how to assess their methodological quality.115, 116 A useful checklist for observational studies was published as part of the US Agency for Healthcare Research and Quality's (AHRQ) 'Systems to Rate the Strength of Scientific Evidence'.112 The most recent version of the Cochrane Handbook also contains guidance on dealing with non-randomised studies in systematic reviews of interventions, from the protocol to synthesis stages.75
 
 How will the quality assessment information be used?
 
@@ -918,7 +910,7 @@ Simply reporting which quality criteria were met by studies included in a system
 
 Study quality can be incorporated into the synthesis either quantitatively through subgroup or sensitivity analyses (see Section 1.3.5.2: Quantitative synthesis), or in a narrative synthesis. In the latter, the quality assessment can be used to help interpret and explain differences in results across studies (e.g. unblinded studies with subjective outcomes may have consistently larger effects than blinded studies) and inform a qualitative interpretation of the risk of bias (see Section 1.3.5.1 Narrative synthesis).
 
-#### Summary: Quality assessment
+Summary: Quality assessment
 
 -   An important part of the systematic review process is to assess the risk of bias in included studies caused by inadequacies in study design, conduct or analysis that may have led to the treatment effect being over or underestimated.
 
@@ -936,7 +928,7 @@ Study quality can be incorporated into the synthesis either quantitatively throu
 
 -   Detailed quality assessment can be time consuming if a review includes a large number of studies and may require considerable expertise in critical appraisal. If resources are limited, priority should be given to assessment of the key sources of bias.
 
-#### Data synthesis
+### Synthesis
 
 Synthesis involves the collation, combination and summary of the findings of individual studies included in the systematic review. Synthesis can be done quantitatively using formal statistical techniques such as meta-analysis, or if formal pooling of results is inappropriate, through a narrative approach. As well as drawing results together, synthesis should consider the strength of evidence, explore whether any observed effects are consistent across studies, and investigate possible reasons for any inconsistencies. This enables reliable conclusions to be drawn from the assembled body of evidence.
 
@@ -956,7 +948,7 @@ Initial descriptive synthesis
 
 Both quantitative and narrative synthesis should begin by constructing a clear descriptive summary of the included studies. This is usually done by tabulating details about study type, interventions, numbers of participants, a summary of participant characteristics, outcomes and outcome measures. An indication of study quality or risk of bias may also be given in this or a separate table (see Section 1.3.2 Study selection and Section 1.3.4 Quality assessment). An example is given in Table 1.1. If the review will not involve re-calculating summary statistics, but will rather rely on the reported results of the author's analyses, these may also be included in the table. The descriptive process should be both explicit and rigorous and decisions about how to group and tabulate data should be based on the review question and what has been planned in the protocol. This initial phase will also be helpful in confirming that studies are similar and reliable enough to synthesise, and that it is appropriate to pool results.
 
-###### Narrative synthesis
+#### Narrative synthesis
 
 All systematic reviews should contain text and tables to provide an initial descriptive summary and explanation of the characteristics and findings of the included studies. However simply describing the studies is not sufficient for a synthesis. The defining characteristic of narrative synthesis is the adoption of a textual approach that provides an analysis of the relationships within and between studies and an overall assessment of the robustness of the evidence.
 
@@ -1064,7 +1056,7 @@ Assessing the robustness of the synthesis
 | Checking the synthesis with authors of primary studies | > It is possible to consult with the authors of included primary studies in order to test the validity of the interpretations developed during the synthesis and the extent to which they are supported by the primary data.133 The authors of the primary studies may have useful insights into the possible accuracy and generalisability of the synthesis; this is most likely to be useful when the number of primary studies is small. This is a technique that has been used with qualitative evidence. |
 +--------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-###### Quantitative synthesis of comparative studies
+#### Quantitative synthesis of comparative studies
 
 As with narrative synthesis, quantitative synthesis should be embedded in a review framework that is based on a clear hypothesis, should consider the direction and size of any observed intervention effects in relation to the strength of evidence, and should explore relationships within and between studies. The requirements for a careful and thoughtful approach, the need to assess the robustness of syntheses, and to reflect critically on the synthesis process, apply equally but are not repeated here.
 
@@ -1398,7 +1390,7 @@ Summary: Data synthesis
 
 -   Synthesis should also explore whether observed intervention effects are consistent across studies, and investigate possible reasons for any inconsistencies.
 
-##### Initial descriptive synthesis
+#### Initial descriptive synthesis
 
 > All syntheses should begin by constructing a clear descriptive summary of the included studies.
 >
@@ -1416,7 +1408,7 @@ Summary: Data synthesis
 
 > Each element contains a range of tools and techniques that can be applied. A researcher is likely to move iteratively among the four elements, choosing those tools and techniques that are appropriate to the data being synthesised and providing justifications for these choices.
 
-##### Quantitative synthesis
+#### Quantitative synthesis
 
 -   Meta-analysis increases power and precision in estimating intervention effects.
 
@@ -1432,7 +1424,7 @@ Summary: Data synthesis
 
 -   Sensitivity analyses give an indication of the robustness of results to the type of study included and the methods used.
 
-#### Report writing
+### Report writing
 
 Report writing is an integral part of the systematic review process. This section deals with the primary scientific report of the review which often takes the form of a comprehensive report to the commissioning body. Many commissioners have their own guidance for production and submission of the report. Alternatively the primary report may take the form of a journal article, where space limitations may mean that important details of the review methods have to be omitted. These can be made available through the journal's or the review team's website. Whatever the format, it is important to take as much care over report preparation as over the review itself. The report should describe the review methods clearly and in sufficient detail that others could, if they wished, repeat them. There is evidence that the quality of reporting in reports of primary studies may affect the readers' interpretation of the results, and the same is likely to be true of systematic reviews.201 It has also been argued that trials and reviews often provide incomplete or omit the crucial 'how to' details about interventions, limiting a clinicians' ability to implement findings in practice.202-204
 
@@ -1520,11 +1512,11 @@ Conflict of interests
 
 The ICMJE state that a conflict of interests exists if 'an author (or the author's institution), reviewer, or editor has financial or personal relationships that inappropriately influence (bias) his or her actions'.214 Relationships that might constitute a conflict of interests are common and there is nothing wrong with having such relationships. However, it is important that they are declared so that readers are aware of the possibility that authors' judgements may have been influenced by other factors. Review authors need to be explicit about any potential conflict of interests because such transparency is important in maintaining the readers' confidence.
 
-###### Executive summary or abstract
+#### Executive summary or abstract
 
 The executive summary (for full-length reports) or abstract (for journal articles) is the most important part of the report because potentially it is the only section that many readers will actually read (perhaps in conjunction with the discussion and conclusions). It should present the findings of the review clearly and concisely and allow readers to quickly judge the quality of the review and the generalisability of its findings. Providing a good balance between detail of the intervention and how the review was conducted, and the results and conclusions is always a challenge, and may require several iterations across the whole review team. The summary is usually the last section to be written so that full consideration can be given to all relevant aspects of the project. However, the process of summary writing may help in the further development of the recommendations by forcing review teams to identify the one or two most important findings and the conclusions which flow from them. It should be remembered that revisions to the report or article following peer review may also need to be reflected in the summary. Assistance from outside parties and medical writers may be helpful in developing a good summary.
 
-###### Formulating the discussion
+#### Formulating the discussion
 
 The purpose of the discussion section of a report is to help readers to interpret the results of the review. This should be done by presenting an analysis of the findings and outlining the strengths and weaknesses of the review. The discussion should also place the findings in the context of the existing evidence base, particularly in relation to any existing relevant reviews. It has been suggested that more could and should be done in discussion sections to contextualise both the nature of the research and the findings to the existing evidence base.217 There should be a balance between objectively describing the results, and subjectively speculating on their meaning.218 It is important to present a clear and logical train of thought and reasoning, supported by the findings of the review and other existing knowledge. For example although statistically significant results and clear evidence of effectiveness may have been demonstrated, without an exploration of the impact on clinical practice it may not be clear whether they are clinically significant. Information on the interpretation of the analysis is given throughout Section 1.3.5 Data synthesis.
 
@@ -1548,7 +1540,7 @@ Framework for the discussion section of a review
 >
 > Practical implications for clinicians and policy-makers Unanswered questions and implications for further research
 
-###### Conclusions, implications, recommendations
+#### Conclusions, implications, recommendations
 
 Faced with the need to make decisions and limited time to read the whole report, many readers may go directly to the conclusions. Therefore, whether incorporated in the discussion section or presented separately, it is essential that the conclusions be clearly worded and based solely on the evidence reviewed. The conclusions should summarise the evidence and draw out the implications for health care, and preferably be worded to show how they have been derived from the evidence.
 
@@ -1566,7 +1558,7 @@ A clear statement of the implications or recommendations for future research sho
 
 The DUETs initiative (Database of Uncertainties about the Effects of Treatments; [(www.duets.nhs.uk),](http://www.duets.nhs.uk/) recommends the presentation of research recommendations in a structured format represented by the acronym EPICOT (Evidence, Population(s), Intervention(s), Comparison(s), Outcome(s), Time stamp). Timeliness (duration of intervention/follow-up), disease burden and suggested study design are considered as optional additional elements of a structured research recommendation. Further details and an example of how to formulate research recommendations using the EPICOT format can be found in an article published by the DUETS Working Group.231 It is worth noting that there is some debate about the applicability of the EPICOT format for some reviews, particularly those of complex interventions.
 
-#### Summary: Report writing
+Summary: Report writing
 
 -   Report writing is an integral part of the systematic review process.
 
@@ -1584,7 +1576,7 @@ The DUETs initiative (Database of Uncertainties about the Effects of Treatments;
 
 -   A structured format for the presentation of research recommendations has been developed as a result of the DUETS initiative.
 
-#### Archiving the review
+### Archiving the review
 
 There are published guidelines relating to the retention of primary research data.233 While these do not currently relate to systematic reviews, they do represent appropriate good practice. Where policies on retention, storage and protection are not specified
 
@@ -1596,13 +1588,13 @@ Some information used in the review such as conference abstracts, additional inf
 
 Whilst it may be easy and space saving to archive material electronically, paper records are often preferable as the equipment used to access documents stored in electronic formats can become obsolete after a relatively short period of time.
 
-#### Disseminating the findings of systematic reviews
+### Disseminating the findings of systematic reviews
 
 In recent years, there has been substantial investment in the commissioning of systematic reviews assessing the effects of a range of different health care interventions. To improve the quality of health care, and ultimately health outcomes, the review findings need to be effectively communicated to practitioners and policy- makers. The transfer of knowledge obtained through research into practice has long been acknowledged as a complex process234-238 that is highly dependent on context and the interaction of a multitude of interconnected factors operating at the level of the individual, group, organisation and wider health system.
 
 A number of conceptual frameworks have attempted to represent the complexity of knowledge translation processes.234, 236, 238-244 One recent framework,244 whilst recognising the importance of non-linear diffusion, highlights a pivotal role for the direct or planned dissemination of contextualised, actionable messages derived from systematic reviews to inform practice and policy decision-making processes.
 
-###### What is dissemination?
+#### What is dissemination?
 
 As interest in enhancing the impact of health research has increased, so too has the terminology used to describe the approaches employed.241, 245 Terms like dissemination, diffusion, implementation, knowledge transfer, knowledge mobilisation, linkage and exchange and research into practice are all being used to describe overlapping and interrelated concepts and practices. Given this, it is helpful to explain how the term dissemination is used here.
 
@@ -1614,7 +1606,7 @@ part of a continuum.239, 246, 247 At one end are activities that focus on making
 
 Dissemination should not be viewed as an adjunct to the review process or as something to be considered at the end when thoughts turn to publication. Nor should it be seen as separate from the wider social context in which the review findings are expected to be used. It is an integral part of the review process and should be considered from an early stage to allow adequate time for planning and development, for the allocation of responsibilities and to ensure that the proposed activities are properly resourced.
 
-###### A suggested approach to dissemination
+#### A suggested approach to dissemination
 
 Traditionally, research on dissemination and implementation has tended to focus on the use of research knowledge, rather than on the effects of dissemination activities.
 
