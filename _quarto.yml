@@ -21,6 +21,8 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+  epub:
+    cover-image: cover.png  
 
 editor: visual
 
