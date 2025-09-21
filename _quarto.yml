@@ -6,7 +6,7 @@ book:
   author: "Ashraf Nabhan"
   chapters:
     - index.qmd
-    - intro.qmd
+    - introduction.qmd
     - interventions.qmd
     - tests.qmd
     - summary.qmd
