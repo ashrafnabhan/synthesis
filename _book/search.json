@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "An Introduction to Evidence Synthesis",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTarget audience: healthcare professionals.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Evidence synthesis.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "interventions.html",
+    "href": "interventions.html",
+    "title": "2  Systematic reviews of healthcare interventions",
+    "section": "",
+    "text": "Evidence synthesis.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Systematic reviews of healthcare interventions</span>"
+    ]
+  },
+  {
+    "objectID": "tests.html",
+    "href": "tests.html",
+    "title": "3  Systematic reviews of clinical tests",
+    "section": "",
+    "text": "Evidence synthesis.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Systematic reviews of clinical tests</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "4  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  }
+]
