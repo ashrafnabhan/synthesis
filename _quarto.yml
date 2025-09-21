@@ -7,6 +7,8 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - interventions.qmd
+    - tests.qmd
     - summary.qmd
     - references.qmd
 
