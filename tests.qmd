@@ -1,7 +1,5 @@
 # Systematic reviews of clinical tests
 
-# INTRODUCTION
-
 Clinical tests are routinely used for diagnosis, confirming or excluding the presence of a disease or condition (such as pregnancy). They are also used to monitor disease progression, assess prognosis, and screen asymptomatic populations for disease. Any process that yields information used to inform patient management can be regarded as a clinical test.1 This includes a wide range of processes from history taking and physical examination to complex imaging techniques. The test itself is an intervention and forms part of the continuum of patient care. New tests are adopted into clinical practice for a number of reasons, including replacement of an existing test (where the new test is expected to reduce the negative impact on the patient, provide better information, or equivalent information for less cost), triage (to decide whether a more expensive or invasive test is necessary), or as an addition to the existing testing protocol.
 
 The ultimate aim of any research on clinical tests should be to determine impact upon patient management and outcome. An RCT comparing the effect of different diagnostic strategies on one or more clinical outcomes could be considered ideal, as it provides direct information on the benefit to patients and can be modified to address various types of diagnostic question.2 However, RCTs may not be appropriate for addressing all diagnostic questions3, 4 and to date much of the research on diagnostic tests is in the form of test accuracy studies. The basic aim of test accuracy studies is to assess how well a test can distinguish between people with and without the disease/condition of interest. The outcome measures used describe the probabilistic relationships between positive and negative test results, and the presence or absence of disease, as compared with the best currently available method (i.e. the clinical reference standard). As such, test accuracy studies do not directly measure the relative benefits and harms to patients of testing. Evidence on the accuracy of a test, combined with evidence of a prognostic link between the target condition and preventable morbidity/mortality, may be considered indicative of the likely effectiveness of the test.5 Where a new test is being evaluated, evidence for a prognostic link between the target disease/condition and long-term morbidity or mortality should be available as should an effective intervention. However, this is not always the case as tests can be established in clinical practice with limited supporting evidence.
@@ -18,17 +16,17 @@ of screening programmes is best evaluated using RCTs and systematic reviews of s
 
 In light of the limitations described in relation to test accuracy studies, careful consideration should always be given to the likely informative value and any additional data requirements before undertaking a systematic review of test accuracy.
 
-# DIAGNOSTIC TESTS
+## Diagnostic tests
 
-#### The review question
+### The review question
 
 As with all systematic reviews, the development of a clear, well-defined question is essential to maintaining transparency of the review process and to the quality and relevance of the findings. Some aspects of the question require consideration when planning a review of test accuracy.
 
-###### Population
+#### Population
 
 Diagnostic tests perform differently in different populations,10, 11 for example it would generally be inappropriate to evaluate the performance of a test in a secondary care population when the test is mainly used in primary care. Both frequency and severity of the target condition would be expected to be greater in secondary care. It is therefore important to clearly define the population of interest. The ideal study sample for a test accuracy study is a consecutive or randomly selected series of patients in whom the target condition is suspected, or for screening studies, the target population. Because participant sampling methods are often poorly reported in test accuracy studies,12 using the sampling method as an inclusion/exclusion criterion is likely to result in a substantial reduction in available data. It is likely to be more useful to consider the sampling method and/or its reporting as an aspect of study quality (see Section 2.2.5 Quality assessment) and to base the inclusion criteria relating to the population upon participant characteristics. For example in a review comparing the accuracy of different imaging techniques, the inclusion criteria might state that only patients with a specified level of symptoms, representative of those in whom the test would be used for intervention planning, are eligible.
 
-###### Intervention (index test)
+#### Intervention (index test)
 
 In reviews of test accuracy the 'index test' (the test whose performance is being evaluated) can be viewed as the intervention. As with any review, the scope of the question can be broad such as 'what is the optimum testing pathway for the diagnosis and follow-up investigation of childhood urinary tract infection (UTI)?'13 or it can be narrow; for example 'what is the diagnostic accuracy of magnetic resonance angiography (MRA) when compared with intra-arterial x-ray angiography, for the detection of carotid artery stenosis?'6 The former is likely to include a number of different technologies, addressing multiple target conditions, whereas the latter compares the performance of an alternative (replacement), less invasive or less costly diagnostic technology with that of the reference standard for the detection of a specified target condition. The rate of technological development may be an important consideration; in this latter example inclusion of MRA techniques that are already obsolete in clinical practice, is unlikely to be useful.
 
@@ -36,7 +34,7 @@ Careful consideration should always be given to the equivalence of different ana
 
 The traditional concept of test accuracy often implies the dichotomisation of data into test results which are classified as positive (target condition present) or negative (target condition absent). Any systematic review of test accuracy will therefore need to consider diagnostic thresholds (points at which results are classified as positive or negative) for each included index test.
 
-###### Reference standard/comparator
+#### Reference standard/comparator
 
 The reference standard is usually the best test currently available, and is the standard against which the index test is compared. It need not be the test used routinely in practice (although it can be), and may include information which is not known for some time after the tests have been done (e.g. follow-up of test negatives in cancer).
 
@@ -54,17 +52,19 @@ may sometimes be used as a surrogate reference standard. There will also be occa
 
 The comparator is an alternative test, usually that which is used in current practice, against which the index test must be evaluated in order to assess its potential role. Ideally, this should be done by comparing index test and comparator to the reference standard in the same population.
 
-###### Outcome measures
+#### Outcome measures
 
 The primary outcome of interest for any systematic review of test accuracy is the data required to populate 2 x 2 contingency tables. These describe the relationship between the results of the index test and the reference standard at a given diagnostic threshold (point at which results are classified as positive or negative). The table includes the number of true positives (TP: those that have the disease and test positive), false positives (FP: those that do not have the disease and test positive), false negatives (FN: those that do have the disease and test negative) and true negatives (TN: those that do not have the disease and test negative).
 
-+---------------+----------------------+---------------+---------------+
-|               | > Reference standard |               |               |
-+===============+:====================:+===============+===============+
-| > Index test  | > Positive           | > TP          | > FP          |
-+---------------+----------------------+---------------+---------------+
-| > Negative    | > FN                 | > TN          |               |
-+---------------+----------------------+---------------+---------------+
++---------------+-------------------+--------------------+---------------+
+|               |                   | Reference standard |               |
++---------------+-------------------+--------------------+---------------+
+|               |                   | Disease            | No disease    |
++---------------+-------------------+--------------------+---------------+
+| Index test    | Positive          | TP                 | FP            |
++---------------+-------------------+--------------------+---------------+
+|               | Negative          | FN                 | TN            |
++---------------+-------------------+--------------------+---------------+
 
 From the 2 x 2 contingency table, the following commonly used measures of test performance can be calculated:
 
@@ -106,17 +106,17 @@ Test results (Serum TSH) vs. reference standard (thyroid status)
 
 > 2 x 2 contingency data for serum TSH diagnostic threshold (derived by summing the numbers of participants, with and without primary hypothyroidism, on either side of the diagnostic threshold)
 
-+---------------------------------------------------------+--------+--------+--------+--------+
-| Diagnostic threshold for a positive test result (mIU/L) | > TP   | > FP   | > FN   | > TN   |
-+=========================================================+:======:+:======:+:======:+:======:+
-| ≥6                                                      | > 438  | > 244  | > 17   | > 325  |
-+---------------------------------------------------------+--------+--------+--------+--------+
-| \>12                                                    | > 396  | > 86   | > 59   | > 483  |
-+---------------------------------------------------------+--------+--------+--------+--------+
-| \>15                                                    | > 350  | > 38   | > 105  | > 531  |
-+---------------------------------------------------------+--------+--------+--------+--------+
-| \>20                                                    | > 284  | > 5    | > 171  | > 564  |
-+---------------------------------------------------------+--------+--------+--------+--------+
++---------------------------------------------------------+-------+-------+-------+-------+
+| Diagnostic threshold for a positive test result (mIU/L) | > TP  | > FP  | > FN  | > TN  |
++=========================================================+:=====:+:=====:+:=====:+:=====:+
+| ≥6                                                      | > 438 | > 244 | > 17  | > 325 |
++---------------------------------------------------------+-------+-------+-------+-------+
+| \>12                                                    | > 396 | > 86  | > 59  | > 483 |
++---------------------------------------------------------+-------+-------+-------+-------+
+| \>15                                                    | > 350 | > 38  | > 105 | > 531 |
++---------------------------------------------------------+-------+-------+-------+-------+
+| \>20                                                    | > 284 | > 5   | > 171 | > 564 |
++---------------------------------------------------------+-------+-------+-------+-------+
 
 > Sensitivity and specificity values for each diagnostic threshold (derived from the 2 x 2 contingency data and expressed as percentages)
 
@@ -154,15 +154,15 @@ There are inherent problems with the two-gate design that may lead to bias. The 
 
 Where systematic reviews include both single and two-gate study designs, careful consideration should be given to the methods of analysis and the impact of study design should be assessed in any meta-analyses.29
 
-#### Identifying research evidence
+### Identifying research evidence
 
-###### Sources
+#### Sources
 
 The importance of searching a wide range of databases to avoid missing relevant diagnostic test accuracy studies has been demonstrated, with MEDLINE, EMBASE, BIOSIS, LILACS, Pascal and Science Citation Index all providing unique records.30 The reference lists of included studies can also be a useful resource.
 
 The Cochrane Diagnostic Test Accuracy Working Group31 is creating a database of test accuracy studies,32 similar to the non-topic specific Cochrane Central Register of Controlled Trials (CENTRAL) which includes details of published articles taken from bibliographic databases and other published and unpublished sources.33
 
-###### Database searching
+#### Database searching
 
 Many electronic databases do not have appropriate indexing terms to label test accuracy studies, and those that do tend not to apply them consistently.30, 34-36 They also vary in their design which adds to the difficulty in identification.34 The problem is compounded by the fact that the original authors are often poor at identifying their studies as being test accuracy.30
 
@@ -176,143 +176,23 @@ It has been demonstrated that the unique features of the test accuracy study mak
 
 Given the limitations of current knowledge, to ignore the possibility of publication bias would seem unwise, however, its assessment in reviews of test accuracy is complex.
 
-#### Data extraction
+### Data extraction
 
 The same precautions against reviewer bias and error should be employed whilst extracting data from test accuracy studies as would be applied in any other type of review. Independent checking of 2x2 data is particularly important, as test accuracy studies are often poorly reported,12, 41 and the production of a 2x2 table from these studies can be far from straightforward.
 
 Some studies may provide the actual results for each test for individual patients. In this case the researcher may need to classify each patient according to the diagnostic thresholds defined in the review protocol.
 
-Studies may provide categorical data, which may represent multiple categories or stages of disease (as shown in example 1). In this case data will need to be extracted for the numbers of index test positive and negative participants (using the threshold(s) defined in the review protocol, which may include all thresholds reported) with
+Studies may provide categorical data, which may represent multiple categories or stages of disease. In this case data will need to be extracted for the numbers of index test positive and negative participants (using the threshold(s) defined in the review protocol, which may include all thresholds reported) with and without the target condition (as defined by the reference standard, using the threshold(s) defined in the review protocol).
 
-and without the target condition (as defined by the reference standard, using the threshold(s) defined in the review protocol).
+There may be instances when the raw data are not reported, but 2x2 data can be calculated from reported accuracy measures and total numbers of diseased or non- diseased patients.
 
-Data extraction, example 1
+Somewhat more problematic are cases when the data do not 'fit' the 2x2 contingency table model. 'Forcing' data into a 2x2 contingency table, for example by classifying uncertain index test results as FP or FN, may be inappropriate. The contingency table can be extended to form a six cell table, which accommodates uncertain or indeterminate index test results.
 
-+----------------------+----------+----------+----------+----------+-----------+
-| > Reference standard |          |          |          |          |           |
-+======================+==========+==========+==========+==========+===========+
-| > Index test         |          | > 0-19%  | > 20-49% | > 50-79% | > 80-100% |
-+----------------------+----------+----------+----------+----------+-----------+
-| 0--19%               | > 5      | > 8      | > 4      | > 1      |           |
-+----------------------+----------+----------+----------+----------+-----------+
-| 20--49%              | > 6      | > 4      | > 5      | > 1      |           |
-+----------------------+----------+----------+----------+----------+-----------+
-| 50--79%              | > 1      | > 9      | > 15     | > 4      |           |
-+----------------------+----------+----------+----------+----------+-----------+
-| 80--100%             | > 2      | > 5      | > 6      | > 10     |           |
-+----------------------+----------+----------+----------+----------+-----------+
+The informative value of an indeterminate test result can be assessed using an indeterminate likelihood ratio (or LR+/-), defined as the probability of an indeterminate test result in the presence of disease divided by the probability of an indeterminate test result in the absence of disease.
 
-If the threshold for a positive test in example 1 was 20% (for both index test and reference standard), then the 2x2 data would be extracted as in example 1a.
+When index test and reference standard give clear results (ie considered determinate), but there is incomplete concordance, the 2x2 table may be expanded to accommodate a more complete clinical picture.
 
-Data extraction, example 1a
-
-+---------------+----------------------+---------------+---------------+
-|               | > Reference standard |               |               |
-+===============+:====================:+===============+===============+
-| > Index test  | > Positive           | > TP          | > FP          |
-+---------------+----------------------+---------------+---------------+
-| > Negative    | > FN                 | > TN          |               |
-+---------------+----------------------+---------------+---------------+
-
-The value for TP is derived by summing the number of participants, from the shaded cells, who have both reference standard and index test results at or above the diagnostic threshold (20%), i.e. 4+5+1+9+15+4+5+6+10=59.
-
-The value for FP is derived by summing the number of participants who have a reference standard result below 20%, but an index test result above this threshold, i.e. 6+1+2=9.
-
-The value for FN is derived by summing the number of participants who have a reference standard result at or above 20%, but an index test result below this threshold, i.e. 8+4+1=13.
-
-The value for TN corresponds to the single cell representing participants who have both a reference standard and index test result below 20%, i.e. 5.
-
-+---------------+----------------------+---------------+---------------+
-|               | > Reference standard |               |               |
-+===============+:====================:+===============+===============+
-| > Index test  | > Positive           | > 59          | > 9           |
-+---------------+----------------------+---------------+---------------+
-| > Negative    | > 13                 | > 5           |               |
-+---------------+----------------------+---------------+---------------+
-
-If the index test threshold was increased to 50%, with the reference standard remaining at 20% and the same procedure of summing relevant cells applied, then the 2x2 data would be extracted as in example 1b.
-
-Data extraction, example 1b
-
-+---------------+----------------------+---------------+---------------+
-|               | > Reference standard |               |               |
-+===============+:====================:+===============+===============+
-| > Index test  | > Positive           | > 49          | > 3           |
-+---------------+----------------------+---------------+---------------+
-| > Negative    | > 23                 | > 11          |               |
-+---------------+----------------------+---------------+---------------+
-
-There may be instances when the raw data are not reported, but 2x2 data can be calculated from reported accuracy measures and total numbers of diseased or non- diseased patients. In example 2, 100 patients underwent an index test and reference standard test. The study reports that the index test correctly identified 20 diseased patients and had a sensitivity of 80% and a specificity of 95%.
-
-Data extraction, example 2
-
-> Sensitivity = TP/(TP+FN) = 0.8 Therefore 20/(20+FN)=0.8
->
-> 20=0.8(20+FN)
->
-> 20=16 + 0.8FN
->
-> 0.8FN=20-16=4 FN=4/0.8=5
->
-> This gives:
-
-+---------------+----------------------+---------------+---------------+
-|               | > Reference standard |               |               |
-+===============+:====================:+===============+===============+
-| > Index test  | > Positive           | > 20          |               |
-+---------------+----------------------+---------------+---------------+
-| > Negative    | > 5                  |               |               |
-+---------------+----------------------+---------------+---------------+
-
-> Therefore, if there were 100 patients in total and 25 were reference standard positive, then 75 were reference standard negative.
->
-> Specificity = TN/(TN+FP) = 0.95
->
-> TN/75=0.95 TN=75x0.95 TN=71
->
-> As there are 100 patients, FP= 100-(20+5+71) = 4, so the final 2x2 table is:
-
-+---------------+----------------------+---------------+---------------+
-|               | > Reference standard |               |               |
-+===============+:====================:+===============+===============+
-| > Index test  | > Positive           | > 20          | > 4           |
-+---------------+----------------------+---------------+---------------+
-| > Negative    | > 5                  | > 71          |               |
-+---------------+----------------------+---------------+---------------+
-
-Somewhat more problematic are cases when the data do not 'fit' the 2x2 contingency table model. 'Forcing' data into a 2x2 contingency table, for example by classifying uncertain index test results as FP or FN, may be inappropriate. The contingency table can be extended to form a six cell table, which accommodates uncertain or indeterminate index test results,42 as shown in Figure 2.3.
-
-+-----------------+----------------------+---------------+---------------+
-|                 | > Reference standard |               |               |
-+=================+:====================:+===============+===============+
-| > Index test    | > Positive           | > A           | > B           |
-+-----------------+----------------------+---------------+---------------+
-| > Indeterminate | > E                  | > F           |               |
-+-----------------+----------------------+---------------+---------------+
-| > Negative      | > C                  | > D           |               |
-+-----------------+----------------------+---------------+---------------+
-
-> Figure 2.3: The 3x2 contingency table
-
-The informative value of an indeterminate test result can be assessed using an indeterminate likelihood ratio (or LR+/-), defined as the probability of an indeterminate test result in the presence of disease divided by the probability of an indeterminate test result in the absence of disease.42
-
-When index test and reference standard give clear results (ie considered determinate), but there is incomplete concordance, the 2x2 table may be expanded to accommodate a more complete clinical picture. In example 3, taken from an analysis of imaging techniques for the localisation of epileptic foci, category E represents those patients for whom the index test and reference standard both detected disease, but differing numbers of foci. Category F represents those patients for whom the index test and reference standard both detected disease, but identified foci in different areas of the brain.43
-
-> Data extraction, example 3
-
-+---------------------+----------------------+---------------+---------------+
-|                     | > Reference standard |               |               |
-+=====================+:====================:+===============+===============+
-| > Index test        | > Positive           | > A           | > B           |
-+---------------------+----------------------+---------------+---------------+
-| > Negative          | > C                  | > D           |               |
-+---------------------+----------------------+---------------+---------------+
-| > Partially correct | > E                  |               |               |
-+---------------------+----------------------+---------------+---------------+
-| > Incorrect         | > F                  |               |               |
-+---------------------+----------------------+---------------+---------------+
-
-#### Quality assessment
+### Risk of bias assessment
 
 Structured appraisal of methodological quality is key to assessing the reliability of test accuracy studies included in a systematic review.44 Quality assessment should consider the association of individual elements of methodological quality with test accuracy; generating overall 'quality scores' is not recommended.45
 
@@ -334,9 +214,9 @@ to provide a universally applicable description of how some QUADAS items should 
 
 of included studies should be done in an attempt to eliminate any discrepancies in understanding between reviewers.
 
-> Table 2.1: Sources of bias and variation in test accuracy studies11
->
-> Population
+Table 2.1: Sources of bias and variation in test accuracy studies11
+
+Population
 
 +-----------------------------+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Demographic characteristics | > Variation      | > Test may perform differently in different populations.                                                                                                                                                                                |
@@ -348,7 +228,7 @@ of included studies should be done in an attempt to eliminate any discrepancies 
 | Participant selection       | > Variation      | > A selection process that may not include a spectrum of patients similar to that in which the test will be used in practice may limit the applicability of study findings.                                                             |
 +-----------------------------+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-> Test methods
+Test methods
 
 +---------------------+-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Test execution      | > Variation             | > Differences in the execution of the index test and/or reference standard can result in different estimates of diagnostic performance; clear reporting of the methods used is therefore important. |
@@ -360,15 +240,15 @@ of included studies should be done in an attempt to eliminate any discrepancies 
 | Disease progression | > Bias                  | > Occurs when there is sufficient time delay between the application of the index test and the reference standard to allow change in the disease state.                                             |
 +---------------------+-------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-> Application of the reference standard
+Application of the reference standard
 
-+--------------------------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| Use of an inappropriate reference standard | > Bias     | > The error in diagnoses derived from an imperfect reference standard can result in underestimation of the performance of the index test. |
-+============================================+============+===========================================================================================================================================+
-| Differential verification                  | > Bias     | > Occurs when the diagnosis is verified using different reference standards, depending upon the result of the index test.                 |
-+--------------------------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------+
-| Partial verification                       | > Bias     | > Occurs where only a selected sample of participants undergoing the index test also receive the reference standard.                      |
-+--------------------------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Use of an inappropriate reference standard | > Bias    | > The error in diagnoses derived from an imperfect reference standard can result in underestimation of the performance of the index test. |
++============================================+===========+===========================================================================================================================================+
+| Differential verification                  | > Bias    | > Occurs when the diagnosis is verified using different reference standards, depending upon the result of the index test.                 |
++--------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+| Partial verification                       | > Bias    | > Occurs where only a selected sample of participants undergoing the index test also receive the reference standard.                      |
++--------------------------------------------+-----------+-------------------------------------------------------------------------------------------------------------------------------------------+
 
 +---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Test or diagnostic review | > Bias      | > Where interpretation of either the index test or reference standard may be influenced by knowledge of the results of the other test. Diagnostic review bias may be present when the results of the index test are known to those interpreting the reference standard. Test review bias may be present when the results of the reference standard are known to those interpreting the index test. |
@@ -380,7 +260,7 @@ of included studies should be done in an attempt to eliminate any discrepancies 
 | Observer                  | > Variation | > The interpretation placed upon a test result may vary between observers and this can affect estimates of test accuracy. The reproducibility of a test within (intra) and between (inter) observers affects its applicability in practice.                                                                                                                                                        |
 +---------------------------+-------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-> Analysis
+Analysis
 
 +---------------------------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Handling of               | > Bias      | > Diagnostic tests fail or produce un-interpretable results with varying frequency. Study participants for whom a test result could not be obtained are |
@@ -402,7 +282,7 @@ of included studies should be done in an attempt to eliminate any discrepancies 
 
 QUADAS is a generic tool, which may be adapted to optimize its usefulness for specific topic areas. Researchers should, therefore, also consider in advance whether all QUADAS items are relevant to their topic area, and whether there are any additional items that are not included in QUADAS.57 For example, disease progression bias may not be a relevant issue where the clinical course of the target condition is slow; when comparing the performance of imaging tests, or other tests which require subjective interpretation by the operator, the impact of observer variation may need to be considered as variation in test performance with individual operators of the same test (e.g. different individuals conducting and/or interpreting an ultrasound examination) can exceed, and therefore mask, a difference in performance between two different tests (e.g. ultrasound and magnetic resonance imaging).58, 59
 
-> Table 2.2: The QUADAS items
+Table: The QUADAS items
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
 | QUADAS criterion                                                                                                                                                | > Bias/variation assessed                                                      |
@@ -436,15 +316,13 @@ QUADAS is a generic tool, which may be adapted to optimize its usefulness for sp
 | Were withdrawals from the study explained?                                                                                                                      |                                                                                |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
 
-It is worth noting that the information that can be derived from the quality assessment of test accuracy studies is often limited by poor reporting. Where QUADAS items are scored 'unclear' the researcher cannot be certain whether this indicates poor methods with the attendant consequences for bias/variation, or simply poor reporting of a methodologically sound study. The STARD initiative60 has proposed standards for the reporting of diagnostic accuracy studies. If these standards are widely adopted and lead to a general improvement in the reporting of test accuracy studies, reviewers
+It is worth noting that the information that can be derived from the quality assessment of test accuracy studies is often limited by poor reporting. Where QUADAS items are scored 'unclear' the researcher cannot be certain whether this indicates poor methods with the attendant consequences for bias/variation, or simply poor reporting of a methodologically sound study. The STARD initiative60 has proposed standards for the reporting of diagnostic accuracy studies. If these standards are widely adopted and lead to a general improvement in the reporting of test accuracy studies, reviewers will increasingly be able to assess methodological quality rather than the quality of reporting.
 
-> will increasingly be able to assess methodological quality rather than the quality of reporting.
-
-#### Data synthesis
+### Synthesis
 
 A thorough investigation of heterogeneity should be undertaken before deciding if studies are suitable for combining in a meta-analysis and if so what method to use. Clinical and methodological differences such as patient populations, tests, study design and study conduct, should be considered in addition to statistical variation in the accuracy measures reported by studies. Where a meta-analysis is not considered clinically or statistically meaningful, a structured narrative synthesis can be carried out which can include the presentation of results in one or more graphical formats.61 For example the results of individual studies can be plotted in ROC space, as in Figure 2.4, whether or not a summary curve is included. As well as stratification by index test characteristics, reviews which focus on determining the optimal diagnostic pathway for a condition, rather than the diagnostic performance of a single test, should consider structuring narrative reports to represent the order in which tests would be applied in clinical practice. Reviews which consider differential diagnosis from a common presenting symptom, such as a review of the performance tests to determine the cause of haematuria, should consider stratifying the narrative by target condition with the most common diagnosis addressed first. These approaches aim to increase readability for practitioners and can equally be applied to the structure of reports which include meta-analyses.
 
-1.  Assessment of statistical heterogeneity
+Assessment of statistical heterogeneity
 
 Threshold effect
 
@@ -454,11 +332,9 @@ Figure 2.4 clearly shows a curve in the top left hand corner of the plot, indica
 
 Heterogeneity of individual diagnostic accuracy measures
 
-Variability amongst each of the individual measurements (sensitivity, specificity, positive and negative likelihood ratio, and DOR) can be assessed using the same methods as
+Variability amongst each of the individual measurements (sensitivity, specificity, positive and negative likelihood ratio, and DOR) can be assessed using the same methods as for other study types. Forest plots can be used to visually assess differences between studies, although these will not show any threshold effects. Paired forest plots should be used when illustrating paired outcome measures such as sensitivity and specificity. Use of statistical tests of heterogeneity does not reliably indicate absence of heterogeneity and it is generally advisable to assume the presence of heterogeneity and to fit models which aim to describe and account for it.
 
-for other study types. Forest plots can be used to visually assess differences between studies, although these will not show any threshold effects. Paired forest plots should be used when illustrating paired outcome measures such as sensitivity and specificity. Use of statistical tests of heterogeneity does not reliably indicate absence of heterogeneity and it is generally advisable to assume the presence of heterogeneity and to fit models which aim to describe and account for it.
-
-###### Meta-analysis
+#### Meta-analysis
 
 The meta-analysis of diagnostic accuracy studies requires the use of some specific statistical methods which differ from standard methods. Meta-analysis has two main aims: to obtain a pooled measure of diagnostic accuracy and in the case of summary ROC (SROC) models, to explore the heterogeneity amongst studies. Diagnostic accuracy is usually represented by a pair of related measurements, for example: sensitivity and specificity; positive and negative likelihood ratio; and this relationship needs to be incorporated into the analysis methods.
 
@@ -494,11 +370,11 @@ HSROC and bivariate models can be used to assess heterogeneity by including cova
 
 the studies and should not be conducted if there are only a small number of studies (a minimum of 10 studies per covariate is needed). Regardless of the approach used, study-level factors to be examined should be defined in the protocol and aspects of methodological quality, (e.g. QUADAS items) should be considered individually, rather than as overall quality scores.45, 48
 
-###### Software
+#### Software
 
 Methods for calculating outcome measures, assessing heterogeneity, producing plots (both with and without summary estimates) and undertaking exploratory analyses using the Moses model are available in a user-friendly form in the Meta-DiSc software [(www.hrc.es/investigacion/metadisc_en.html).71](http://www.hrc.es/investigacion/metadisc_en.html).71) Systematic reviews of diagnostic accuracy studies have been incorporated in version 5.0 of the Cochrane Review Manager software. More specialist statistical software packages, such as STATA, SAS or WINBUGS, are needed to fit HSROC/bivariate models and the support of a statistician with knowledge of the field is generally recommended.
 
-#### Presentation of results
+### Presentation of results
 
 When presenting the results of a systematic review of clinical tests it is important to consider how these results will be understood by clinicians and applied in practice. The understanding of and preferences for measures of test performance by clinicians has been the subject of much research and comment.72-74 The 'best' method remains elusive but some general points, which may improve clarity and aid interpretation, are given below.
 
@@ -510,15 +386,11 @@ specificity and likelihood ratios are measures of test performance; likelihood r
 
 to interpret than large tables of numbers. The ranges should be presented when summarising results which have not been subject to meta-analytic pooling. For paired results it may be useful to also present the corresponding measure for the studies at each end of the range, e.g. 'sensitivity ranged from 48% (at a specificity of 80%) to 92% (at a specificity of 70%)'.
 
-If a meta-analysis was undertaken then the presentation of results depends on the methods used. If sensitivity or specificity have been pooled as individual measures then the summary estimate together with the 95% confidence intervals should be
-
-presented. If an SROC model has been used then the relevant SROC curve(s) should be presented. Where the performance of a number of index tests is being compared it may
+If a meta-analysis was undertaken then the presentation of results depends on the methods used. If sensitivity or specificity have been pooled as individual measures then the summary estimate together with the 95% confidence intervals should be presented. If an SROC model has been used then the relevant SROC curve(s) should be presented. Where the performance of a number of index tests is being compared it may
 
 be useful to present multiple SROC curves (or un-pooled data sets) on the same plot. Summary measures of overall diagnostic accuracy, such as AUC or the Q\* point (the point on the curve where sensitivity and specificity are equal) may also be presented. However, the relevance of the Q\* point is debatable, as its use may lead to summary estimates of sensitivity and specificity outside the values in the original studies.67 Pairs of sensitivity and specificity values can also be read from the SROC curve and presented as a number of summary points in order to provide an overall description of the curve. The estimated SROC curves should also be presented if HSROC or bivariate models have been used. These models enable the calculation of summary estimates of sensitivity
 
-and specificity, which should be reported along with their 95% confidence intervals. Although the use of HSROC or bivariate models to generate summary likelihood ratios is not recommended,76 where likelihood ratios are considered helpful to interpretation, summary likelihood ratios can be calculated from the pooled estimates of sensitivity and specificity generated by these models. For results from a HSROC or bivariate model, as these retain the paired nature of sensitivity and specificity, a region can be plotted around the summary operating point which represents the 95% confidence intervals of both measures.67 Confidence interval regions can also be plotted for the
-
-results of individual studies, but care is required to ensure that these are not mistakenly interpreted as representations of study weighting. Both models can also be used to plot a prediction region; this is the region which has a particular probability of including the true sensitivity and specificity of a future study.69
+and specificity, which should be reported along with their 95% confidence intervals. Although the use of HSROC or bivariate models to generate summary likelihood ratios is not recommended,76 where likelihood ratios are considered helpful to interpretation, summary likelihood ratios can be calculated from the pooled estimates of sensitivity and specificity generated by these models. For results from a HSROC or bivariate model, as these retain the paired nature of sensitivity and specificity, a region can be plotted around the summary operating point which represents the 95% confidence intervals of both measures.67 Confidence interval regions can also be plotted for the results of individual studies, but care is required to ensure that these are not mistakenly interpreted as representations of study weighting. Both models can also be used to plot a prediction region; this is the region which has a particular probability of including the true sensitivity and specificity of a future study.69
 
 Summary: Diagnostic studies
 
@@ -536,7 +408,7 @@ Summary: Diagnostic studies
 
 -   Though often unable to provide a definitive estimate of test accuracy, systematic reviews can highlight important gaps in the evidence base and aid in the design of future studies.
 
-# PROGNOSTIC TESTS
+## Prognostic tests
 
 Prognostic markers (biomarkers) are characteristics that help to identify or categorise people with different risks of specific future outcomes. They may be simple clinical measures such as body mass index, but are more often pathological, biochemical, molecular or genetic measures or attributes. Identifying those who are or who are not at risk can facilitate intervention choice, and aid patient counselling.
 
@@ -548,23 +420,23 @@ Although numbers of completed prognostic reviews are relatively few,83 they are 
 
 This section focuses mainly on reviews of studies of potential prognostic markers and builds on previous work.88 Given that this is a developing area where methods and approaches will undoubtedly change rapidly, this section presents a discussion rather than firm guidance. Systematic reviews of studies which develop a prognostic model (risk score) are not considered here.
 
-#### Defining the review question: setting inclusion criteria
+### Defining the review question: setting inclusion criteria
 
 Defining the review question and setting inclusion criteria should be approached in the same way as set out in Chapter 1, Section 1.2 The review protocol. However, some aspects of methodology require particular attention when planning a systematic review of prognostic studies, and should be considered at an early stage.
 
-###### Population/study design
+#### Population/study design
 
 Patients included in a prognostic study are usually selected as an 'inception' cohort of patients identified very early in the course of their disease, perhaps at diagnosis. Even if the cohort is identified retrospectively, it should be followed forwards in time from a particular point, such as diagnosis or (if relevant) randomisation. The case-control design is liable to bias.89 Careful thought as to what study designs will be included in the review is needed.
 
-###### Intervention
+#### Intervention
 
 Although often ignored in prognostic studies, if the intervention that patients receive varies on account of perceived prognosis, this precludes an unbiased assessment of the prognostic ability of a marker (unless alternative interventions are equally effective).
 
 Although the intervention effect may be small compared to the effect of important prognostic variables and consequently will have little impact on findings, ideally, prognostic variables should be evaluated in a cohort of patients treated the same way, or that have been included in an RCT.90, 91 The intervention received is rarely reported in primary studies.
 
-#### Defining the review question: other considerations
+### Defining the review question: other considerations
 
-###### Publication bias and sample size
+#### Publication bias and sample size
 
 Evidence of publication and associated reporting biases is accumulating for prognostic studies.92, 93 For example, in a systematic review of studies of a marker Bcl2 in non- small cell lung cancer, almost all the smaller studies showed a statistically significant relationship between Bcl2 and risk of dying, with large hazard ratios, whereas the three large studies were all nonsignificant and showed a much smaller effect.94 A recent review of the prognostic importance of TP53 status in head and neck cancer showed clearly that published studies had larger effects than unpublished studies.80 This is in keeping with the belief that epidemiological studies are more prone to publication bias than randomised trials.80, 95 Publication bias may indeed be worse as many studies are based on retrospective analysis of existing clinical databases, and so in essence they do not really exist until published.
 
@@ -572,53 +444,29 @@ Adequate sample size is equally as important for prognostic studies as for clini
 
 Selective reporting of outcomes is also a concern in prognostic studies. For example, in cancer studies the two principal outcomes are time to death (overall survival) and time to recurrence of disease ('disease-free survival'). Many studies, such as in the case- study in Section 2.3.7, report only one of these outcomes, which may have been chosen in relation to the findings.
 
-###### Cutpoints
+#### Cutpoints
 
 Most markers are continuous measurements. However, it is very common in cancer, and occasionally in other fields, for continuous marker values to be converted to binary variables whereby each patient is characterised as having a high or low value. Dichotomisation is statistically inefficient,97, 98 but in some fields, notably cancer, it is ubiquitous. Dichotomising does not introduce bias if the split is made at the median or some other pre-specified percentile. However, if the cutpoint is chosen based on analysis of the data, by splitting at the value which produced the largest difference in outcome between categories, then severe bias will be introduced.99 Significant findings associated with a data-derived cutpoint will be overoptimistic, perhaps by a large amount. Such studies may best be excluded from any meta-analysis.
 
 Many reports do not state how cutpoints were chosen. When the numbers above and below the cutpoint differ or are not stated, and when the chosen cutpoint is unique to that study, it may be unwise to assume that the choice was made in a valid way.
 
-###### IPD vs summary data
+#### IPD vs summary data
 
 Several authors have noted the considerable advantages of obtaining individual patient data (IPD),100, 101 and it is clear that IPD could be especially valuable for systematic reviews of prognostic markers. In addition to the usual advantages of IPD over published summary statistics100 (see Appendix 1), there are some specific advantages. Firstly, it may allow inclusion of more studies as not all studies provide the necessary outcome data. Secondly, it allows all data sets to be analysed in a consistent way, which in this case means adjusting for the same variables and using the same analysis method. Thirdly, the marker values can be kept continuous, increasing statistical power and informativeness. Finally, it is possible to conduct analyses restricted to clinical subgroups, for example by stage of disease.
 
 The natural extension of standard systematic reviews would be to try to collect IPD from all identified studies, whether published or not. Although this has been attempted for prognostic studies it has been found to be very time consuming.102, 103 Concerns about publication bias and the overhead attached to identifying, obtaining and processing each data set have led to the suggestion that for a prognostic meta-analysis of IPD, restriction to only the larger studies or perhaps those carried out in one region104 would be preferable to one based on summary published data that included every published study.77
 
-#### Identifying research evidence
+### Identifying research evidence
 
 Identifying prognostic studies is hampered by an absence of standard descriptors and indexing terms. In recent years search strategies have been developed to identify prognostic studies in MEDLINE105 (see Box 2.1) and EMBASE.106 An improved search strategy for MEDLINE, CINAHL and HealthStar has recently been presented107 but is as yet unpublished.
 
-#### Data extraction
+### Data extraction
 
 Aspects of particular relevance in prognostic studies include recording how the measurements were made (e.g. equipment or assay used), length of follow-up, distribution of the marker, any cutpoints used (with rationale), amount of missing data, methods of statistical analysis, including variables adjusted for, and the number of participants included in the final model.
 
-MEDLINE searching strategies for studies of prognosis
-
-> Best single term
->
-> exp epidemiologic studies
->
-> The complex search strategy with the highest sensitivity
->
-> incidence.sh.
->
-> OR exp mortality
->
-> OR follow-up studies.sh. OR prognos:.tw.
->
-> OR predict:.tw. OR course:.tw.
->
-> Key
->
-> exp denotes exploding the succeeding indexing term
->
-> :   is a truncation symbol in Ovid
->
-> sh denotes searching in the subject headings tw denotes searching for a textword
-
 A prognostic study with a dichotomous endpoint, such as 30 day mortality after surgery, is statistically no different from a diagnostic accuracy study and poses no additional difficulties for extraction of results. Random-effects endpoints are desirable but there are often difficulties in extracting the log hazard ratio and its standard error from published reports. Guidance on how to estimate these quantities when they are not given explicitly is available.108
 
-#### Quality assessment
+### Risk of bias assessment
 
 The assessment of the appropriateness of the methodology used in the primary studies is a key element of any systematic review, but has been performed in a minority of cases in prognostic systematic reviews.79, 109 This may reflect the absence of widely agreed criteria for assessing the quality of prognostic studies. Although it is not good practice to use quality as an inclusion criterion, an evaluation of reviews79 found that this was done in 55/163 (34%) reviews.
 
@@ -628,21 +476,21 @@ As with other study designs, quality scores are problematic.48, 110, 111 For exa
 
 Despite the lack of empirical evidence to support the importance of particular study features affecting the reliability of study findings, especially the risk of bias, theoretical considerations and common sense point to several methodological aspects that are likely to be important.
 
-###### Generic criteria
+#### Generic criteria
 
 Table 2.3 lists methodological features that are likely to be important for the internal validity of prognostic studies.88 The items are not phrased as questions but rather as domains of likely importance. Most authors have presented their checklists as questions. For example, 'Was there a representative and well-defined sample of patients at a similar point in the course of the disease?', taken from a checklist produced by the Evidence-Based Medicine Working Group,113 is a question that includes three elements from Table 2.3. This checklist is widely quoted, for example in a guide for clinicians,114 but it omits several of the items in Table 2.3.
 
 It is generally agreed that to be reliable (and clinically interpretable) a prognostic study requires a well-defined ('inception') cohort of patients at the same stage of their disease, preferably at diagnosis.115 This also illustrates the more general requirement that the cohort can be clearly described, which is necessary for the study to have external validity.
 
-###### Context-specific criteria
+#### Context-specific criteria
 
 There may also be context-related quality aspects that should be considered in individual reviews. For example, some studies may have used inferior laboratory methods to measure the marker. However, it is important to distinguish aspects of a study that might be a cause of bias, and hence be genuinely a matter of quality, and those that just reflect variation in study conduct but where no bias is likely. Examples of the latter are patient inclusion criteria, length of follow-up, and choice of measuring device or assay kit. Such factors may well be a cause of heterogeneity and it may be prudent to perform separate (subgroup) analyses to investigate whether they are in fact of importance. There are several published checklists for assessing prognostic studies in cancer.116-118
 
-###### Implementing quality assessment
+#### Implementing quality assessment
 
-Quality assessment in prognostic systematic reviews is often incomplete and there is wide variation in current practice. A review of reviews identified 14 methodological domains grouped within six dimensions relating to the risk of bias of prognostic studies79 as shown in Table 2.4.
+Quality assessment in prognostic systematic reviews is often incomplete and there is wide variation in current practice. A review of reviews identified 14 methodological domains grouped within six dimensions relating to the risk of bias of prognostic studies.
 
-> Table 2.3: A framework for assessing the internal validity of articles describing prognostic factor studies88
+A framework for assessing the internal validity of articles describing prognostic factor studies88
 
 +------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 | Study feature                                  | > Qualities sought                                                                                                 |
@@ -678,11 +526,11 @@ Quality assessment in prognostic systematic reviews is often incomplete and ther
 |                                                | > Intervention standardised or randomised                                                                          |
 +------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 
-###### Quality of reporting
+#### Quality of reporting
 
-Assessment of study quality is often seriously hampered by poor reporting of methodological details,119, 120 as is well known for other types of research. The REporting recommendations for tumour MARKer prognostic studies (REMARK) initiative has proposed guidelines for reporting prognostic studies in cancer, most of which apply to any medical context.121 Adoption of the REMARK guidelines should lead to improved reporting of prognostic studies.
+Assessment of study quality is often seriously hampered by poor reporting of methodological details, as is well known for other types of research. The REporting recommendations for tumour MARKer prognostic studies (REMARK) initiative has proposed guidelines for reporting prognostic studies in cancer, most of which apply to any medical context.121 Adoption of the REMARK guidelines should lead to improved reporting of prognostic studies.
 
-> Table 2.4: System for assessing quality of prognostic factor studies, with proportion of 153 prognostic systematic reviews meeting each item79
+System for assessing quality of prognostic factor studies, with proportion of 153 prognostic systematic reviews meeting each item79
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+-----------------------------------------------------------------------------+-------------------------------+
 | Potential bias                                                                                                                                                                            | > \% reviews adequately assessing bias | > Domains addressed                                                         | > \% reviews assessing domain |
@@ -718,9 +566,9 @@ Assessment of study quality is often seriously hampered by poor reporting of met
 |                                                                                                                                                                                           |                                        | 14. Analysis provides sufficient presentation of data                       | 32                            |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+-----------------------------------------------------------------------------+-------------------------------+
 
-#### Data synthesis
+### Synthesis
 
-###### Outcome measures
+#### Outcome measures
 
 In prognostic studies the focus of interest is what may happen in the future. It is natural, therefore, that most prognostic studies have outcomes that are the time to a specific event, such as death. However, some prognostic studies with dichotomous outcomes may inappropriately ignore the time element. For example, a study looking at death within three years may classify all patients as dead or alive, but those patients who are lost to follow-up before three years (i.e. have censored survival times) cannot be so classified and may be excluded. One exception is studies of prognosis in pregnancy where outcomes often relate to the birth of the baby (e.g. predicting caesarean section or pre-term birth). Such outcomes are genuinely dichotomous and can be analysed in the same way as a study of diagnostic accuracy.
 
@@ -730,7 +578,7 @@ When all studies have reported data as dichotomous or continuous, meta-analysis 
 
 In principle researchers may need to combine estimates of a marker that is kept continuous in some studies and dichotomised in others. It is important to note that the hazard ratios for those two cases are not comparable so they should not be combined. There is a related literature on combining data on dose-response relationships in epidemiology.127-129
 
-###### Adjustment for other variables
+#### Adjustment for other variables
 
 In RCTs the groups being compared are expected to be very similar with regard to prognostic factors (baseline characteristics) through the use of a random sequence of intervention assignment. In non-randomised studies there is no such safeguard and we should expect the groups being compared to differ in various ways. In prognostic studies we are comparing individuals with different levels of a marker, whether binary or continuous. That comparison could easily be biased by other variables that are associated with both the marker and patient prognosis -- in other words the comparison may be 'confounded'.
 
@@ -740,13 +588,13 @@ Dealing with adjustment presents a problem for synthesis, as individual studies 
 
 In practice, researchers will often find a mixture of adjusted and unadjusted results. Only 47/129 (36%) of prognostic marker studies in cancer used multivariate modelling in which the marker was added to standard clinical variables.132 A recent review presented separate meta-analyses of adjusted and unadjusted results of BCL-2 as a protective prognostic marker in breast cancer.133 It demonstrated, as expected, that the adjusted hazard ratio was lower than the unadjusted value but these differences were small (disease free survival (DFS) HR 1.58 vs HR 1.66). This approach reduces the need for speculation about the value of adjustment, which seems a good strategy even if all studies are then combined.
 
-###### Sensitivity analyses
+#### Sensitivity analyses
 
 General considerations of investigating the sensitivity of the review findings to various choices apply equally to reviews of prognostic studies. In the specific context of prognosis, given the evidence about publication bias, it may be advisable to conduct a sensitivity analysis in which smaller studies are excluded.
 
 #### Case study
 
-An example of a systematic review addressing a prognostic question is given.87
+An example of a systematic review addressing a prognostic question.
 
 Objective
 
@@ -776,117 +624,115 @@ Table 2.5 shows that there was considerable variation in study characteristics, 
 
 Systematic review of Ki-67 as a prognostic marker in early breast cancer: excerpt from table of study characteristics and results for disease-free survival (hazard ratios and 95% confidence intervals) 87
 
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Study               | > N   | > Follow- up (median months) | > Threshold | > Preval- ence | > How chosen     | > HR  | > 95% CI  |
-+=====================+:=====:+:============================:+:===========:+:==============:+==================+======:+===========+
-| Bevilacqua, 1996    | > 107 | > 74                         | > 10%       | > 88%          | > arbitrary      | 2.75  | > ## 1.02 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 7.39    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Bos, 2003           | > 150 | > 106                        | > 10%       | > 42%          | > arbitrary      | 2.47  | > ## 1.08 |
-|                     |       | >                            |             |                |                  |       | >         |
-|                     |       | > (mean)                     |             |                |                  |       | > 5.65    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Brown, 1996         | > 674 | > 72                         | > 5%        | > 25%          | > optimal cutoff | 1.19  | > ## 0.79 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 1.80    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Caly, 2004          | > 244 | > 72                         | > 32%       | > 50%          | > unclear        | 1.95  | > ## 0.92 |
-|                     |       | >                            |             |                |                  |       | >         |
-|                     |       | > (min)                      |             |                |                  |       | > 4.14    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Domagala (N0), 1996 | > 111 | > 88                         | > 10%       | > 60%          | > median         | 3.04  | > ## 1.03 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 8.99    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Domagala (N+), 1996 | > 75  | > 88                         | > 10%       | > 53%          | > median         | 1.38  | > ## 0.66 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 2.86    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Erdem, 2005         | 47    | > 73                         | > 10%       | > 28%          | > median         | 17.23 | > ## 2.42 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 122.4   |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Fresno, 1997        | > 146 | > 75                         | > 10%       | > 58%          | > arbitrary      | 1.81  | > ## 0.71 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 4.59    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Gasparini, 1994     | > 165 | > 60                         | > 7.5%      | > 50%          | > mean           | 2.58  | > ## 1.21 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 5.49    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Gonzalez, 2003      | > 221 | > 103                        | > 30%       | > NR           | > arbitrary      | 3.18  | > ## 1.52 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 6.65    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Goodson, 2000       | > 112 | > 61                         | > 24%       | > 50%          | > mean           | 2.90  | > ## 1.18 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 7.15    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Heatley, 2002       | > 59  | > 60                         | > 10%       | > 44%          | > mean           | 0.81  | > ## 0.36 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 1.81    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Hlupic (N+), 2004   | > 192 | > 180                        | > 10%       | > 61%          | > arbitrary      | 1.30  | > ## 0.80 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 2.11    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Jacquemier, 1998    | > 152 | > 60                         | > 3.5%      | > 49%          | > median         | 3.29  | > ## 1.49 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 7.22    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Jansen, 1998        | > 321 | > 128                        | > 7%        | > 48%          | > median         | 1.35  | > ## 1.01 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 1.80    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Jensen, 1995        | > 118 | > 104                        | > 17%       | > 46%          | > median         | 3.41  | > ## 1.44 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 8.06    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Liu, 2001           | > 773 | > 196                        | > 17.8%     | > 50%          | > median         | 1.76  | > ## 1.41 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 2.20    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Locker, 1992        | > 67  | > 27                         | > 9%        | > 34%          | > tertile        | 4.19  | > ## 1.19 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 14.7    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Mottolese, 2000     | > 157 | > 60                         | > 10%       | > 55%          | > arbitrary      | 1.82  | > ## 0.90 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 3.67    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Pellikainen, 2003   | > 414 | > 57                         | > 20%       | > 44%          | > arbitrary      | 2.56  | > ## 1.46 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 4.50    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Pierga, 1996        | > 136 | > 70                         | > 8%        | > 49%          | > median         | 1.37  | > ## 0.64 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 2.91    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Pietilainen, 1996   | > 188 | > 103                        | > 20%       | > 53%          | > arbitrary      | 1.88  | > ## 1.16 |
-|                     |       | >                            |             |                |                  |       | >         |
-|                     |       | > (mean)                     |             |                |                  |       | > 3.05    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Pinder, 1995        | > 177 | > NR                         | > 34%       | > 42%          | > tertile        | 1.66  | > ## 1.09 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 2.52    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Pinto, 2001         | > 295 | > 39.6                       | > 10%       | > 46%          | > arbitrary      | 1.46  | > ## 0.74 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 2.87    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Querzoli, 1996      | > 170 | > 66.5                       | > 13%       | > 25%          | > tertile        | 2.05  | > ## 1.11 |
-|                     |       |                              |             |                |                  |       | >         |
-|                     |       |                              |             |                |                  |       | > 3.77    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Railo, 1993         | > 326 | > 32.4                       | > 10%       | > 11%          | > unclear        | 2.39  | > ## 0.77 |
-|                     |       | >                            |             |                |                  |       | >         |
-|                     |       | > (mean)                     |             |                |                  |       | > 7.38    |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
-| Etc                 |       |                              |             |                |                  |       |           |
-+---------------------+-------+------------------------------+-------------+----------------+------------------+-------+-----------+
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Study               | N          | Follow- up (median months) | Threshold  | Prevalence  | How chosen       | HR     | 95% CI               |
++:====================+:===========+:===========================+:===========+:============+:=================+:=======+:=====================+
+| Bevilacqua, 1996    | > 107      | > 74                       | > 10%      | > 88%       | > arbitrary      | 2.75   | > 1.02               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 7.39               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Bos, 2003           | > 150      | > 106                      | > 10%      | > 42%       | > arbitrary      | 2.47   | > 1.08               |
+|                     |            | >                          |            |             |                  |        | >                    |
+|                     |            | > (mean)                   |            |             |                  |        | > 5.65               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Brown, 1996         | > 674      | > 72                       | > 5%       | > 25%       | > optimal cutoff | 1.19   | > 0.79               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 1.80               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Caly, 2004          | > 244      | > 72                       | > 32%      | > 50%       | > unclear        | 1.95   | > 0.92               |
+|                     |            | >                          |            |             |                  |        | >                    |
+|                     |            | > (min)                    |            |             |                  |        | > 4.14               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Domagala (N0), 1996 | > 111      | > 88                       | > 10%      | > 60%       | > median         | 3.04   | > 1.03               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 8.99               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Domagala (N+), 1996 | > 75       | > 88                       | > 10%      | > 53%       | > median         | 1.38   | > 0.66               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 2.86               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Erdem, 2005         | 47         | > 73                       | > 10%      | > 28%       | > median         | 17.23  | > 2.42               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 122.4              |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Fresno, 1997        | > 146      | > 75                       | > 10%      | > 58%       | > arbitrary      | 1.81   | > 0.71               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 4.59               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Gasparini, 1994     | > 165      | > 60                       | > 7.5%     | > 50%       | > mean           | 2.58   | > 1.21               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 5.49               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Gonzalez, 2003      | > 221      | > 103                      | > 30%      | > NR        | > arbitrary      | 3.18   | > 1.52               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 6.65               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Goodson, 2000       | > 112      | > 61                       | > 24%      | > 50%       | > mean           | 2.90   | > 1.18               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 7.15               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Heatley, 2002       | > 59       | > 60                       | > 10%      | > 44%       | > mean           | 0.81   | > 0.36               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 1.81               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Hlupic (N+), 2004   | > 192      | > 180                      | > 10%      | > 61%       | > arbitrary      | 1.30   | > 0.80               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 2.11               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Jacquemier, 1998    | > 152      | > 60                       | > 3.5%     | > 49%       | > median         | 3.29   | > 1.49               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 7.22               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Jansen, 1998        | > 321      | > 128                      | > 7%       | > 48%       | > median         | 1.35   | > 1.01               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 1.80               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Jensen, 1995        | > 118      | > 104                      | > 17%      | > 46%       | > median         | 3.41   | > 1.44               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 8.06               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Liu, 2001           | > 773      | > 196                      | > 17.8%    | > 50%       | > median         | 1.76   | > 1.41               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 2.20               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Locker, 1992        | > 67       | > 27                       | > 9%       | > 34%       | > tertile        | 4.19   | > 1.19               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 14.7               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Mottolese, 2000     | > 157      | > 60                       | > 10%      | > 55%       | > arbitrary      | 1.82   | > 0.90               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 3.67               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Pellikainen, 2003   | > 414      | > 57                       | > 20%      | > 44%       | > arbitrary      | 2.56   | > 1.46               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 4.50               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Pierga, 1996        | > 136      | > 70                       | > 8%       | > 49%       | > median         | 1.37   | > 0.64               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 2.91               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Pietilainen, 1996   | > 188      | > 103                      | > 20%      | > 53%       | > arbitrary      | 1.88   | > 1.16               |
+|                     |            | >                          |            |             |                  |        | >                    |
+|                     |            | > (mean)                   |            |             |                  |        | > 3.05               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Pinder, 1995        | > 177      | > NR                       | > 34%      | > 42%       | > tertile        | 1.66   | > 1.09               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 2.52               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Pinto, 2001         | > 295      | > 39.6                     | > 10%      | > 46%       | > arbitrary      | 1.46   | > 0.74               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 2.87               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Querzoli, 1996      | > 170      | > 66.5                     | > 13%      | > 25%       | > tertile        | 2.05   | > 1.11               |
+|                     |            |                            |            |             |                  |        | >                    |
+|                     |            |                            |            |             |                  |        | > 3.77               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
+| Railo, 1993         | > 326      | > 32.4                     | > 10%      | > 11%       | > unclear        | 2.39   | > 0.77               |
+|                     |            | >                          |            |             |                  |        | >                    |
+|                     |            | > (mean)                   |            |             |                  |        | > 7.38               |
++---------------------+------------+----------------------------+------------+-------------+------------------+--------+----------------------+
 
-> N: Number of participants; HR: Hazard ratio; CI: Confidence interval
+N: Number of participants; HR: Hazard ratio; CI: Confidence interval
 
 Meta-analysis
 
@@ -900,8 +746,8 @@ Conclusions
 
 The authors concluded that 'Despite some limitations, this meta-analysis supports the prognostic role of Ki-67 in early breast cancer, by showing a significant association between its expression and the risk of recurrence and death in all populations considered and for both outcomes, DFS and OS.' They also noted that the reporting of the individual studies was suboptimal and that they had assessed only the univariate prognostic value of Ki-67. They suggested that a prospective study to examine whether Ki-67 was of prognostic importance over and above known factors. Thus, in common with many reviewers of such studies, these authors did not feel that the existing literature was strong enough on which to base clinical decisions.
 
-#### Systematic review as a driver for improved study quality
+### Systematic review as a driver for improved study quality
 
-Systematic reviews can play a valuable role not just in summarising the findings of published studies but also in drawing attention to the poor and inconsistent methods used. Good systematic reviews are needed to highlight the weaknesses of the evidence base behind prognostic markers and to provide guidance on how better-quality studies can be carried out in the future. This is true of prognostic studies and it has been commented that 'one has to question why it is acceptable for tumour marker studies to be performed with less scientific rigor than studies of new pharmaceutical agents.'135
+Systematic reviews can play a valuable role not just in summarising the findings of published studies but also in drawing attention to the poor and inconsistent methods used. Good systematic reviews are needed to highlight the weaknesses of the evidence base behind prognostic markers and to provide guidance on how better-quality studies can be carried out in the future. This is true of prognostic studies and it has been commented that 'one has to question why it is acceptable for tumor marker studies to be performed with less scientific rigor than studies of new pharmaceutical agents.
 
 As an example, a review of 26 published systematic reviews of prognostic markers in cancer found common deficiencies in both conduct and reporting.109 Less than 75% of the systematic reviews stated clearly their aims and objectives, the literature search strategy, and the study eligibility criteria. Only 20% reported the final number of primary studies used. Less than 50% of the systematic reviews reported elements of primary study description and analysis, such as sampling methods, cancer stage, cutpoint, and numeric results including CIs and P-values. The exception was the sample size, which was reported in 73% of the systematic reviews. About half of the systematic reviews had carried out a meta-analysis. Of those, some did not include a forest plot or numerical summary with confidence intervals. Most had explored heterogeneity,
