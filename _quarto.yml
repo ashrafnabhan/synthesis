@@ -16,9 +16,7 @@ bibliography: references.bib
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
   pdf:
     documentclass: scrreprt
   epub:
