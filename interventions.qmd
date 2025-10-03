@@ -938,15 +938,19 @@ Time spent preparing a brief outline covering the main points to be included in 
 
 **Authors and contributors**
 
-The report of a systematic review will usually have a number of authors. According to the International Committee of Medical Journal Editors (ICMJE), authorship credit should be based on:
+The report of a systematic review will usually have a number of authors. The ICMJE recommends that authorship be based on the following 4 criteria:
 
-1.  Substantial contributions to conception and design, or acquisition of data, or analysis and interpretation of data
+-   Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND
 
-2.  Drafting the article or revising it critically for important intellectual content; and
+-   Drafting the work or reviewing it critically for important intellectual content; AND
 
-3.  Final approval of the version to be published
+-   Final approval of the version to be published; AND
 
-All authors should meet all of these conditions. The review team should agree amongst themselves who will be authors and the order of authorship. Order of authorship is often taken to reflect an individual's contribution to the report and methods are available for scoring contributions to determine authorship. Alternatively authors can simply be listed alphabetically. Contributions that do not meet the criteria for authorship (for example, data extraction or membership of an advisory group) should be included in the acknowledgements.
+-   Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.
+
+In addition to being accountable for the parts of the work done, an author should be able to identify which co-authors are responsible for specific other parts of the work. In addition, authors should have confidence in the integrity of the contributions of their co-authors.
+
+All authors should meet all of these conditions. The review team should agree amongst themselves who will be authors and the order of authorship. Order of authorship is often taken to reflect an individual's contribution to the report and methods are available for scoring contributions to determine authorship. Alternatively authors can simply be listed alphabetically. Contributions that do not meet the criteria for authorship (e.g. data extraction or membership of an advisory group) should be included in the acknowledgements.
 
 **Peer review and feedback**
 
@@ -984,39 +988,21 @@ A clear statement of the implications for future research should be made; vague 
 
 -   Report writing is an integral part of the systematic review process.
 
--   Reviews may be published as a report for the commissioner, as a journal article or both. Researchers should be aware of the requirements of commissioning bodies and journals and adhere to them.
+-   Reviews may be published as a report for the commissioner, as a journal article or both.
 
 -   Readability is a key aspect of reporting; a review's findings will not be acted on if they are not clearly presented and understood.
 
 -   The executive summary (for full-length reports) or abstract (for journal articles) is the most important part of the report, because it is potentially the only section that many readers will actually read (perhaps in conjunction with the discussion and conclusions).
 
--   A structured framework can be helpful for preparing the discussion section of the report.
-
 -   Implications for practice or policy and recommendations for further research should be based solely on the evidence contained in the review.
 
 -   The findings from systematic reviews are frequently used to inform guideline development. Guideline recommendations are often formulated using a grading scheme. Systematic review reports should therefore aim to provide the information required for such grading schemes.
-
--   A structured format for the presentation of research recommendations has been developed as a result of the DUETS initiative.
 
 ### Disseminating the findings of systematic reviews
 
 To improve the quality of health care, and ultimately health outcomes, the review findings need to be effectively communicated to practitioners and policy- makers. The transfer of knowledge obtained through research into practice has long been acknowledged as a complex process that is highly dependent on context and the interaction of a multitude of interconnected factors operating at the level of the individual, group, organisation and wider health system.
 
-A number of conceptual frameworks have attempted to represent the complexity of knowledge translation processes. One recent framework, whilst recognizing the importance of non-linear diffusion, highlights a pivotal role for the direct or planned dissemination of contextualized, actionable messages derived from systematic reviews to inform practice and policy decision-making processes.
-
-**What is dissemination?**
-
-As interest in enhancing the impact of health research has increased, so too has the terminology used to describe the approaches employed. Terms like dissemination, diffusion, implementation, knowledge transfer, knowledge mobilisation, linkage and exchange and research into practice are all being used to describe overlapping and interrelated concepts and practices. Given this, it is helpful to explain how the term dissemination is used here.
-
-Dissemination is a planned and active process that seeks to ensure that those who need to know about a piece of research get to know about it and can make sense of the findings. As such it involves more than making research accessible through the traditional mediums of academic journals and conference presentations. It requires forethought about the groups who need to know the answer to the question a review is addressing, the best way of getting the message directly to that audience, and doing so by design rather than chance. Hence an active rather than passive process.
-
-The term dissemination is often used interchangeably with implementation but it is more appropriate to see the terms as complementary. Dissemination and implementation are part of a continuum. At one end are activities that focus on making research accessible, raising awareness of new findings and encouraging consideration of practice alternatives and policy options. At the other end of the continuum are activities that seek to increase the adoption of research findings into practice and policy and that facilitate, reinforce and maintain changes in practice.
-
-Dissemination should not be viewed as an adjunct to the review process or as something to be considered at the end when thoughts turn to publication. Nor should it be seen as separate from the wider social context in which the review findings are expected to be used. It is an integral part of the review process and should be considered from an early stage to allow adequate time for planning and development, for the allocation of responsibilities and to ensure that the proposed activities are properly resourced.
-
-**A suggested approach to dissemination**
-
-Traditionally, research on dissemination and implementation has tended to focus on the use of research knowledge, rather than on the effects of dissemination activities. However, several conceptual frameworks have been put forward which consistently suggest that the effectiveness of dissemination activities is determined by careful consideration of a number of key attributes. These are:
+Several conceptual frameworks indicate that the effectiveness of dissemination activities is determined by careful consideration of a number of key attributes. These are:
 
 -   The characteristics of the research message
 
@@ -1030,32 +1016,12 @@ Traditionally, research on dissemination and implementation has tended to focus 
 
 -   The communication channel(s) used
 
-Assuming that all research has an audience (but not that all research should be widely disseminated), whether the message provides an unequivocal answer or simply highlights the need for further research, our approach is structured around six key attributes which are interlinked and difficult to consider in isolation. The key messages from the review are the starting point for determining the audience to be targeted.
-
-**Characteristics of the research message and the setting in which it will be received**
-
 The literature on communication and diffusion (i.e. how, why, and at what rate ideas/innovations spread through social systems) highlights three types of messages that can impact on the knowledge and attitudes of target audiences: awareness, instruction ('how to') and persuasion (information that reduces uncertainty about expected consequences). Message characteristics to consider include the nature of the intervention, the strength of the evidence, its transferability, the degree of uncertainty and whether the findings confirm or reject existing predispositions or practices.
 
 Messages also have to be perceived as relevant and meaningful by the audiences being targeted. Knowledge about both the wider setting (economic, social, organisational and political environments) within which a target audience resides and the context (hostile or receptive) in which a message is to be received, should be used to inform the development of appropriate dissemination strategies.
-
-**Characteristics of the target audience(s)**
 
 Deciding who to target usually involves an element of prioritization (segmentation) as resource constraints can make it difficult to reach all possible audiences. In prioritizing, relevance (who needs to know about this research) and receptivity (who is most likely to be influenced and to influence others) need to be considered. The question of how best to reach target audiences can in part be answered by drawing upon the theoretical literature on research utilization (the ways by which different audiences become aware of, access, read and make use of research findings). This literature helps to inform the selection of the most appropriate or feasible communication channels for the audiences being targeted. Channels frequently used to promote review findings include paper and electronic publishing, email alerting services, direct and relationship marketing, mass media campaigns as well as engaging directly with target audiences.
 
 Presentation of the research message and communication channel(s) used The literature on diffusion makes a distinction between mass media channels and interpersonal (face to face) channels. The former are generally regarded as being more important for dissemination purposes whereas interpersonal channels are more important for activity at the implementation end of the continuum. A combination of communication channels is helpful in increasing the likelihood that target audiences will encounter the review messages being promoted.
 
 The selection of communication channels may also inform the presentation (tailoring) of the research message itself. When tailoring messages, consideration is given to the target audience, language used, the format, structure and style of presentation, the types of appeal and the amount of repetition. It is generally appropriate to try to write for an educated but non-research specialist health professional or decision-maker. Lay terms are used rather than technical language and statistics presented in as simple a form as possible. The aim is to make information accessible to a broad range of readers and anyone who would like more details can access the full report. It has been advocated that a layered structure such as the '1:3:25' format (i.e. one page of the research 'bottom lines' or 'actionable messages', three-page executive summary and a 25-page report) is the optimal way to present research evidence to health service managers and policy-makers. This type of structuring involving a front page of key messages has become common place and reflects documented audience preferences for the 'bottom line' up front. There is some evidence that this order of presentation can increase overall understanding of the research findings but may also in some instances alienate those who are less receptive to or in disagreement with the conclusions presented.
-
-**Dissemination strategies**
-
-It has been proposed that there are four dissemination models that can be employed to link 'research to action'. These are:
-
--   Push strategies which are largely associated with supply (researcher) led distribution of new research findings
-
--   Pull strategies which facilitate demand (audience) led access to research
-
--   Linkage and exchange efforts which involve two-way communications and partnerships between producers and users of research
-
--   Integrated approaches that incorporate aspects of all three
-
-In reality, push, pull and exchange strategies are not mutually exclusive; facilitating user pull often requires the application of a promotional push strategy (e.g. utilizing email alerting services or RSS feeds) to inform and remind target audiences about review findings that are forthcoming or have been made available online for example. The integrated approach that incorporates elements of all three strategies is recommended, but where the emphasis shifts according to the topic and the audiences to be targeted.
