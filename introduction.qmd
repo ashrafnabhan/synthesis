@@ -1,4 +1,8 @@
-# Introduction
+---
+toc: false
+---
+
+# Introduction {.unnumbered}
 
 Several reasons can justify the need to conduct a new review. Commissioned calls for evidence synthesis are usually on topics where a gap in knowledge has been identified, prioritized and a question posed. Alternatively, the idea for a review may be investigator led, with a topic identified from an area of practice or research interest. Whatever the motivation for undertaking a review the preparation and conduct should be rigorous.
 

@@ -1,11 +1,10 @@
 project:
   type: book
 
-book:
-  title: "An Introduction to Evidence Synthesis"
-  author: "Ashraf Nabhan"
+book: 
   chapters:
     - index.qmd
+    - preface.qmd
     - introduction.qmd
     - interventions.qmd
     - tests.qmd
@@ -24,4 +23,6 @@ format:
     cover-image: cover.png  
 
 editor: visual
+
+copyright: "© 2025 Ashraf Nabhan. All rights reserved."
 

@@ -1,4 +1,4 @@
-# Summary
+# Summary {.unnumbered}
 
 This book offers a comprehensive examination of systematic reviews as a methodological framework for evidence synthesis. It provides a structured account of the rationale, principles, and procedures underlying systematic reviewing, with emphasis on methodological rigor, transparency, and reproducibility.
 
