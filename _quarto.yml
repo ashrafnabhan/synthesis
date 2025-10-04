@@ -13,6 +13,8 @@ book:
 
 bibliography: references.bib
 
+csl: vancouver-brackets.csl
+
 format:
   html:
     theme: cosmo

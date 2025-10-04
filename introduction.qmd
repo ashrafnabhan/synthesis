@@ -4,33 +4,13 @@ toc: false
 
 # Introduction {.unnumbered}
 
-Several reasons can justify the need to conduct a new review. Commissioned calls for evidence synthesis are usually on topics where a gap in knowledge has been identified, prioritized and a question posed. Alternatively, the idea for a review may be investigator led, with a topic identified from an area of practice or research interest. Whatever the motivation for undertaking a review the preparation and conduct should be rigorous.
+Several reasons can justify the need to conduct a new systematic review. Commissioned calls for evidence synthesis are usually on topics where a gap in knowledge has been identified, prioritized and a question posed. Alternatively, the idea for a review may be investigator led, with a topic identified from an area of practice or research interest. Whatever the motivation for undertaking a review the preparation and conduct should be rigorous.
 
 ## Is a review required?
 
-Before undertaking a systematic review, it is necessary to check whether there are already existing or ongoing reviews, and whether a new review is justified. This process should begin by searching the Database of Abstracts of Reviews of Effects (DARE), and the Cochrane Database of Systematic Reviews (CDSR). Searching MEDLINE or other appropriate bibliographic databases may be helpful in identifying published reviews.
+Before undertaking a systematic review, it is necessary to check whether there are already existing or ongoing reviews, and whether a new review is justified. This process should begin by searching the Cochrane Database of Systematic Reviews (CDSR), MEDLINE, and Embase to identify published reviews. If an existing review is identified which addresses the question of interest, then the review should be assessed to determine whether it is of sufficient quality to guide policy and practice.
 
-If an existing review is identified which addresses the question of interest, then the review should be assessed to determine whether it is of sufficient quality to guide policy and practice. In general, a good review should focus on a well-defined question and use appropriate methods. A comprehensive search should have been carried out, clear and appropriate criteria used to select or reject studies, and the process of assessing study quality, extracting and synthesizing data should have been unbiased, reproducible and transparent. If these processes are not well-documented, confidence in results and inferences is weakened. The review should report the results of all included studies clearly, highlighting any similarities or differences between studies, and exploring the reasons for any variations.
-
-Critical appraisal can be undertaken with the aid of a checklist such as the example outlined here. Such checklists focus on identifying flaws in reviews that might bias the results. Quality assessment is important because the effectiveness of interventions may be masked or exaggerated by reviews that are not rigorously conducted.
-
-Critically appraising review articles
-
--   Was the review question clearly defined in terms of population, interventions, comparators, outcomes and study designs (PICOS)?
-
--   Was the search strategy adequate and appropriate? Were there any restrictions on language, publication status or publication date?
-
--   Were preventative steps taken to minimize bias and errors in the study selection process?
-
--   Were appropriate criteria used to assess the quality of the primary studies, and were preventative steps taken to minimize bias and errors in the quality assessment process?
-
--   Were preventative steps taken to minimize bias and errors in the data extraction process?
-
--   Were adequate details presented for each of the primary studies?
-
--   Were appropriate methods used for data synthesis? Were differences between studies assessed? Were the studies pooled, and if so was it appropriate and meaningful to do so?
-
--   Do the authors' conclusions accurately reflect the evidence that was reviewed?
+Critical appraisal can be undertaken with the aid of a checklist such as the CASP. @casp_sr_2024 Such checklists focus on identifying flaws in reviews that might bias the results. Quality assessment is important because the effectiveness of interventions may be masked or exaggerated by reviews that are not rigorously conducted. In general, a good review should focus on a well-defined question and use appropriate methods. A comprehensive search should have been carried out, clear and appropriate criteria used to select or reject studies, and the process of assessing study quality, extracting and synthesizing data should have been unbiased, reproducible and transparent. If these processes are not well-documented, confidence in results and inferences is weakened. The review should report the results of all included studies clearly, highlighting any similarities or differences between studies, and exploring the reasons for any variations.
 
 If a high-quality review is located, but was completed some time ago, then an update of the review may be justified. Current relevance will need to be assessed and is particularly important in fields where the research is rapidly evolving. Where appropriate, collaboration with the original research team may assist in the update process by providing access to the data they used. However, little research has been conducted on when and how to update systematic reviews and the feasibility and efficiency of the identified approaches is uncertain. If a review is of adequate quality and still relevant, there may be no need to undertake another systematic review.
 
@@ -58,7 +38,7 @@ Systematic reviews can play a valuable role not just in summarizing the findings
 
 -   Whatever the motivation for undertaking a review the preparation and conduct should be rigorous.
 
--   A search of resources such as the DARE database should be undertaken to check for existing or ongoing reviews, to ensure a new review is justified.
+-   A search of resources should be undertaken to check for existing or ongoing reviews, to ensure a new review is justified.
 
 -   A review team should be established to manage and conduct the review. The membership should provide a range of skills, including expertise in systematic review methods, information retrieval, the relevant clinical/topic area, statistics, health economics and/or qualitative research methods where appropriate.
 
