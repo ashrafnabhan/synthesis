@@ -237,5 +237,3 @@ Systematic reviews of diagnostic test accuracy (DTA) studies are fundamental to 
 -   Test accuracy studies are often poorly reported, hampering data extraction, quality assessment and synthesis.
 
 -   Though often unable to provide a definitive estimate of test accuracy, systematic reviews can highlight important gaps in the evidence base and aid in the design of future studies.
-
-## References {.unnumbered}

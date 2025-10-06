@@ -20,9 +20,9 @@ about:
       href: mailto:anabhan@med.asu.edu.eg
 ---
 
-# An Introduction to Evidence Synthesis {.unnumbered}
+### Finding what works in healthcare {.unnumbered}
 
-#### **Professor Ashraf Nabhan** {.unnumbered}
+**Professor Ashraf Nabhan**
 
 Professor of Obstetrics and Gynecology, Ain Shams University\
 Head of Clinical Research Unit, MTI University

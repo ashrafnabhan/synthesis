@@ -2,6 +2,7 @@ project:
   type: book
 
 book:
+  title: "An Introduction to Evidence Synthesis"
   chapters:
     - index.qmd
     - preface.qmd
@@ -14,6 +15,7 @@ book:
       chapters: 
         - tests.qmd
     - summary.qmd
+    - ref.qmd
 
 bibliography: references.bib
 

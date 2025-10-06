@@ -145,5 +145,3 @@ Protocols of systematic reviews and meta-analyses allow for planning and documen
     -   Synthesize results
 
 -   In cases when it becomes apparent that a modification to the protocol is required, protocol amendments should be clearly documented and justified.
-
-## References {.unnumbered}

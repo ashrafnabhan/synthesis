@@ -861,5 +861,3 @@ A clear statement of the implications for future research should be made; vague 
 -   Implications for practice or policy and recommendations for further research should be based solely on the evidence contained in the review.
 
 -   The findings from systematic reviews are frequently used to inform guideline development. Guideline recommendations are often formulated using a grading scheme. Systematic review reports should therefore aim to provide the information required for such grading schemes.
-
-## References {.unnumbered}
