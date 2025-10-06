@@ -1,0 +1,149 @@
+# Planning the review
+
+Healthcare decision makers in search of reliable information that compares health interventions increasingly turn to systematic reviews for the best summary of the evidence. Systematic reviews identify, select, assess, and synthesize the findings of similar but separate studies, and can help clarify what is known and not known about the potential benefits and harms of drugs, devices, and other healthcare services. Systematic reviews can be helpful for clinicians who want to integrate research findings into their daily practices, for patients to make well-informed choices about their own care, for professional medical societies and other organizations that develop clinical practice guidelines.
+
+The review protocol sets out the methods to be used in the review. Decisions about the review question, inclusion criteria, search strategy, study selection, data extraction, quality assessment, data synthesis and plans for dissemination should be addressed.
+
+Specifying the methods in advance reduces the risk of introducing bias into the review. For example, clear inclusion criteria avoid selecting studies according to whether their results reflect a favored conclusion.
+
+If modifications to the protocol are required, these should be clearly documented and justified. Modifications may arise from a clearer understanding of the review question and should not be made because of an awareness of the results of individual studies. Protocol development is often an iterative process that requires communication within the review team and advisory group and sometimes with the funder.
+
+This section covers the development of the protocol and the information it should contain. The formulation of the review objectives from the review question and the setting of inclusion criteria are covered in detail here as these must be agreed before starting a review. The search strategy, study selection, data extraction, quality assessment, synthesis and dissemination are also mentioned briefly as they are essential parts of the review protocol. However, to avoid repetition, full details of the issues related to both protocol requirements and carrying out the review are provided in [Section @sec-conducting-the-review] .
+
+## Introduction
+
+### Background and rationale
+
+The background section should communicate the key contextual factors and conceptual issues relevant to the review question. It should explain why the review is required and ***provide the rationale underpinning the focus of the review question***.
+
+### Objective(s)
+
+Systematic reviews should set clear questions, the answers to which will provide meaningful information that can be used to guide decision-making. These should be stated clearly and precisely in the protocol. The scope of the review question may be extremely narrow or very broad. The review question can be framed in terms of the population, intervention(s), comparator(s) and outcomes of the studies that will be included in the review.
+
+## Eligibility criteria
+
+The inclusion criteria should be set out in the protocol. The inclusion criteria should capture all studies of interest. If the criteria are too narrowly defined there is a risk of missing potentially relevant studies and the generalizability of the results may be reduced. On the other hand, if the criteria are too broad the review may contain information which is hard to compare and synthesize. Inclusion criteria also need to be practical to apply.
+
+The authors must specify the study characteristics (e.g., PICO, study design, setting, time frame) and report characteristics (e.g., years considered, language, publication status) to be used as criteria for eligibility for the review
+
+**Population**
+
+The included population should be relevant to the population to which the review findings will be applied, and explicit inclusion criteria should be defined in terms of the disease or condition of interest. Any specified restrictions should be clinically justifiable and relevant. Eligibility must usually be applied to the whole study and consideration of how to deal with studies that include a mixed population, some of whom are relevant to the review and some of whom are not, is required. If the inclusion criteria are broad, it may be informative to investigate effectiveness across subgroups of participants. However, in the absence of individual patient data (IPD), or very detailed reporting of data, broken down by participant characteristics, it is unlikely that inclusion can be restricted to particular types of participant or that detailed subgroup analyses will be possible. Where analysis of participant subgroups is planned, this should be specified in the protocol.
+
+**Interventions and comparators**
+
+The nature of the interventions explored in the review may be framed in very broad terms like 'anti-resorptive medications' or may be more specific such as 'alendronate'. Factors usually specified include the precise nature of the intervention (e.g. the method of administration of a drug), the person delivering the intervention, or setting in which the intervention is delivered (e.g. inpatient or outpatient).
+
+The protocol should also specify which comparators are eligible. As with the interventions, comparators should be carefully defined, so that the scope of a term such as 'usual care' is clear.
+
+The protocol should also specify whether any co-interventions carried out at the same time affect eligibility for inclusion; this applies to both the intervention and the comparator.
+
+**Outcomes**
+
+The success or failure of a therapeutic intervention will usually be assessed in terms of differences in mortality or morbidity in the populations treated. Primary outcomes are likely to include measures of mortality and morbidity but other outcomes may also be of importance, for example measures of quality of life and participants' subjective experiences of pain or physical functioning.
+
+A review should explore a clearly defined set of relevant outcomes and it is important to justify each outcome included. Input from the advisory group and the findings from initial scoping reviews and qualitative research may be helpful in deciding which outcomes to include.
+
+The use of surrogate outcomes may be misleading, giving an over or underestimate of the true clinical outcome. Decisions about whether to consider surrogate outcomes should therefore be informed by available evidence about associations between the surrogate (e.g. blood pressure) and the outcome of interest (e.g. stroke).
+
+The review may also consider the timing of outcome assessment and possible adverse effects of the intervention.
+
+If the review is considering cost-effectiveness or economic issues, the relevant economic outcomes should also be specified.
+
+Although the review may aim to consider a series of outcomes, ***it is inappropriate that inclusion is restricted to only those studies that report the outcomes of interest.***
+
+**Study design**
+
+The types of study included in the review will play a major role in determining the reliability of the results and the validity of estimates of effect is linked to the study design. While some study designs are clearly more robust than others, this should not be the only factor in determining which types of study are eligible for inclusion.
+
+Scoping reviews may reveal that there are likely to be only a limited number of relevant randomized studies. In this case researchers have the option of justifying a decision to limit study design, bearing in mind that the identification of gaps in the current evidence base may in itself be a significant finding of the review.
+
+In some cases a range of study designs may be needed to address different questions within the same review. For example, a review seeking to include information on adverse events will often include observational studies whilst a review incorporating participants' experiences of an intervention is likely to include qualitative studies.
+
+**Language**
+
+The ideal for most systematic reviews is to include all available relevant evidence. In principle, this includes studies written in any language to avoid the introduction of language bias into the review. Language bias arises because studies with statistically significant results that have been conducted in non-English speaking countries may be more likely to be published in English language journals than those with non-significant results.
+
+Thus, if reviews include only studies reported in English, their results and inferences may be biased. Even if language bias does not influence summary effect estimates, it is likely to affect precision, because analysis will be based on fewer data. Whenever feasible, all relevant studies should be included regardless of language.
+
+**Publication status**
+
+Studies are not always published as full papers in peer-reviewed journals; they may be published as reports, book chapters, conference abstracts, theses or they may be informally reported or remain unpublished. Ideally a review should aim to include all relevant studies, regardless of publication status, in order to avoid publication bias.
+
+Publication bias occurs when the publication of a study is influenced by its results, hence inclusion of only published studies may overestimate the intervention effect.
+
+There are practical issues that limit the inclusion of all studies regardless of publication type/status. Unpublished studies are likely to be harder to source, and more difficult to obtain, than published studies. The inclusion of conference abstracts and interim results should be considered, bearing in mind that contact with the study authors may be required to obtain full study details. The effects of including any data from abstracts alone should be carefully considered, since differences often occur between data reported in conference abstracts and their corresponding full reports, although differences in results are seldom large. Also, it can be difficult to appraise study quality from minimal details provided in an abstract. Sensitivity analyses may be carried out to examine the effect of including data from conference abstracts.
+
+The identification of ongoing studies is important for a number of reasons. They may provide a useful starting point for subsequent reviews and updates; they may also improve the quality of conclusions about future research by indicating where new research has already commenced. Information about ongoing studies may be available as 'partially published research' like conference abstracts - these can be classified as ongoing studies which may contribute to future reviews.
+
+## Information sources
+
+The authors should Describe all intended information sources (such as electronic databases, contact with study authors, trial registers or other grey literature sources) with planned dates of coverage.
+
+## Search strategy
+
+The authors should present draft of search strategy to be used for at least one electronic database, including planned limits, such that it could be repeated. This should specify the databases and additional sources that will be searched, and also the likely search terms to be used. The search strategy should be constructed to take into account PICOS, although the outcome(s) of studies are not always used. Incorporating decisions about publication status and language restrictions also needs to be made at this stage. In reviews of one year or more duration, or reviews in rapidly evolving fields, provision for repeating the searches towards the end of the review process should also be considered.
+
+## Study records
+
+### Data management
+
+The authors should describe the mechanism(s) that will be used to manage records and data throughout the review.
+
+### Study selection
+
+Study selection is usually conducted in two stages: an initial screening of titles and abstracts against the inclusion criteria to identify potentially relevant papers followed by screening of the full papers identified as possibly relevant in the initial screening. The protocol should specify the process by which decisions on the selection of studies will be made. This should include the number of researchers who will screen titles and abstracts and then full papers, and the method for resolving disagreements about study eligibility.
+
+### Data collection process
+
+The protocol should outline the information that will be extracted from studies identified for inclusion in the review and provide details of any software to be used for recording the data. As with study selection the protocol should state the procedure for data extraction including the number of researchers who will extract the data and how discrepancies will be resolved. The protocol should also specify whether authors of primary studies will be contacted to provide missing or additional data. If foreign language papers are to be included, it may be necessary to specify translation arrangements.
+
+## Risk of bias assessment
+
+The protocol should provide details of the method of study appraisal to be used. Details of how the study appraisal is to be used should be specified, for example whether the results will inform sensitivity analyses. The protocol should also specify the process for conducting the appraisal of study quality, the number of researchers involved, and how disagreements will be resolved.
+
+As previously stated, a review should be based on the best quality evidence available. Whatever the study design(s) included, it should not be assumed that all studies of the same basic design (e.g. RCT) are equally well-conducted. The quality of the included studies should be formally assessed as this will impact on the reliability of the results and therefore on the conclusions drawn.
+
+Although quality assessment can sometimes be used to exclude studies that do not meet certain criteria, this is not standard practice and differential quality is more usually assessed at the synthesis stage through sensitivity analysis.
+
+## Synthesis
+
+As far as possible, the protocol should specify the strategy for data synthesis. It should state whether a meta-analysis is planned, although whether a planned meta-analysis will ultimately prove possible will depend on the studies and data that are available. As analyses will depend on what data are available, and because it is difficult to anticipate all of the statistical issues that may arise, it can be difficult to pre-specify full details of the planned synthesis. However, the protocol should outline how heterogeneity will be explored and quantified, under what circumstances a meta-analysis would be considered appropriate and whether a common effect or random-effects model or both would be used. Where appropriate, the approach to narrative synthesis should also be outlined. The protocol should also specify the outcomes of interest and what effect measures will be used. Any planned subgroup or sensitivity analyses or investigation of publication bias should also be described.
+
+## Reporting biases (Meta-bias)
+
+The authors should specify any planned assessment of meta-bias(es) e.g., publication bias across studies, selective reporting within studies.
+
+## Certainty of evidence
+
+The authors should describe how the strength of the body of evidence will be assessed, for example, the GRADE approach. The GRADE (Grading of Recommendations, Assessment, Development, and Evaluation) approach offers a structured framework for assessing the certainty of evidence and supporting healthcare decision-making, especially in the development of recommendations. Its conceptual foundation supports a systematic, explicit and transparent process that defines the role of evidence, its certainty, and contextual factors in formulating recommendations and making decisions. GRADE acknowledges the need for judgments in this process. Rather than eliminating judgments or disagreements, GRADE enhances transparency by making these judgments and related deliberations explicit and structured. It also ensures all interest-holders are contributing to those deliberations. [@grade_2024]
+
+## Writing the protocol
+
+Protocols of systematic reviews and meta-analyses allow for planning and documentation of review methods, act as a guard against arbitrary decision making during review conduct, enable readers to assess for the presence of selective reporting against completed reviews, and, when made publicly available, reduce duplication of efforts and potentially prompt collaboration. PRISMA-P is a reporting guideline to improve the transparency, accuracy, completeness, and frequency of documented systematic review and meta-analysis protocols. The PRISMA-P checklist contains 17 items considered to be essential and minimum components of a systematic review or meta-analysis protocol. [@Moher2015]
+
+**Summary: The review protocol**
+
+-   The protocol sets out in advance the methods to be used in the review with the aim of minimizing bias.
+
+-   The background section of the protocol should communicate the key contextual and conceptual factors relevant to the review question and provide the justification for the review.
+
+-   The protocol should specify the review question.
+
+-   Study inclusion and exclusion criteria should be clearly defined using the relevant PICOS elements.
+
+-   The protocol should also specify the methods which will be used to:
+
+    -   Identify research evidence
+
+    -   Select studies for inclusion
+
+    -   Extract Data from included studies
+
+    -   Assess the risk of bias in the included studies
+
+    -   Synthesize results
+
+-   In cases when it becomes apparent that a modification to the protocol is required, protocol amendments should be clearly documented and justified.
+
+## References {.unnumbered}

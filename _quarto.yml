@@ -1,15 +1,19 @@
 project:
   type: book
 
-book: 
+book:
   chapters:
     - index.qmd
     - preface.qmd
     - introduction.qmd
-    - interventions.qmd
-    - tests.qmd
+    - part: "Healthcare interventions"
+      chapters: 
+        - protocol.qmd
+        - review.qmd
+    - part: "Clinical tests"
+      chapters: 
+        - tests.qmd
     - summary.qmd
-    - references.qmd
 
 bibliography: references.bib
 

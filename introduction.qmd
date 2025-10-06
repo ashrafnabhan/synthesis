@@ -1,26 +1,22 @@
----
-toc: false
----
-
 # Introduction {.unnumbered}
 
 Several reasons can justify the need to conduct a new systematic review. Commissioned calls for evidence synthesis are usually on topics where a gap in knowledge has been identified, prioritized and a question posed. Alternatively, the idea for a review may be investigator led, with a topic identified from an area of practice or research interest. Whatever the motivation for undertaking a review the preparation and conduct should be rigorous.
 
-## Is a review required?
+Systematic reviews can play a valuable role not just in summarizing the findings of published studies but also in drawing attention to the poor and inconsistent methods used. Good systematic reviews are needed to highlight the weaknesses of the evidence base behind diagnostics and interventions and to provide guidance on how better-quality studies can be carried out in the future.
+
+**Is a review required?**
 
 Before undertaking a systematic review, it is necessary to check whether there are already existing or ongoing reviews, and whether a new review is justified. This process should begin by searching the Cochrane Database of Systematic Reviews (CDSR), MEDLINE, and Embase to identify published reviews. If an existing review is identified which addresses the question of interest, then the review should be assessed to determine whether it is of sufficient quality to guide policy and practice.
-
-Critical appraisal can be undertaken with the aid of a checklist such as the CASP. @casp_sr_2024 Such checklists focus on identifying flaws in reviews that might bias the results. Quality assessment is important because the effectiveness of interventions may be masked or exaggerated by reviews that are not rigorously conducted. In general, a good review should focus on a well-defined question and use appropriate methods. A comprehensive search should have been carried out, clear and appropriate criteria used to select or reject studies, and the process of assessing study quality, extracting and synthesizing data should have been unbiased, reproducible and transparent. If these processes are not well-documented, confidence in results and inferences is weakened. The review should report the results of all included studies clearly, highlighting any similarities or differences between studies, and exploring the reasons for any variations.
 
 If a high-quality review is located, but was completed some time ago, then an update of the review may be justified. Current relevance will need to be assessed and is particularly important in fields where the research is rapidly evolving. Where appropriate, collaboration with the original research team may assist in the update process by providing access to the data they used. However, little research has been conducted on when and how to update systematic reviews and the feasibility and efficiency of the identified approaches is uncertain. If a review is of adequate quality and still relevant, there may be no need to undertake another systematic review.
 
 Where a new systematic review or an update is required, the next step is to establish a review team and possibly an advisory group, to develop the review protocol.
 
-## The review team
+**The review team**
 
 The review team should have a range of skills to conduct the review. Ideally these should include a systematic review methodologist, information specialist, subject area expert, health economics and/or qualitative research methods experts where appropriate. It is mandatory to have a minimum of two researchers involved so that measures to minimize bias and error can be implemented at all stages of the review. Any conflicts of interest should be explicitly noted early in the process, and steps taken to ensure that these do not impact on the review process.
 
-## The advisory group
+**The advisory group**
 
 In addition to the team who will undertake the review there may be a number of individuals or groups who are consulted at various stages, including for example health care professionals, patient representatives, service users and experts in research methods. Some funding bodies require the establishment of an advisory group who will comment on the protocol and final report and provide input to ensure that the review has practical relevance to likely end users. Even if this is not the case, and even where the review team is knowledgeable about the area, it is still valuable to have an advisory group whose members can be consulted at key stages.
 
@@ -29,10 +25,6 @@ Engaging with stakeholders who are likely to be involved in implementing the rec
 At an early stage, members of the advisory group should discuss the audiences for whom the review findings are likely to be relevant, helping to start the planning of a dissemination strategy from the beginning of the project.
 
 The review team may also wish to seek more informal advice from other clinical or methodological experts who are not members of the advisory group. Likewise, where an advisory group has not been established, the review team may still seek advice from relevant sources.
-
-## Systematic review as a driver for improved study quality
-
-Systematic reviews can play a valuable role not just in summarizing the findings of published studies but also in drawing attention to the poor and inconsistent methods used. Good systematic reviews are needed to highlight the weaknesses of the evidence base behind diagnostics and interventions and to provide guidance on how better-quality studies can be carried out in the future.
 
 **Summary: Getting started**
 
