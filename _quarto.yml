@@ -8,6 +8,7 @@ book:
   title: "Evidence Synthesis"
   subtitle: "Finding what works in healthcare"
   url: https://www.ecebm.com
+  date: today
   author:
   - name: "Prof. Ashraf Nabhan"
     affiliations:
@@ -32,8 +33,6 @@ book:
       chapters:
         - tests.qmd
     - ref.qmd
-
-date-modified: today
 
 bibliography: references.bib
 
