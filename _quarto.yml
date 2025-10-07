@@ -35,19 +35,23 @@ book:
     - ref.qmd
 
 bibliography: references.bib
+csl: vancouver-author-date.csl
 
 format:
   html:
     theme: cosmo
-    mainfont: "Invention, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji"
+    fontsize: 1.2em
+    linestretch: 1.5
+    mainfont: Helvetica Neue, Helvetica, Arial, sans
+    monofont: Cascadia Mono, Menlo, Consolas, Courier New, Courier
     code-link: true  
     css: nocopy.css
     theme-toggle: true
   pdf:
     documentclass: scrreprt
     keep-tex: true
-    fontsize: 11pt
-    papersize: A4
+    fontsize: 10pt
+    papersize: a4
     geometry:
       - top=25mm
       - left=25mm

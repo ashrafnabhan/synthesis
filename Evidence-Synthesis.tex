@@ -5,7 +5,7 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  11pt,
+  10pt,
   a4paper,
   DIV=11,
   numbers=noendperiod]{scrreprt}
@@ -3297,8 +3297,7 @@ imprecision, indirectness, and publication bias to assess the certainty
 of evidence for each outcome. A summary of the intervention effect and a
 measure of certainty should be produced using the GRADE Profiler
 Guideline Development Tool (GRADEpro GDT) software for the prespecified
-important outcomes. ({``GRADEpro GDT: Guideline Development Tool''}
-2025)
+important outcomes. (GRADEpro GDT 2025)
 
 \section{Interpreting results}\label{interpreting-results}
 
@@ -3494,8 +3493,8 @@ responsibility for accuracy and consistency.
 \textbf{Authors and contributors}
 
 The report of a systematic review will usually have a number of authors.
-The ICMJE (International Committee of Medical Journal Editors 2025)
-recommends that authorship be based on the following 4 criteria:
+The ICMJE (ICMJE 2025) recommends that authorship be based on the
+following 4 criteria:
 
 \begin{itemize}
 \item
@@ -3537,8 +3536,7 @@ is important that they are declared so that readers are aware of the
 possibility that authors' judgments may have been influenced by other
 factors. Review authors need to be explicit about any potential conflict
 of interests because such transparency is important in maintaining the
-readers' confidence. (International Committee of Medical Journal Editors
-2025)
+readers' confidence. (ICMJE 2025)
 
 \textbf{Executive summary or abstract}
 
@@ -4335,10 +4333,10 @@ should be considered carefully.
 
 The Moses-Littenburg regression based method, has been used as a simple
 method of pooling study results in the presence of a suspected threshold
-effect. (Moses, Shapiro, and Littenberg 1993) It can be used in
-preliminary exploratory analyses and is helpful in understanding the
-data. However, it has limitations and should not be used to obtain
-summary estimates of sensitivity and specificity.
+effect. (Moses et al. 1993) It can be used in preliminary exploratory
+analyses and is helpful in understanding the data. However, it has
+limitations and should not be used to obtain summary estimates of
+sensitivity and specificity.
 
 \textbf{Optimal methods of modelling SROC curves}
 
@@ -4355,7 +4353,7 @@ results for more than one threshold.
 The bivariate model analyses sensitivity and specificity jointly,
 therefore retaining the paired nature of the original data. It is
 possible to fit this model using package ``mada'' (Doebler 2025) in R.
-(2025) The HSROC and bivariate models have been shown to produce
+(Team 2025) The HSROC and bivariate models have been shown to produce
 equivalent results in the absence of other study-level covariates.
 
 \textbf{Exploring heterogeneity}
@@ -4403,7 +4401,7 @@ scores.
 
 Methods for calculating outcome measures, assessing heterogeneity,
 producing plots (both with and without summary estimates) and
-undertaking exploratory analyses are available in R. (2025)
+undertaking exploratory analyses are available in R. (Team 2025)
 
 \section{Presentation of results}\label{presentation-of-results}
 
@@ -4521,94 +4519,92 @@ PRISMA statement.
 \markboth{References}{References}
 
 \phantomsection\label{refs}
-\begin{CSLReferences}{1}{0}
+\begin{CSLReferences}{1}{1}
 \bibitem[\citeproctext]{ref-mada}
-Doebler, Philipp. 2025. {``Mada: Meta-Analysis of Diagnostic
-Accuracy.''} \url{https://doi.org/10.32614/CRAN.package.mada}.
+Doebler P. Mada: Meta-analysis of diagnostic accuracy. 2025; Available
+from: \url{https://CRAN.R-project.org/package=mada}
 
 \bibitem[\citeproctext]{ref-GRADEproGDT}
-{``GRADEpro GDT: Guideline Development Tool.''} 2025. {McMaster
-University and Evidence Prime}. \url{https://gdt.gradepro.org/app/}.
+GRADEpro GDT. : Guideline development tool {[}software{]}
+{[}Internet{]}. {McMaster University and Evidence Prime}; 2025.
+Available from: \url{https://gdt.gradepro.org/app/}
 
 \bibitem[\citeproctext]{ref-higgins2023chapter8}
-Higgins, Julian P. T., Jonathan J. Deeks, Jacqueline Chandler, Matthew
-J. Page, Patrick C. Bossuyt, Tianjing Li, and Vivian A. Welch. 2023.
-{``Chapter 8: Assessing Risk of Bias in a Randomized Trial.''} In
-\emph{Cochrane Handbook for Systematic Reviews of Interventions}, edited
-by Julian P. T. Higgins, James Thomas, Jacqueline Chandler, Miranda
-Cumpston, Tianjing Li, Matthew J. Page, and Vivian A. Welch, version 6.5
-(updated February 2023). Chichester, UK: Wiley-Blackwell.
-\url{https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-08}.
+Higgins JPT, Deeks JJ, Chandler J, Page MJ, Bossuyt PC, Li T, et al.
+Chapter 8: Assessing risk of bias in a randomized trial. In: Higgins
+JPT, Thomas J, Chandler J, Cumpston M, Li T, Page MJ, et al., editors.
+Cochrane handbook for systematic reviews of interventions
+{[}Internet{]}. version 6.5 (updated February 2023). Chichester, UK:
+Wiley-Blackwell; 2023. Available from:
+\url{https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-08}
 
 \bibitem[\citeproctext]{ref-ICMJE}
-International Committee of Medical Journal Editors. 2025. {``ICMJE:
-Recommendations for Scholarly Work in Medical Journals {[}Homepage on
-the Internet{]}.''} 2025. \url{https://www.icmje.org/recommendations/}.
+ICMJE. International committee of medical journal editors:
+Recommendations for scholarly work in medical journals {[}Internet{]}.
+2025. Available from: \url{https://www.icmje.org/recommendations/}
 
 \bibitem[\citeproctext]{ref-McInnes2018}
-McInnes, Matthew D. F., David Moher, Brett D. Thombs, Trevor A. McGrath,
-Patrick M. Bossuyt, Tammy Clifford, Jérémie F. Cohen, et al. 2018.
-{``Preferred Reporting Items for a Systematic Review and Meta-Analysis
-of Diagnostic Test Accuracy Studies.''} \emph{JAMA} 319 (4): 388.
-\url{https://doi.org/10.1001/jama.2017.19163}.
+McInnes MDF, Moher D, Thombs BD, McGrath TA, Bossuyt PM, Clifford T, et
+al. Preferred Reporting Items for a Systematic Review and Meta-analysis
+of Diagnostic Test Accuracy Studies. JAMA {[}Internet{]}. 2018 Jan
+23;319(4):388. Available from:
+\url{http://dx.doi.org/10.1001/jama.2017.19163}
 
 \bibitem[\citeproctext]{ref-Moher2015}
-Moher, David, Larissa Shamseer, Mike Clarke, Davina Ghersi, Alessandro
-Liberati, Mark Petticrew, Paul Shekelle, and Lesley A Stewart. 2015.
-{``Preferred Reporting Items for Systematic Review and Meta-Analysis
-Protocols (PRISMA-P) 2015 Statement.''} \emph{Systematic Reviews} 4 (1).
-\url{https://doi.org/10.1186/2046-4053-4-1}.
+Moher D, Shamseer L, Clarke M, Ghersi D, Liberati A, Petticrew M, et al.
+Preferred reporting items for systematic review and meta-analysis
+protocols (PRISMA-P) 2015 statement. Systematic Reviews {[}Internet{]}.
+2015 Jan 1;4(1). Available from:
+\url{http://dx.doi.org/10.1186/2046-4053-4-1}
 
 \bibitem[\citeproctext]{ref-Moses1993}
-Moses, Lincoln E., David Shapiro, and Benjamin Littenberg. 1993.
-{``Combining Independent Studies of a Diagnostic Test into a Summary Roc
-Curve: Data{-}Analytic Approaches and Some Additional Considerations.''}
-\emph{Statistics in Medicine} 12 (14): 1293--1316.
-\url{https://doi.org/10.1002/sim.4780121403}.
+Moses LE, Shapiro D, Littenberg B. Combining independent studies of a
+diagnostic test into a summary roc curve: Data{-}analytic approaches and
+some additional considerations. Statistics in Medicine {[}Internet{]}.
+1993 Jul 30;12(14):1293--316. Available from:
+\url{http://dx.doi.org/10.1002/sim.4780121403}
 
 \bibitem[\citeproctext]{ref-grade_2024}
-Neumann I, Schünemann H. 2024. {``{The GRADE Book}.''} The GRADE Working
-Group. 2024. \url{\%7Bhttps://book.gradepro.org\%7D}.
+Neumann I, Schünemann H. {The GRADE Book} {[}Internet{]}. version 1.0
+(updated September 2024)). The GRADE Working Group; 2024 {[}cited 2025
+Oct 6{]}. Available from: \url{\%7Bhttps://book.gradepro.org\%7D}
 
 \bibitem[\citeproctext]{ref-page2021}
-Page, Matthew J., Joanne E. McKenzie, Patrick M. Bossuyt, Isabelle
-Boutron, Tammy C. Hoffmann, Cynthia D. Mulrow, Larissa Shamseer, et al.
-2021. {``The PRISMA 2020 Statement: An Updated Guideline for Reporting
-Systematic Reviews.''} \emph{Systematic Reviews} 10 (1).
-\url{https://doi.org/10.1186/s13643-021-01626-4}.
-
-\bibitem[\citeproctext]{ref-base}
-R Core Team. 2025. {``R: A Language and Environment for Statistical
-Computing.''} \url{https://www.R-project.org/}.
+Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et
+al. The PRISMA 2020 statement: an updated guideline for reporting
+systematic reviews. Systematic Reviews {[}Internet{]}. 2021 Mar
+29;10(1). Available from:
+\url{http://dx.doi.org/10.1186/s13643-021-01626-4}
 
 \bibitem[\citeproctext]{ref-Reitsma2005}
-Reitsma, Johannes B., Afina S. Glas, Anne W. S. Rutjes, Rob J. P. M.
-Scholten, Patrick M. Bossuyt, and Aeilko H. Zwinderman. 2005.
-{``Bivariate Analysis of Sensitivity and Specificity Produces
-Informative Summary Measures in Diagnostic Reviews.''} \emph{Journal of
-Clinical Epidemiology} 58 (10): 982--90.
-\url{https://doi.org/10.1016/j.jclinepi.2005.02.022}.
+Reitsma JB, Glas AS, Rutjes AWS, Scholten RJPM, Bossuyt PM, Zwinderman
+AH. Bivariate analysis of sensitivity and specificity produces
+informative summary measures in diagnostic reviews. Journal of Clinical
+Epidemiology {[}Internet{]}. 2005 Oct;58(10):982--90. Available from:
+\url{http://dx.doi.org/10.1016/j.jclinepi.2005.02.022}
 
 \bibitem[\citeproctext]{ref-Rutter2001}
-Rutter, Carolyn M., and Constantine A. Gatsonis. 2001. {``A Hierarchical
-Regression Approach to Meta{-}Analysis of Diagnostic Test Accuracy
-Evaluations.''} \emph{Statistics in Medicine} 20 (19): 2865--84.
-\url{https://doi.org/10.1002/sim.942}.
+Rutter CM, Gatsonis CA. A hierarchical regression approach to
+meta{-}analysis of diagnostic test accuracy evaluations. Statistics in
+Medicine {[}Internet{]}. 2001 Sep 5;20(19):2865--84. Available from:
+\url{http://dx.doi.org/10.1002/sim.942}
 
 \bibitem[\citeproctext]{ref-sterne2019}
-Sterne, Jonathan A C, Jelena Savović, Matthew J Page, Roy G Elbers,
-Natalie S Blencowe, Isabelle Boutron, Christopher J Cates, et al. 2019.
-{``RoB 2: A Revised Tool for Assessing Risk of Bias in Randomised
-Trials.''} \emph{BMJ}, August, l4898.
-\url{https://doi.org/10.1136/bmj.l4898}.
+Sterne JAC, Savović J, Page MJ, Elbers RG, Blencowe NS, Boutron I, et
+al. RoB 2: a revised tool for assessing risk of bias in randomised
+trials. BMJ {[}Internet{]}. 2019 Aug 28;l4898. Available from:
+\url{http://dx.doi.org/10.1136/bmj.l4898}
+
+\bibitem[\citeproctext]{ref-base}
+Team RC. R: A language and environment for statistical computing. 2025;
+Available from: \url{https://www.R-project.org/}
 
 \bibitem[\citeproctext]{ref-Whiting2011}
-Whiting, Penny F., Anne W. S. Rutjes, Marie E. Westwood, Susan Mallett,
-Jonathan J. Deeks, Johannes B. Reitsma, Mariska M. G. Leeflang, Jonathan
-A. C. Sterne, and Patrick M. M. Bossuyt. 2011. {``QUADAS-2: A Revised
-Tool for the Quality Assessment of Diagnostic Accuracy Studies.''}
-\emph{Annals of Internal Medicine} 155 (8): 529--36.
-\url{https://doi.org/10.7326/0003-4819-155-8-201110180-00009}.
+Whiting PF, Rutjes AWS, Westwood ME, Mallett S, Deeks JJ, Reitsma JB, et
+al. QUADAS-2: A Revised Tool for the Quality Assessment of Diagnostic
+Accuracy Studies. Annals of Internal Medicine {[}Internet{]}. 2011 Oct
+18;155(8):529--36. Available from:
+\url{http://dx.doi.org/10.7326/0003-4819-155-8-201110180-00009}
 
 \end{CSLReferences}
 

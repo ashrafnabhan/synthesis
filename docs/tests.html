@@ -25,7 +25,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -62,7 +61,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-bf426479957da6974310589eb7080220.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cbfe1f73d606af3a0524037a01bc65ab.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -474,11 +473,11 @@ Table&nbsp;3.1: Risk of Bias and Applicability Judgments in QUADAS-2
 <p>Diagnostic odds ratios (DOR) can be pooled using standard fixed or random-effects methods for pooling odds ratios. However, these methods do not help estimate average sensitivity and specificity and may produce erroneous results where there is a relationship between DOR and threshold.</p>
 <p>Predictive values should not be pooled in meta-analyses as they are affected by the prevalence of disease in the populations of the studies. Overall predictive values are sometimes calculated using estimates of prevalence from the included studies and pooled estimates of likelihood ratios. However, the potentially misleading nature of such estimates should be considered carefully.</p>
 <p><strong>Simple methods of estimating summary ROC curves</strong></p>
-<p>The Moses-Littenburg regression based method, has been used as a simple method of pooling study results in the presence of a suspected threshold effect. <span class="citation" data-cites="Moses1993">(<a href="ref.html#ref-Moses1993" role="doc-biblioref">Moses, Shapiro, and Littenberg 1993</a>)</span> It can be used in preliminary exploratory analyses and is helpful in understanding the data. However, it has limitations and should not be used to obtain summary estimates of sensitivity and specificity.</p>
+<p>The Moses-Littenburg regression based method, has been used as a simple method of pooling study results in the presence of a suspected threshold effect. <span class="citation" data-cites="Moses1993">(<a href="ref.html#ref-Moses1993" role="doc-biblioref">Moses et al. 1993</a>)</span> It can be used in preliminary exploratory analyses and is helpful in understanding the data. However, it has limitations and should not be used to obtain summary estimates of sensitivity and specificity.</p>
 <p><strong>Optimal methods of modelling SROC curves</strong></p>
 <p>Statistical models, including hierarchical <span class="citation" data-cites="Rutter2001">(<a href="ref.html#ref-Rutter2001" role="doc-biblioref">Rutter and Gatsonis 2001</a>)</span> and bivariate <span class="citation" data-cites="Reitsma2005">(<a href="ref.html#ref-Reitsma2005" role="doc-biblioref">Reitsma et al. 2005</a>)</span> models, have been developed for the estimation of SROC curves in the meta-analysis of test accuracy results.</p>
 <p>The HSROC model accounts for both within- and between-study variation in true positive and false positive rates. The model estimates parameters for the threshold, log DOR and the shape of the underlying ROC curve. The HSROC model can be extended to deal with studies that provide results for more than one threshold.</p>
-<p>The bivariate model analyses sensitivity and specificity jointly, therefore retaining the paired nature of the original data. It is possible to fit this model using package “mada” <span class="citation" data-cites="mada">(<a href="ref.html#ref-mada" role="doc-biblioref">Doebler 2025</a>)</span> in R. <span class="citation" data-cites="base">(<a href="ref.html#ref-base" role="doc-biblioref">2025</a>)</span> The HSROC and bivariate models have been shown to produce equivalent results in the absence of other study-level covariates.</p>
+<p>The bivariate model analyses sensitivity and specificity jointly, therefore retaining the paired nature of the original data. It is possible to fit this model using package “mada” <span class="citation" data-cites="mada">(<a href="ref.html#ref-mada" role="doc-biblioref">Doebler 2025</a>)</span> in R. <span class="citation" data-cites="base">(<a href="ref.html#ref-base" role="doc-biblioref">Team 2025</a>)</span> The HSROC and bivariate models have been shown to produce equivalent results in the absence of other study-level covariates.</p>
 <p><strong>Exploring heterogeneity</strong></p>
 <p>Sources of methodological and/or clinical heterogeneity can be explored using subgroup analyses. Ideally subgroups should be planned at the protocol stage. However, where this is dependent upon what data are available, and an adaptive process is needed, this should be stated clearly in the protocol. Results from different groups, for example different tests, or study designs, can be visually assessed by using a ROC space plot with different symbols. <a href="#fig-dtasub" class="quarto-xref">Figure&nbsp;<span>3.1</span></a> illustrates the divergent accuracy results between different study designs from a systematic review of fecal occult blood tests used in screening for colorectal cancer, which indicates that two-gate studies (white circles) overestimate test performance compared with single-gate studies (black circles).</p>
 <div id="fig-dtasub" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -493,7 +492,7 @@ Figure&nbsp;3.1
 </div>
 <p>HSROC and bivariate models can be used to assess heterogeneity by including covariates. These models allow investigation of the effect of covariates on sensitivity and specificity separately, rather than just the DOR (although this can still be obtained).</p>
 <p>Different methods can be used to explore heterogeneity in systematic reviews of diagnostic test accuracy. It should be noted that, as for meta-regression analyses of other study designs, these analyses are exploratory, can only include covariates reported by the studies, and should not be conducted if there are only a small number of studies (a minimum of 10 studies per covariate is needed). Regardless of the approach used, study-level factors to be examined should be defined in the protocol and aspects of methodological quality, (e.g.&nbsp;QUADAS items) should be considered individually, rather than as overall quality scores.</p>
-<p>Methods for calculating outcome measures, assessing heterogeneity, producing plots (both with and without summary estimates) and undertaking exploratory analyses are available in R. <span class="citation" data-cites="base">(<a href="ref.html#ref-base" role="doc-biblioref">2025</a>)</span></p>
+<p>Methods for calculating outcome measures, assessing heterogeneity, producing plots (both with and without summary estimates) and undertaking exploratory analyses are available in R. <span class="citation" data-cites="base">(<a href="ref.html#ref-base" role="doc-biblioref">Team 2025</a>)</span></p>
 </section>
 <section id="presentation-of-results" class="level2" data-number="3.7">
 <h2 data-number="3.7" class="anchored" data-anchor-id="presentation-of-results"><span class="header-section-number">3.7</span> Presentation of results</h2>
@@ -519,27 +518,27 @@ Figure&nbsp;3.1
 </ul>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-mada" class="csl-entry" role="listitem">
-Doebler, Philipp. 2025. <span>“Mada: Meta-Analysis of Diagnostic Accuracy.”</span> <a href="https://doi.org/10.32614/CRAN.package.mada">https://doi.org/10.32614/CRAN.package.mada</a>.
+Doebler P. Mada: Meta-analysis of diagnostic accuracy. 2025; Available from: <a href="https://CRAN.R-project.org/package=mada">https://CRAN.R-project.org/package=mada</a>
 </div>
 <div id="ref-McInnes2018" class="csl-entry" role="listitem">
-McInnes, Matthew D. F., David Moher, Brett D. Thombs, Trevor A. McGrath, Patrick M. Bossuyt, Tammy Clifford, Jérémie F. Cohen, et al. 2018. <span>“Preferred Reporting Items for a Systematic Review and Meta-Analysis of Diagnostic Test Accuracy Studies.”</span> <em>JAMA</em> 319 (4): 388. <a href="https://doi.org/10.1001/jama.2017.19163">https://doi.org/10.1001/jama.2017.19163</a>.
+McInnes MDF, Moher D, Thombs BD, McGrath TA, Bossuyt PM, Clifford T, et al. Preferred Reporting Items for a Systematic Review and Meta-analysis of Diagnostic Test Accuracy Studies. JAMA [Internet]. 2018 Jan 23;319(4):388. Available from: <a href="http://dx.doi.org/10.1001/jama.2017.19163">http://dx.doi.org/10.1001/jama.2017.19163</a>
 </div>
 <div id="ref-Moses1993" class="csl-entry" role="listitem">
-Moses, Lincoln E., David Shapiro, and Benjamin Littenberg. 1993. <span>“Combining Independent Studies of a Diagnostic Test into a Summary Roc Curve: Data<span>-</span>Analytic Approaches and Some Additional Considerations.”</span> <em>Statistics in Medicine</em> 12 (14): 1293–1316. <a href="https://doi.org/10.1002/sim.4780121403">https://doi.org/10.1002/sim.4780121403</a>.
-</div>
-<div id="ref-base" class="csl-entry" role="listitem">
-R Core Team. 2025. <span>“R: A Language and Environment for Statistical Computing.”</span> <a href="https://www.R-project.org/">https://www.R-project.org/</a>.
+Moses LE, Shapiro D, Littenberg B. Combining independent studies of a diagnostic test into a summary roc curve: Data<span>-</span>analytic approaches and some additional considerations. Statistics in Medicine [Internet]. 1993 Jul 30;12(14):1293–316. Available from: <a href="http://dx.doi.org/10.1002/sim.4780121403">http://dx.doi.org/10.1002/sim.4780121403</a>
 </div>
 <div id="ref-Reitsma2005" class="csl-entry" role="listitem">
-Reitsma, Johannes B., Afina S. Glas, Anne W. S. Rutjes, Rob J. P. M. Scholten, Patrick M. Bossuyt, and Aeilko H. Zwinderman. 2005. <span>“Bivariate Analysis of Sensitivity and Specificity Produces Informative Summary Measures in Diagnostic Reviews.”</span> <em>Journal of Clinical Epidemiology</em> 58 (10): 982–90. <a href="https://doi.org/10.1016/j.jclinepi.2005.02.022">https://doi.org/10.1016/j.jclinepi.2005.02.022</a>.
+Reitsma JB, Glas AS, Rutjes AWS, Scholten RJPM, Bossuyt PM, Zwinderman AH. Bivariate analysis of sensitivity and specificity produces informative summary measures in diagnostic reviews. Journal of Clinical Epidemiology [Internet]. 2005 Oct;58(10):982–90. Available from: <a href="http://dx.doi.org/10.1016/j.jclinepi.2005.02.022">http://dx.doi.org/10.1016/j.jclinepi.2005.02.022</a>
 </div>
 <div id="ref-Rutter2001" class="csl-entry" role="listitem">
-Rutter, Carolyn M., and Constantine A. Gatsonis. 2001. <span>“A Hierarchical Regression Approach to Meta<span>-</span>Analysis of Diagnostic Test Accuracy Evaluations.”</span> <em>Statistics in Medicine</em> 20 (19): 2865–84. <a href="https://doi.org/10.1002/sim.942">https://doi.org/10.1002/sim.942</a>.
+Rutter CM, Gatsonis CA. A hierarchical regression approach to meta<span>-</span>analysis of diagnostic test accuracy evaluations. Statistics in Medicine [Internet]. 2001 Sep 5;20(19):2865–84. Available from: <a href="http://dx.doi.org/10.1002/sim.942">http://dx.doi.org/10.1002/sim.942</a>
+</div>
+<div id="ref-base" class="csl-entry" role="listitem">
+Team RC. R: A language and environment for statistical computing. 2025; Available from: <a href="https://www.R-project.org/">https://www.R-project.org/</a>
 </div>
 <div id="ref-Whiting2011" class="csl-entry" role="listitem">
-Whiting, Penny F., Anne W. S. Rutjes, Marie E. Westwood, Susan Mallett, Jonathan J. Deeks, Johannes B. Reitsma, Mariska M. G. Leeflang, Jonathan A. C. Sterne, and Patrick M. M. Bossuyt. 2011. <span>“QUADAS-2: A Revised Tool for the Quality Assessment of Diagnostic Accuracy Studies.”</span> <em>Annals of Internal Medicine</em> 155 (8): 529–36. <a href="https://doi.org/10.7326/0003-4819-155-8-201110180-00009">https://doi.org/10.7326/0003-4819-155-8-201110180-00009</a>.
+Whiting PF, Rutjes AWS, Westwood ME, Mallett S, Deeks JJ, Reitsma JB, et al. QUADAS-2: A Revised Tool for the Quality Assessment of Diagnostic Accuracy Studies. Annals of Internal Medicine [Internet]. 2011 Oct 18;155(8):529–36. Available from: <a href="http://dx.doi.org/10.7326/0003-4819-155-8-201110180-00009">http://dx.doi.org/10.7326/0003-4819-155-8-201110180-00009</a>
 </div>
 </div>
 </section>
