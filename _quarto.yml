@@ -7,7 +7,6 @@ toc: true
 book:
   title: "Evidence Synthesis"
   subtitle: "Finding what works in healthcare"
-  date: today
   url: https://www.ecebm.com
   author:
   - name: "Prof. Ashraf Nabhan"
@@ -16,12 +15,7 @@ book:
       - "Head of Clinical Research Unit, Faculty of Medicine, MTI University"
     email: "anabhan@med.asu.edu.eg" 
     orcid: "0000-0003-4572-2210"
-  downloads: [pdf, epub]
   sharing: [twitter, facebook]
-  page-navigation: true
-  reader-mode: true
-  sidebar:
-    search: true
   description: |
     Intended for students, researchers, and practitioners, 
     this book aims to strengthen readers’ capacity to conduct and critically appraise systematic reviews, 
@@ -39,15 +33,17 @@ book:
         - tests.qmd
     - ref.qmd
 
+date-modified: today
+
 bibliography: references.bib
 
 format:
   html:
-    theme: 
-      light: cosmo
+    theme: cosmo
     mainfont: "Invention, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji"
     code-link: true  
     css: nocopy.css
+    theme-toggle: true
   pdf:
     documentclass: scrreprt
   epub:

@@ -1,0 +1,17 @@
+
+.quarto-reader-mode-toggle > i {
+  font-size: 1.5em; 
+}
+
+/* Change the color of the toggle icon */
+.quarto-reader-mode-toggle > i {
+  color: #007bff; 
+}
+
+.quarto-reader-mode-toggle {
+  margin-left: 10px;
+}
+
+.quarto-code-collapse-toggle:hover {
+      background-color: lightgray;
+    }
