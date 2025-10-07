@@ -5,7 +5,7 @@
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
 %
 \documentclass[
-  10pt,
+  11pt,
   a4paper,
   DIV=11,
   numbers=noendperiod]{scrreprt}
@@ -3979,7 +3979,7 @@ When index test and reference standard give clear results (i.e.,
 considered determinate), but there is incomplete concordance, the 2x2
 table may be expanded to accommodate a more complete clinical picture.
 
-\section{Risk of bias assessment}\label{risk-of-bias-assessment-2}
+\section{Methodological quality}\label{methodological-quality}
 
 Structured appraisal of methodological quality is key to assessing the
 reliability of test accuracy studies included in a systematic review.
@@ -4003,7 +4003,8 @@ of systematic reviews. Research on the impact of design-related biases
 is largely a work in progress, being dependent upon the availability of
 adequate data sets and consistent methods of quality assessment.
 
-\textbf{\emph{Sources of bias and variation in test accuracy studies}}
+\subsection{Sources of bias and variation in test accuracy
+studies}\label{sources-of-bias-and-variation-in-test-accuracy-studies}
 
 Variation
 
@@ -4137,6 +4138,8 @@ Bias
   \end{itemize}
 \end{itemize}
 
+\subsection{Risk of bias assessment}\label{risk-of-bias-assessment-2}
+
 QUADAS is an evidence-based, validated, quality assessment tool
 specifically for use in systematic reviews of test accuracy studies. The
 QUADAS-2 (Whiting et al. 2011) criteria and the sources of bias and
@@ -4145,12 +4148,57 @@ Piloting of the quality assessment process on a small sample of included
 studies should be done in an attempt to eliminate any discrepancies in
 understanding between reviewers.
 
+QUADAS-2 has four domains.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Patient Selection:}
+
+  \begin{itemize}
+  \item
+    Describe methods of patient selection.
+  \item
+    Describe included patients (previous testing. presentation, intended
+    use of index test, and setting)
+  \end{itemize}
+\item
+  \textbf{Index Test}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Describe the index test and how it was conducted and interpreted
+  \end{itemize}
+\item
+  \textbf{Reference Standard}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Describe the reference standard and how it was conducted and
+    interpreted
+  \end{itemize}
+\item
+  \textbf{Flow and Timing}
+
+  \begin{itemize}
+  \item
+    Describe any patients who did not receive the index tests or
+    reference standard or who were excluded from the 2 x 2 table (refer
+    to flow diagram).
+  \item
+    Describe the interval and any interventions between index tests and
+    the reference standard
+  \end{itemize}
+\end{enumerate}
+
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.0619}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1992}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2128}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2321}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2882}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1200}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2200}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2200}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2200}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2200}}@{}}
 \caption{Risk of Bias and Applicability Judgments in
 QUADAS-2}\label{tbl-quad}\tabularnewline
 \toprule\noalign{}
@@ -4161,9 +4209,9 @@ Patient Selection
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Index Test
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Reference Standard
+Reference test
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Flow and Timing
+Flow \& Timing
 \end{minipage} \\
 \midrule\noalign{}
 \endfirsthead
@@ -4175,25 +4223,14 @@ Patient Selection
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Index Test
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Reference Standard
+Reference test
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Flow and Timing
+Flow \& Timing
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Description & Describe methods of patient selection.
-
-Describe included patients (previous testing. presentation, intended use
-of index test, and setting) & Describe the index test and how it was
-conducted and interpreted & Describe the reference standard and how it
-was conducted and interpreted & Describe any patients who did not
-receive the index tests or reference standard or who were excluded from
-the 2 x 2 table (refer to flow diagram).
-
-Describe the interval and any interventions between index tests and the
-reference standard \\
 Signaling questions & Was a consecutive or random sample of patients
 enrolled?
 

@@ -50,7 +50,7 @@ format:
   pdf:
     documentclass: scrreprt
     keep-tex: true
-    fontsize: 10pt
+    fontsize: 11pt
     papersize: a4
     geometry:
       - top=25mm
