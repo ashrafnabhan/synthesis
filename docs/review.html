@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Intended for students, researchers, and practitioners, this book aims to strengthen readers’ capacity to conduct and critically appraise systematic reviews, thereby advancing evidence-based practice and research integrity.">
+
+<title>2&nbsp; Conducting the review – Evidence Synthesis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./tests.html" rel="next">
+<link href="./protocol.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-bf426479957da6974310589eb7080220.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="nocopy.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./protocol.html">Reviews of Healthcare Interventions</a></li><li class="breadcrumb-item"><a href="./review.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Conducting the review</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Evidence Synthesis</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Evidence-Synthesis.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Evidence-Synthesis.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Reviews of Healthcare Interventions</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./protocol.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Planning the reviews</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./review.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Conducting the review</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Reviews of Clinical Tests</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tests.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Reviews of DTA studies</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ref.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#identifying-research-evidence" id="toc-identifying-research-evidence" class="nav-link active" data-scroll-target="#identifying-research-evidence"><span class="header-section-number">2.1</span> Identifying research evidence</a>
+  <ul class="collapse">
+  <li><a href="#searching-electronic-databases" id="toc-searching-electronic-databases" class="nav-link" data-scroll-target="#searching-electronic-databases"><span class="header-section-number">2.1.1</span> Searching electronic databases</a></li>
+  <li><a href="#searching-other-sources" id="toc-searching-other-sources" class="nav-link" data-scroll-target="#searching-other-sources"><span class="header-section-number">2.1.2</span> Searching other sources</a></li>
+  <li><a href="#constructing-the-search-strategy-for-electronic-databases" id="toc-constructing-the-search-strategy-for-electronic-databases" class="nav-link" data-scroll-target="#constructing-the-search-strategy-for-electronic-databases"><span class="header-section-number">2.1.3</span> Constructing the search strategy for electronic databases</a></li>
+  <li><a href="#documenting-the-search" id="toc-documenting-the-search" class="nav-link" data-scroll-target="#documenting-the-search"><span class="header-section-number">2.1.4</span> Documenting the search</a></li>
+  </ul></li>
+  <li><a href="#study-selection" id="toc-study-selection" class="nav-link" data-scroll-target="#study-selection"><span class="header-section-number">2.2</span> Study selection</a></li>
+  <li><a href="#data-extraction" id="toc-data-extraction" class="nav-link" data-scroll-target="#data-extraction"><span class="header-section-number">2.3</span> Data extraction</a></li>
+  <li><a href="#risk-of-bias-assessment" id="toc-risk-of-bias-assessment" class="nav-link" data-scroll-target="#risk-of-bias-assessment"><span class="header-section-number">2.4</span> Risk of bias assessment</a></li>
+  <li><a href="#synthesis" id="toc-synthesis" class="nav-link" data-scroll-target="#synthesis"><span class="header-section-number">2.5</span> Synthesis</a>
+  <ul class="collapse">
+  <li><a href="#narrative-synthesis" id="toc-narrative-synthesis" class="nav-link" data-scroll-target="#narrative-synthesis"><span class="header-section-number">2.5.1</span> Narrative synthesis</a></li>
+  <li><a href="#quantitative-synthesis" id="toc-quantitative-synthesis" class="nav-link" data-scroll-target="#quantitative-synthesis"><span class="header-section-number">2.5.2</span> Quantitative synthesis</a></li>
+  </ul></li>
+  <li><a href="#reporting-biases-meta-bias" id="toc-reporting-biases-meta-bias" class="nav-link" data-scroll-target="#reporting-biases-meta-bias"><span class="header-section-number">2.6</span> Reporting biases (Meta-bias)</a></li>
+  <li><a href="#certainty-of-evidence" id="toc-certainty-of-evidence" class="nav-link" data-scroll-target="#certainty-of-evidence"><span class="header-section-number">2.7</span> Certainty of evidence</a></li>
+  <li><a href="#interpreting-results" id="toc-interpreting-results" class="nav-link" data-scroll-target="#interpreting-results"><span class="header-section-number">2.8</span> Interpreting results</a></li>
+  <li><a href="#report-writing" id="toc-report-writing" class="nav-link" data-scroll-target="#report-writing"><span class="header-section-number">2.9</span> Report writing</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./protocol.html">Reviews of Healthcare Interventions</a></li><li class="breadcrumb-item"><a href="./review.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Conducting the review</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-conducting-systematic-reviews-of-interventions" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Conducting the review</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This chapter addresses&nbsp;the detailed methodology that will be followed during the review, covering the search for studies, selection of studies into the review, data collection, risk of bias&nbsp;assessment, synthesis (including any meta-analysis approaches), and overall assessment of the certainty of evidence.&nbsp;</p>
+<section id="identifying-research-evidence" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="identifying-research-evidence"><span class="header-section-number">2.1</span> Identifying research evidence</h2>
+<p>Conducting a thorough search to identify relevant studies is a key factor in minimizing bias in the review process. The search process should be as transparent as possible and documented in a way that enables it to be evaluated and reproduced.</p>
+<p>Studies can be located using a combination of the following approaches:</p>
+<ul>
+<li><p>Searching electronic databases</p></li>
+<li><p>Searching reference lists from relevant studies</p></li>
+<li><p>Citation searching</p></li>
+<li><p>Hand-searching key journals and conference proceedings</p></li>
+<li><p>Contacting study authors, experts, manufacturers, and other organizations</p></li>
+<li><p>Searching relevant Internet resources</p></li>
+<li><p>Using a project Internet site to canvas for studies</p></li>
+</ul>
+<section id="searching-electronic-databases" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="searching-electronic-databases"><span class="header-section-number">2.1.1</span> Searching electronic databases</h3>
+<p>For reviews of health care interventions, MEDLINE and EMBASE are the databases most commonly used to identify studies. The Cochrane Central Register of Controlled Trials (CENTRAL) includes details of published articles taken from bibliographic databases and other published and unpublished sources. Subject-based databases include PsycINFO (psychology and psychiatry), CINAHL (nursing and allied health professions), and ERIC (education research). Regional databases include LILACS (Latin American and Caribbean Health Sciences Literature). While large bibliographic databases, such as MEDLINE and EMBASE, do include a small number of non-English language journals, using additional databases (e.g.&nbsp;LILACS) that contain collections of non-English language research can minimize potential language bias.</p>
+<p>Decisions about where and how to search could unintentionally introduce bias into the review, so the team needs to consider, and try to minimize, the possible impact of search limitations. For example, restricting the searching to the use of electronic databases, which consist mainly of references to published journal articles, could result in the review being subject to publication bias as this approach is unlikely to identify studies that have not been published in peer reviewed journals. Wider searching is needed to identify research results circulated as reports or discussion papers. The identification of grey literature, such as unpublished papers, is a challenge. Libraries of specialist research organizations and professional societies may provide access to collections of grey literature.</p>
+<p>Searching databases and registers that include unpublished studies, such as records of ongoing research, conference proceedings and theses, can reduce the impact of publication bias. Conference proceedings provide information on both research in progress and completed research. Conference abstracts are recorded in some major bibliographic databases such as BIOSIS Previews, as well as in dedicated databases such as Index to Scientific and Technical proceedings, and the Conference Papers Index. The abstracts in conference proceedings may only give limited information, and there can be differences between data presented in an abstract and that included in a final report. For these reasons, researchers should try to acquire the full report, if there is one, before considering whether to include the results in a systematic review.</p>
+</section>
+<section id="searching-other-sources" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="searching-other-sources"><span class="header-section-number">2.1.2</span> Searching other sources</h3>
+<p>In addition to searching electronic databases, published and unpublished research may also be obtained by using one or more of the following methods.</p>
+<ul>
+<li><p><strong>Scanning reference lists of relevant studies</strong></p>
+<ul>
+<li>Browsing the reference lists of papers (both primary studies and reviews) that have been identified by the database searches may identify further studies of interest.</li>
+</ul></li>
+<li><p><strong>Citation searching</strong></p>
+<ul>
+<li>Citation searching involves selecting a number of key papers already identified for inclusion in the review and then searching for articles that have cited these papers. This approach should identify a cluster of related, and therefore highly relevant, papers. As this is in effect a search forward through time, citation searching is not suitable for identifying recent papers as they cannot have been referenced by other older papers. Citation searching used to be limited to using the indexes Science Citation Index Expanded, Social Sciences Citation Index, and Arts &amp; Humanities Citation Index,. but other resources (including CINAHL, PsycINFO) now include cited references in their records so these are also available for citation searching. Using similar services offered by journals such as the BMJ can also be helpful.</li>
+</ul></li>
+<li><p><strong>Handsearching key journals</strong></p>
+<ul>
+<li>Handsearching involves scanning the content of journals, conference proceedings and abstracts, page by page. It is an important way of identifying very recent publications that have not yet been included and indexed by electronic databases or of including articles from journals that are not indexed by electronic databases. Handsearching can also ensure complete coverage of journal issues, including letters or commentaries, which may not be indexed by databases. It can also compensate for poor or inaccurate database indexing. Selecting which journals to handsearch can be done by analyzing the results of the database searches to identify the journals that contain the largest number of relevant studies.</li>
+</ul></li>
+<li><p><strong>Searching trials registers</strong></p>
+<ul>
+<li>Trials can be identified by searching one or more of the many trials registers that exist. It can be a particularly useful approach to identifying unpublished or ongoing trials. Many of the registers are available on the Internet and some of the larger ones, such as <a href="http://www.ClinicalTrials.gov/">www.ClinicalTrials.gov</a> and WHO ICTRP, include the facility to search by drug name or by condition. While some registers are disease specific, others collect together trials from a specific country or region. Pharmaceutical companies may also make information about trials they have conducted available from their websites.</li>
+</ul></li>
+<li><p><strong>Contacting experts and manufacturers</strong></p>
+<ul>
+<li>Research groups and other experts as well as manufacturers may be useful sources of research not identified by the electronic searches, and may also be able to supply information about unpublished or ongoing research. Contacting relevant research centers or specialist libraries is another way of identifying potential studies. While these methods can all be useful, they are also time consuming and offer no guarantee of obtaining relevant information. After a thorough and systematic search has been conducted, and relevant studies have been identified, topic experts can be asked to check the list to identify any known missing studies.</li>
+</ul></li>
+<li><p><strong>Searching relevant Internet resources</strong></p>
+<ul>
+<li>Internet searching can be a useful means of retrieving grey literature, such as unpublished papers, reports and conference abstracts. Identifying and scanning specific relevant websites will usually be more practical than using a general search engine such as ‘Google’. It is worth considering using the Internet when investigating a topic area where it is likely that studies have been published informally rather than in a journal indexed in a bibliographic database. Internet searching should be carried out in as structured a way as possible and the procedure documented.</li>
+</ul></li>
+<li><p><strong>Using a project Internet site to canvas for studies</strong></p>
+<ul>
+<li>Where it has been agreed that a dedicated website should be set up for the review, for example as part of the overall dissemination strategy, this can be used to canvas for unpublished data/grey literature. Inclusion of an email contact address allows interested parties to submit information about relevant research. Posting the inclusion and exclusion criteria on the website may help to ensure submissions are appropriate. Throughout the review process the website should be continually updated with information about the studies identified. Personal responses should be sent to all respondents and where appropriate submitted material should be included in the library of references. This approach should probably only be considered for ‘high profile’ reviews and then it should be as an adjunct to active canvassing for unpublished/grey literature.</li>
+</ul></li>
+</ul>
+</section>
+<section id="constructing-the-search-strategy-for-electronic-databases" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="constructing-the-search-strategy-for-electronic-databases"><span class="header-section-number">2.1.3</span> Constructing the search strategy for electronic databases</h3>
+<p>Search strategies are explicitly designed to be highly sensitive so as many potentially relevant studies as possible are retrieved. Consequently the searches tend to retrieve a large number of records that do not meet the inclusion criteria. While it is possible to increase the precision of a search strategy, and so reduce the number of irrelevant papers retrieved, this may lead to relevant studies being missed.</p>
+<p>Constructing an effective combination of search terms involves breaking down the review question into ‘concepts’. Using the Population, Intervention, Comparator, Outcomes, and Study design elements from PICOS can help to structure the search, but it is not essential that every element is used. For example it is better not to use terms for the outcomes since inclusion might mean that the database being searched fails to show relevant studies simply because the outcome is not mentioned prominently enough in the record, even though the study measured it. For each of the elements used, it is important to consider all the possible alternative terms. For example, a drug intervention may be known by a generic name and one or more proprietary names. Advice should be sought from the topic experts on the review team and advisory group.</p>
+<p>To find randomized trials, use specially designed and tested <strong><em>search filters</em></strong> where appropriate including the Cochrane Highly Sensitive Search Strategies for identifying randomized trials in MEDLINE, but do not use filters in pre-filtered databases e.g.&nbsp;do not use a randomized trial filter in CENTRAL.</p>
+<p><strong>Updating literature searches</strong></p>
+<p>Depending on the scope and timescale of the review, an update of the literature searches towards the end of the project may be required. If the initial searches were carried out some time before the final analysis is undertaken (e.g.&nbsp;six months) it may be necessary to re-run the searches to ensure that no recent papers are missed. To do this successfully the date the original search was conducted and the years covered by the search must have been recorded.</p>
+<p><strong>Current awareness</strong></p>
+<p>If a review is covering an area where there is rapid change or if a major study is expected to report its findings soon, setting up current awareness alerts can ensure that new papers are identified as soon as they become available. Options for current awareness include e-mail alerts from journals and RSS feeds from databases.</p>
+<p><strong>Managing references</strong></p>
+<p>To ensure the retrieved records are managed efficiently the team should agree working practices. For example, who will screen the references and record decisions about which documents to obtain and how to code these decisions; whether decisions about rejecting or obtaining documents should be made blind to others’ decisions; and how to store documents received.</p>
+<p>Using bibliographic software such as Jabref or Zotero to record and manage references will help in documenting the process, streamline document management and make the production of reference lists for reports and journal papers easier. By creating a ‘library’ (database) of references, information can be shared by the whole review team, duplicated references can be identified and deleted more easily, and customized fields can be created where ordering decisions can be recorded. Specialized bibliographic management software packages have the facility to import references from electronic databases into the library and interact with word processing packages so bibliographies can be created in a variety of styles.</p>
+<p>When an electronic library of references is used, it is important to establish in advance clear rules about which team members can add or amend records in the library, and that consistent terminology is used to record decisions. It is usually preferable to have one person from the team responsible for the library of references.</p>
+<p><strong>Obtaining documents</strong></p>
+<p>Obtaining a large number of papers in a short time can be challenging. The procedure for acquiring documents will vary according to organizational arrangements and will depend on issues such as cost and what resources are available.</p>
+<p>Many journals are available in full text on the Internet, although a subscription may be required before articles can be downloaded. The information specialist on the team is likely to know about networks of associated libraries and electronic resources that can be used for obtaining documents.</p>
+</section>
+<section id="documenting-the-search" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="documenting-the-search"><span class="header-section-number">2.1.4</span> Documenting the search</h3>
+<p>The search process should be reported in sufficient detail so that it could be re-run at a later date. The easiest way to document the search is to record the process and the results contemporaneously. The decisions reached during development and any changes or amendments made should be recorded and explained. It is important to record all searches, including Internet searches, hand-searching and contact with experts.</p>
+<p>Providing the full detail of searches helps future researchers to re-run or update the searches and enables readers to evaluate the thoroughness of searching. The write up of the search should include information about the databases and interfaces searched (including the dates covered), full detailed search strategies (including any justifications for date or language restrictions) and the number of records retrieved.</p>
+<p>When systematic reviews are reported in journal articles, limits on the word count may make it impossible to provide full details of the searches. In these circumstances as much information as possible should be provided within the available space.</p>
+<p>Many journals now have an electronic version of the publication where the full search details can be provided. Alternatively, the published report can include the review team’s contact details so full details of the search strategies can be requested.</p>
+<p><strong>Summary: Identifying research evidence for systematic reviews</strong></p>
+<ul>
+<li><p>The search for studies should be comprehensive.</p></li>
+<li><p>The extent of searching is determined by the research question and the resources available to the research team.</p></li>
+<li><p>Thorough searching is best achieved by using a variety of search methods (electronic and manual) and by searching multiple, possibly overlapping resources.</p></li>
+<li><p>Most of the searching is likely to take place at the beginning of the review with an update search towards the end.</p></li>
+<li><p>Using bibliographic software to record and manage references will help in documenting the process, streamline document management and make the production of reference lists for reports and journal papers easier.</p></li>
+<li><p>The search process should be documented in full or details provided of where the strategy can be obtained.</p></li>
+</ul>
+</section>
+</section>
+<section id="study-selection" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="study-selection"><span class="header-section-number">2.2</span> Study selection</h2>
+<p>Literature searching may result in a large number of potentially eligible records that need to be assessed for inclusion against predetermined criteria, only a small proportion of which may eventually be included in the review. The process for selecting studies should be explicit and conducted in such a way as to minimize the risk of errors and bias. This section explains the steps involved and the issues to be considered when planning and conducting study selection.</p>
+<p><strong>Process for study selection</strong></p>
+<p>The process by which decisions on the selection of studies will be made should be specified in the protocol, including who will carry out each stage and how it will be performed. The aim of selection is to ensure that all relevant studies are included in the review.</p>
+<p>It is important that the selection process should minimize biases, which can occur when the decision to include or exclude certain studies may be affected by pre-formed opinions. The process for study selection therefore needs to be explicit, objective and minimize the potential for errors of judgement. It should be documented clearly to ensure it is reproducible. The selection of studies from electronic databases is usually conducted in two stages:</p>
+<p>Stage 1: a first decision is made based on titles and, where available, abstracts. These should be assessed against the predetermined inclusion criteria. If it can be determined that an article does not meet the inclusion criteria then it can be screened out (i.e., rejected straightaway). It is important to err on the side of over-inclusion during this first stage. The review question and the subsequent specification of the inclusion and exclusion criteria are likely to determine ease of rejection in this first stage. Where the question and criteria are tightly focused then it is usually easier to be confident that the rejected studies are not relevant. Rejected citations fall into two main categories; those that are clearly not relevant and those that address the topic of interest but fail on one or more criteria such as population. For those in the first category it is usually adequate to record as an irrelevant study, without a reason why. For those in the second category it is useful to record why the study failed to meet the inclusion criteria, as this increases the transparency of the selection process. Where abstracts are available the amount and usefulness of the information to the decision-making process often varies according to database and journal. Structured abstracts such as those produced by the BMJ are particularly useful at this stage of the review process.</p>
+<p>Stage 2: for studies that appear to meet the inclusion criteria, or in cases when a definite decision cannot be made based on the title and abstract alone, the full paper should be obtained for detailed assessment against the inclusion criteria.</p>
+<p>Even when explicit inclusion criteria are specified, decisions concerning the inclusion of individual studies can remain subjective. Familiarity with the topic area and an understanding of the definitions being used are usually important.</p>
+<p>The reliability of the decision process is increased if all papers are independently assessed by more than one researcher, and the decisions shown to be reproducible. Assessment of agreement is particularly important during the pilot phase, when evidence of poor agreement should lead to a revision of the selection criteria or an improvement of their coding.</p>
+<p>The process for resolving disagreements between assessors should be specified in the protocol. Many disagreements may be simple oversights, whilst others may be matters of interpretation. These disagreements should be discussed and, where possible, resolved by consensus after referring to the protocol; if necessary a third person may be consulted.</p>
+<p><strong>Piloting the study selection process</strong></p>
+<p>The selection process should be piloted by applying the inclusion criteria to a sample of papers in order to check that they can be reliably interpreted and that they classify the studies appropriately. The pilot phase can be used to refine and clarify the inclusion criteria and ensure that the criteria can be applied consistently by more than one person. Piloting may also give an indication of the likely time needed for the full selection process.</p>
+<p><strong>Masking/blinding</strong></p>
+<p>Judgments about inclusion may be affected by knowledge of the authorship, institutions, journal titles and year of publication, or the results and conclusions of articles. Blind assessment may be possible by removing such identifying information, but the gain should be offset against the time and effort required to disguise the source of each article. Several studies have found that masking author, institution, journal name and study results is of limited value in study selection. Therefore, unmasked assessment by two independent researchers is acceptable.</p>
+<p><strong>Dealing with lack of information</strong></p>
+<p>Sometimes the amount of information reported about a study is insufficient to make a decision about inclusion, and it can be helpful to contact study authors to ask for more details. However, this requires time and resources, and the authors may not reply, particularly if the study is old. If authors are to be contacted it may be advisable to decide in advance how much time will be given to allow them to reply. If contacting authors is not practical then the studies in question could be excluded and listed as ‘potentially relevant studies’. If a decision is made to include such studies, the influence on the results of the review can be checked in a sensitivity analysis.</p>
+<p><strong>Dealing with duplication</strong></p>
+<p>It is important to look for duplicate publications of research results to ensure they are not treated as separate studies in the review. Multiple papers may be published for a number of reasons including: translations; results at different follow-up periods or reporting of different outcomes. However, it is not always easy to identify duplicates as they are often covert (i.e.&nbsp;not cross referenced to one another) and neither authorship nor sample size are reliable criteria for identification of duplication. Estimates of prevalence of duplicate publication range from 1.4% to 28%, and studies have been found to have up to five duplicate reports. Multiple reports from the same study may include identical samples with different outcomes reported or increasing samples with the same outcomes reported.</p>
+<p>Multiple reporting can lead to biased results, as studies with significant results are more likely to be published or presented more frequently, leading to an overestimation of treatment effects when findings are combined. <strong><em>When multiple reports of a study are identified these should be treated as a single study but reference made to all the publications.</em></strong> It may be worthwhile comparing multiple publications for any discrepancies, which could be highlighted and the study authors contacted for clarification.</p>
+<p><strong>Documenting decisions</strong></p>
+<p>It is important to have a record of decisions made for each article. This may be in paper form, attached to paper copies of the articles, or the selection process may be partially or wholly computerized. If the search results are provided in electronic format, they can be imported into a reference management program such as Jabef or Zotero which stores, displays and enables organization of the records, and allows basic inclusion decisions to be made and recorded (in custom fields). For more complex selection procedures, where several decisions and comments need to be recorded, a database program such as Covidence or Rayyan may be of use.</p>
+<p><strong>Reporting study selection</strong></p>
+<p>A flow chart showing the number of studies/papers remaining at each stage is a simple and useful way of documenting the study selection process. Recommendations for reporting and presentation of a flow chart when reporting systematic reviews with or without a meta-analysis have been developed by the PRISMA group.</p>
+<p>A list of studies excluded from the review should also be reported where possible, giving the reasons for exclusion. This list may be included in the report of the review as an appendix. In general, this list is most informative if it is restricted to ‘near misses’ (i.e.&nbsp;those studies that only narrowly failed to meet inclusion criteria and that readers might have expected to see included) rather than all the research evidence identified. Decisions to exclude studies may be reached at the title and abstract stage or at the full paper stage.</p>
+<p><strong>Summary: Study selection</strong></p>
+<ul>
+<li><p>In order to minimize bias, studies should be assessed for inclusion using selection criteria that flow directly from the review question and that have been piloted to check that they can be reliably applied.</p></li>
+<li><p>Study selection is a staged process involving sifting through the citations located by the search, retrieving full reports of potentially relevant citations and, from their assessment, identifying those studies that fulfil the inclusion criteria.</p></li>
+<li><p>Parallel independent assessments should be conducted to minimize the risk of errors. If disagreements occur between assessors, they should be resolved according to a predefined strategy using consensus and arbitration as appropriate.</p></li>
+<li><p>The study selection process should be documented, detailing reasons for exclusion of studies that are ‘near-misses’.</p></li>
+</ul>
+</section>
+<section id="data-extraction" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="data-extraction"><span class="header-section-number">2.3</span> Data extraction</h2>
+<p>Data extraction is the process by which researchers obtain the necessary information about study characteristics and findings from the included studies. Data extraction requirements will vary from review to review, and the extraction forms should be tailored to the review question.</p>
+<p>The first stage of any data extraction is to plan the type of analyses and list the tables that will be included in the report. This will help to identify which data should be extracted.</p>
+<p>A sample data extraction form and details of the data extraction process should be included in the review protocol. A common problem at the protocol stage is that there may be limited familiarity with the topic area. This can lead to uncertainties, for example, about comparators and outcome measures. As a result, time can be wasted extracting unnecessary data and difficulties can arise when attempting to utilize and synthesize the data. Sufficient time early in the project should therefore be allocated to developing, piloting and refining the data extraction form.</p>
+<p>Standardized data extraction forms can provide consistency in a systematic review, whilst reducing bias and improving validity and reliability. Use of an electronic form has the added advantage of being able to combine data extraction and data entry into one step, and to facilitate data analysis and the production of results tables for the final report.</p>
+<p><strong>Design</strong></p>
+<p>Integral to the design of the form is the category of data to be extracted. It may be numerical, fixed text such as yes/no, a ‘pick list’, or free text. However, the number of free text fields should be limited as much as possible to simplify the analysis of data. The form should be unambiguous and easy to use in order to minimize discrepancies. Instructions for completion should be provided, and each field should have decision rules about coding data in order to avoid ambiguity and to aid consistent completion. Paper forms should only be used where access to direct completion of electronic forms is impossible, to reduce risks of error in data transcription.</p>
+<p><strong>Content</strong></p>
+<p>The nature of the data extracted depends on the type of question being addressed and the types of study available. The data to be extracted from each individual study may be reported in a variety of ways, and it is often necessary for a researcher to manipulate the available data into a common format. Manipulations of the reported findings can include using confidence intervals to determine standard errors or estimating the hazard ratio from a survival curve. Data can be categorized at this stage; however, it is advisable to extract as much of the reported data as is likely to be needed, and categorize at a later stage, so that detailed information is not lost during data extraction.</p>
+<p><strong>Software</strong></p>
+<p>RevMan web is Cochrane’s online software that enables researchers to manage all stages of a review. Other tools commonly used include spreadsheets and databases. Whichever software package is used, ideally it should have the ability to provide different types of question coding. Some software will also allow researchers to develop quality control mechanisms for minimizing data entry errors, for example, by specifying ranges of valid values.</p>
+<p><strong>Piloting data extraction</strong></p>
+<p>Data extraction forms should be piloted on a sample of included studies to ensure that all the relevant information is captured and that resources are not wasted on extracting data not required. The consistency of the data extracted should be assessed to make sure that those extracting the data are interpreting the forms, and the draft instructions and decision rules about coding data, in the same way. This will help to reduce data extraction errors.</p>
+<p>The exporting, analysis and outputs of the data extraction forms should also be pilot tested where appropriate, on a small sample of included studies. This will ensure that the exporting of data works correctly and the outputs provide the information required for data analysis and synthesis.</p>
+<p>When using databases, piloting is particularly important as it becomes increasingly difficult to make changes once the template has been created and information has been entered into the database. Early production of the expected output is also the best way to check that the correct data structure has been set up.</p>
+<p><strong>Process of data extraction</strong></p>
+<p>Data extraction needs to be as unbiased and reliable as possible, however it is prone to human error and often subjective decisions are required. The number of researchers that will perform data extraction is likely to be influenced by constraints on time and resources. Ideally two researchers should independently perform the data extraction. As an accepted minimum, one researcher can extract the data with a second researcher independently checking the data extraction forms for accuracy and completeness. This method may result in significantly more errors than two researchers independently performing data extraction but may also take significantly less time. Any disagreements should be noted and resolved by consensus among researchers or by arbitration by an additional independent researcher. A record of corrections or amendments to data extraction forms should be kept for future reference, particularly where there is genuine ambiguity (internal inconsistency) which cannot be resolved after discussion with the study authors. If using an electronic data extraction form that does not keep a record of amendments, completed forms can be printed and amendments recorded manually, before correcting the electronic version.</p>
+<p>As with screening studies for inclusion, blinding researchers to the journal and author details has been recommended. However, this is a time-consuming operation, may not alter the results of a review and is likely to be of limited value.</p>
+<p><strong>Summary: Data extraction</strong></p>
+<ul>
+<li><p>Standardized data extraction forms provide consistency in a systematic review, thereby potentially reducing bias, improving validity and reliability.</p></li>
+<li><p>Data extraction forms should be designed and developed with both the review question and subsequent analysis in mind. Sufficient time should be allocated early in the project for developing and piloting the data extraction forms.</p></li>
+<li><p>The data extraction forms should contain only information required for descriptive purposes or for analyses later in the systematic review.</p></li>
+<li><p>Information on study characteristics should be sufficiently detailed to allow readers to assess the applicability of the findings to their area of interest.</p></li>
+<li><p>Data extraction needs to be unbiased and reliable; however it is prone to human error and often subjective decisions are required. Clear instructions and decision rules about coding data should be used.</p></li>
+<li><p>As a minimum, one researcher should extract the data with a second researcher independently checking the data extraction forms for accuracy and detail. If disagreements occur between assessors, they should be resolved according to a predefined strategy using consensus and arbitration as appropriate.</p></li>
+</ul>
+</section>
+<section id="risk-of-bias-assessment" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="risk-of-bias-assessment"><span class="header-section-number">2.4</span> Risk of bias assessment</h2>
+<p>Research can vary considerably in methodological rigor. Flaws in the design or conduct of a study can result in bias, and in some cases this can have as much influence on observed effects as that of treatment. Important intervention effects, or lack of effect, can therefore be obscured by bias.</p>
+<p><strong>Defining quality</strong></p>
+<p>Quality is a complex concept and the term is used in different ways. Taking a broad view, the aim of assessing study quality is to establish how near the ‘truth’ its findings are likely to be and whether the findings are of relevance in the particular setting or patient group of interest. Quality assessment of any study is likely to consider the following:</p>
+<ul>
+<li><p>Appropriateness of study design to the research objective</p></li>
+<li><p>Risk of bias</p></li>
+<li><p>Other issues related to study quality</p>
+<ul>
+<li><p>Choice of outcome measure</p></li>
+<li><p>Precision</p></li>
+<li><p>Quality of reporting</p></li>
+<li><p>Quality of the intervention</p></li>
+<li><p>External validity</p></li>
+</ul></li>
+</ul>
+<p>The importance of each of these aspects of quality will depend on the focus and nature of the review. For example, issues around statistical analysis are less important if the study data are to be re-analysed in a meta-analysis, and the quality of reporting is irrelevant where data (either individual patient or aggregate) and information are obtained directly from those responsible for the study.</p>
+<p><strong>Appropriateness of study design</strong></p>
+<p>The types of study used to assess the effects of interventions can be arranged into a hierarchy, based broadly on their susceptibility to bias. Although the RCT is considered the best study design to evaluate the effect of an intervention, in cases where it is unworkable or unethical to randomize participants (e.g.&nbsp;when evaluating the effects of smoking on health), researchers may instead have to use an alternative design. Simply grading studies using this hierarchy does not provide an adequate assessment of study quality, because it does not take into account variations in quality among studies of the same design. Even RCTs can be implemented in such a way that findings are likely to be seriously biased and therefore of little value in decision-making.</p>
+<p>It should be noted that the terminology used to describe study designs (e.g.&nbsp;cohort, prospective, retrospective, historical controls, etc.) can be ambiguous and used in different ways by different researchers. Therefore it is important to consider the individual aspects of the study design that may introduce bias rather than focusing on the descriptive label used.</p>
+<p><strong>Risk of bias</strong></p>
+<p>Bias refers to systematic deviations from the true underlying effect brought about by poor study design or conduct in the collection, analysis, interpretation, publication or review of data. Bias can easily obscure intervention effects, and differences in the risk of bias between studies can help explain differences in findings.</p>
+<p>Internal validity is the extent to which an observed effect can be truly attributed to the intervention being evaluated, rather than to flaws in the design or conduct of the study. Any such flaws can increase the risk of bias.</p>
+<p><em>Randomized controlled trials</em></p>
+<p>The RCT is generally considered to be the most appropriate study design for evaluating the effects of an intervention. This is because, when properly conducted, it limits the risk of bias. The simplest form of RCT is known as the parallel group trial which randomizes eligible participants to two groups, treats according to assignment, and compares the groups with respect to outcomes of interest.</p>
+<p>Participants are allocated to groups using both randomization (allocation involves the play of chance) and concealment (ensures that the intervention that will be allocated cannot be known in advance of assignment). When appropriately implemented, these aspects of design should ensure that the groups being compared are similar in all respects other than the intervention. The groups should be balanced for both known and unknown factors that might influence outcome, such that any observed differences should be attributable to the effect of the intervention rather than to intrinsic differences between the groups. Allocation in this way avoids the influence of confounding, where an additional factor is associated both with receiving the intervention and with the outcome of interest. In some cases, the possible confounding factor(s) may not be known or measurable. In an RCT, so long as a sufficient number of participants are assigned then the groups should be balanced with respect to both known and unknown potential confounding factors.</p>
+<p><strong>Selection bias</strong> occurs where there are systematic differences between comparison groups in terms of prognosis or responsiveness to treatment. Concealed assignment prevents investigators being able to predict which intervention will be allocated next and using that information to select which participant receives which treatment. For example, clinicians may want to ‘try out’ the new intervention in patients with a poorer prognosis. If they succeed in doing this by knowing or correctly ‘guessing’ the order of allocation, the intervention group will eventually contain more seriously ill participants than the comparison group, such that the intervention will probably appear less effective than if the two groups had been properly balanced. The most robust method for concealing the sequence of treatment allocation is a central telephone randomization service, in which the care provider calls an independent trial service, registers the participant’s details and then discovers which intervention they are to be given. Similarly, an on-site computer-based randomization system that is not readable until the time of allocation might be used. Envelope methods of randomization, where allocation details are stored in pre-prepared envelopes, are less robust and more easily subverted than centralized methods. Where this method is adopted, sealed opaque sequentially numbered envelopes that are only opened in front of the participant being randomized should be used. Unfortunately, the methods which are used to ensure that the randomization sequence remains concealed during implementation (frequently referred to as concealment of allocation) are often poorly reported making it difficult to discern whether the methods were susceptible to bias. <strong><em>Some studies, which may describe themselves as randomized, may allocate participants to groups on an alternating basis, or based on whether their date of birth is an odd or even number. Allocation in these studies is neither random nor concealed</em></strong>.</p>
+<p><strong>Performance bias</strong> refers to systematic differences (apart from the intervention of interest) in the treatment or care given to comparison groups during the study and <strong>detection bias</strong> refers to systematic differences between groups in the way that outcomes are ascertained. The risk of these biases can be minimized by ensuring that people involved in the study are unaware of which groups participants have been assigned to (i.e.&nbsp;they are blinded or masked). Ideally, the participants, those administering the intervention, those assessing outcomes and those analyzing the data should all be blinded. If not, the knowledge of which comparison group is which may consciously or unconsciously influence the behavior of any of these people. The feasibility and/or success of blinding will partly depend on the intervention in question. There are situations where blinding is not possible owing to the nature of the intervention. Methods of blinding for studies of drugs involve the use of pills and containers of identical size, shape and number (placebos). Sham devices can be used for many device interventions and for some procedural interventions sham procedures can be used (e.g.&nbsp;sham acupuncture). Blinding of outcome assessors is particularly important for more subjective outcome measures such as pain, but less important for objective measures such as mortality. Implementation of a blinding process does not however guarantee successful blinding in practice. In study reports, terms such as double-blind, triple-blind or single-blind can be used inconsistently and explicit reporting of blinding is often missing. It is important to clarify the exact details of the blinding process.</p>
+<p><strong>Attrition bias</strong> refers to systematic differences between the comparison groups in terms of participants withdrawing or being excluded from the study. Participants may withdraw or drop-out from a study because the treatment has intolerable adverse effects, or on the other hand, they may recover and leave for that reason. They may simply be lost to follow-up, or they may be withdrawn due to a lack of data on outcome measures. Other reasons that participants may be excluded include mistaken randomization of participants who, on review, did not meet the study inclusion criteria, and participants receiving the wrong intervention due to protocol violation. The likely impact of such withdrawals and exclusions needs to be considered carefully; if the exclusion is related to the intervention and outcome then it can bias the results (for example, not accounting for high numbers of withdrawals due to adverse effects in one intervention arm will unduly favor that intervention). Serious bias can arise as a result of participants being withdrawn for apparently ad hoc reasons that are related to the success or failure of an intervention. An intention to treat (ITT) analysis is generally recommended in order to reduce the risk of bias. An ITT analysis includes outcome data on all trial participants and analyses them according to the intervention to which they were randomized, regardless of the intervention(s) they actually received. Complete outcome data are often unavailable for participants who drop-out before the end of the trial, so in order to include all participants, assumptions need to be made about their missing outcome data (for example by imputation of missing values). ITT analysis generally provides a more conservative, and potentially less biased, estimate in trials of effectiveness. However, ITT analyses are often poorly described and applied and if assessing methodological quality associated with statistical analysis, care needs to be taken in judging whether the use of ITT analysis has minimized the risk of attrition bias and whether it was appropriately applied. If an ITT analysis is not used, then the study should at least report the proportion of participants excluded from the analysis to allow a researcher to judge whether this is likely to have led to bias.</p>
+<p><strong>Bias in selection of the reported result</strong> addresses bias that arises because the reported result is selected (based on its direction, magnitude or statistical significance) from among multiple intervention effect estimates that were calculated by the trial authors. Bias in selection of the reported result typically arises from a desire for findings to support vested interests or to be sufficiently noteworthy to merit publication. It can arise for both harms and benefits, although the motivations may differ. For example, in trials comparing an intervention with placebo, trialists who have a preconception or vested interest in showing that the intervention is beneficial and safe may be inclined to be selective in reporting efficacy estimates that are statistically significant and favorable to the intervention, along with harm estimates that are not significantly different between groups. In contrast, other trialists may selectively report harm estimates that are statistically significant and unfavorable to the intervention if they believe that publicizing the existence of a harm will increase their chances of publishing in a high impact journal.</p>
+<p>We recommend the use of <strong>Cochrane Risk of Bias tool version 2</strong> (Rob 2). <span class="citation" data-cites="sterne2019">(<a href="ref.html#ref-sterne2019" role="doc-biblioref">Sterne et al. 2019</a>)</span> RoB 2 focuses on mechanisms through which bias may arise. The domains included in RoB 2 cover all types of bias that are currently understood to affect the results of randomized trials. These are:</p>
+<ol type="1">
+<li><p>bias arising from the randomization process;</p></li>
+<li><p>bias due to deviations from intended interventions;</p></li>
+<li><p>bias due to missing outcome data;</p></li>
+<li><p>bias in measurement of the outcome; and</p></li>
+<li><p>bias in selection of the reported result.</p></li>
+</ol>
+<p>RoB 2 is called “results-based” or “results-level” because it is used to assess bias for a specific result reported in an individual study. The original risk of bias tool, and most other tools, assess bias across all outcomes and results for an entire study. Assessing bias for a specific result means that it is more precise. For example, for the domain “Missing outcome data” one result in a study may have minimal missing data at an early time-point and could be judged as low risk of bias; the same outcome measured 6 months later might have considerable missing data and be judged as some concerns or high risk of bias. By assessing bias for each of these results separately we can present a more accurate assessment of bias. <span class="citation" data-cites="higgins2023chapter8">(<a href="ref.html#ref-higgins2023chapter8" role="doc-biblioref">Higgins et al. 2023</a>)</span></p>
+<p><strong>Other randomized study designs</strong></p>
+<p>In addition to parallel group RCTs, there are other randomized designs where further quality criteria may need to be considered. These are described below.</p>
+<p><strong>Randomized cross-over trials</strong></p>
+<p>In randomized cross-over trials all participants receive all the interventions. For example in a two arm cross-over trial, one group receives intervention A before intervention B, and the other group receives intervention B before intervention A. It is the sequence of interventions that is randomized. The advantage of cross-over trials is that they are potentially more efficient than parallel trials of a similar size, in which each participant receives only one of the interventions. The criteria for assessing risk of bias in RCTs also apply to cross-over trials, but there are some additional factors that need to be taken into consideration.</p>
+<p>The cross-over design is inappropriate for conditions where the intervention may provide a cure or remission, where there is a risk of spontaneous improvement or resolution of the condition, where there is a risk of deterioration over the period of the trial (e.g.&nbsp;degenerative conditions) or where there is a risk that patients may die. This is because these outcomes lead either to the participant being unable to enter the second period or, on entering the second period, their condition is systematically different from that in the first period.</p>
+<p>The possibility of a ‘carryover’ of the effect of the intervention provided in the first period into the second intervention period is an important concern in this study design. This risk is dealt with by building in a treatment-free or placebo ‘washout period’ between the intervention periods. The adequacy of the washout period length will need to be considered as part of the assessment of risk of bias.</p>
+<p><strong>Cluster randomized trials</strong></p>
+<p>A cluster randomized trial is a trial where clusters of people rather than single individuals are randomized to different interventions. For example, whole clinics or geographical locations may be randomized to receive particular interventions, rather than individuals.</p>
+<p>The distinctive feature of cluster trials is that the outcome for each participant within a cluster may not be independent, since individuals within the cluster are likely to respond in a similar way to the intervention. Underlying reasons for this intra-cluster correlation include individuals in a cluster being affected in a similar manner due to shared exposure to a common environment such as specific hospital policies on discharge times; or personal interactions between cluster members and sharing of attitudes, behaviors and norms that may lead to similar responses. This has implications for estimating the sample size required (i.e.&nbsp;the sample needs to be larger than for an individually randomized trial) and the statistical analysis.</p>
+<p>When assessing the risk of selection bias in cluster randomized trials there are two factors that need to be considered: the randomization of the clusters and how participants within clusters are selected into the study. The first can be dealt with by using an appropriate randomization method with concealed allocation. However, where the trial design then requires selection of participants from within a cluster, the risk of selection bias should also be assessed. There is a clear risk of selection bias when the person recruiting participants knows in advance the clinical characteristics of a participant and which intervention they will receive. Also, potential participants may know in advance which intervention their cluster will receive, leading to different participation rates in the comparison groups. Two key methods for reducing bias in the selection of individuals within clusters have been identified: recruitment of individuals prior to the random allocation of clusters and, where this is not possible, use of an impartial individual to recruit participants following randomization of the clusters.</p>
+<p><strong>Quasi-randomized and non-randomized studies</strong></p>
+<p>The main distinction between randomized and quasi-randomized studies is the way in which participants are allocated to the intervention and control groups; quasi-randomized studies do not use random assignment to create the comparison groups.</p>
+<p>In non-randomized controlled studies, individuals are allocated to concurrent comparison groups, using methods other than randomization. The lack of concealed randomized allocation increases the risk of selection bias.</p>
+<p>Before-and-after studies evaluate participants before and after the introduction of an intervention. The comparison is usually made in the same group of participants, thus avoiding selection bias, although a different group can be used. In this type of design however, it can be difficult to account for confounding factors, secular trends, regression to the mean, and differences in the care of the participants apart from the intervention of interest.</p>
+<p>An alternative to this is a ‘time series’ design. Interrupted time series studies are multiple observations over time that are ‘interrupted’, usually by an intervention or treatment and thus permit separating real intervention effects from other long-term trends. It is a study design used where others, such as RCTs, are not feasible, for example in the evaluation of a screening service or a mass media campaign. It is also frequently used in policy evaluation, for example to measure the effect of a smoking ban.</p>
+<p><strong>Observational studies</strong></p>
+<p>In observational studies the intervention(s) that individuals receive are determined by usual practice, as opposed to being actively allocated as part of the study protocol.</p>
+<p>Observational studies are usually more susceptible to bias than interventional studies, and the conclusions that can be drawn from them are necessarily more tentative and are often hypothesis generating, highlighting areas for further research.</p>
+<p>Observational designs such as cohort studies, case-control studies and case series are often considered to form a hierarchy of increasing risk of bias. However, such a hierarchy is not always helpful because, as noted before, the same label can be used to describe studies with different design features and there is not always agreement on the definitions of such studies. Attention should focus on specific features of the studies and the extent to which they are susceptible to bias.</p>
+<p>In a cohort study design, a defined group of participants is followed over time and comparison is made between those who are exposed versus not exposed to a given intervention (e.g.&nbsp;a study may follow a cohort of women who are using oral contraceptives and compare them over time with women who are not using oral contraceptives).</p>
+<p>Prospective cohort studies are planned in advance and define their participants before the intervention of interest and follow them into the future. These are less likely to be susceptible to bias than retrospective cohort studies.</p>
+<p>Case-control studies compare groups from the same population with (cases) and without (controls) a specific outcome of interest, to evaluate the association between exposure to an intervention and the outcome. The risk of selection bias in such studies will be dependent on how the control group was selected. Groups may be matched to make them comparable for potential confounding factors.</p>
+<p>Case series are observations made on a number of individuals (with no control group) and are not comparative.</p>
+<p><strong>Other issues related to study quality</strong></p>
+<p><strong>Choice of outcome measure</strong></p>
+<p>As well as using blinding to minimize bias when assessing outcomes, it is usually necessary to consider the reliability or validity of the actual outcome measure being used (e.g.&nbsp;several different scales can be used to measure quality of life). It is important that the scales are fully understood to enable comparison, (e.g.&nbsp;a high score implies a favorable outcome in some scales and an unfavorable one in others). The outcome should also be relevant and meaningful to both the intervention and the evaluation (i.e.&nbsp;a treatment intended to reduce mortality should measure mortality, not merely a range of biochemical indicators).</p>
+<p><strong>Precision</strong></p>
+<p>Bias should not be confused with&nbsp;<strong>imprecision</strong>. Bias refers to&nbsp;<em>systematic error</em>, meaning that multiple replications of the same study would reach the wrong answer on average. Imprecision refers to&nbsp;<em>random error</em>, meaning that multiple replications of the same study will produce different effect estimates because of sampling variation, but would give the right answer on average. Precision depends on the number of participants and (for dichotomous outcomes) the number of events in a study, and is reflected in the confidence interval around the intervention effect estimate from each study. The results of smaller studies are subject to greater sampling variation and hence are less precise. A small trial may be at low risk of bias yet its result may be estimated very imprecisely, with a wide confidence interval. Conversely, the results of a large trial may be precise (narrow confidence interval) but also at a high risk of bias.</p>
+<p>Although issues around statistical analysis are less important if the study data are to be combined in a meta-analysis, when studies are not being quantitatively pooled it is also important to assess statistical issues around design and analysis (e.g.&nbsp;assessing whether a study is adequately powered to detect an effect of the intervention). The assessment of statistical power may involve relying on the sample size calculation in the primary study, where reported. However, defining population parameters for sample size calculations is a subjective judgement which may vary between investigators; for some review topics it may be appropriate to define a priori an adequate sample size for the purposes of the review.</p>
+<p><strong>Quality of reporting</strong></p>
+<p>Inadequate reporting of important aspects of methodological quality such as allocation concealment, blinding and statistical analysis is common, as is failure to report detail about the intervention and its implementation. Quality of reporting does not necessarily reflect the quality of the underlying methods or data, but when planning quality assessment it is important to decide how to deal with poor reporting. One approach is to assume that if an item is not reported then the criterion has not been met. While this may often be justifiable, there is evidence to suggest that failure to report a method does not necessarily mean it has not been used. Therefore it is important to be accurate and distinguish between failure to report a criterion and failure to meet a criterion.</p>
+<p><strong>Quality of the intervention</strong></p>
+<p>In addition to study design, it is often helpful to assess the quality of the intervention and its implementation. At its most simplistic, the quality of an intervention refers to whether it has been used appropriately. This is a fairly straightforward assessment where, for example drug titration studies have been conducted. It is more problematic where there is no preliminary research suggesting that an intervention should be administered in a particular way, or where the intervention requires a technical skill such as surgery. It is important to establish to what extent these are standardized, as this will affect how the results should be interpreted.</p>
+<p>The quality of the intervention is particularly relevant to complex interventions made up from a number of components, which act independently and inter-dependently. These include clinical interventions as well as public health interventions. The quality of an intervention can be conceptualized as having two main aspects: (i) whether the intervention has been appropriately defined and (ii) whether it has been delivered as planned (the integrity or fidelity of the intervention).</p>
+<p>If the quality of the intervention is relevant, the review should assess whether the intervention was implemented as planned in the individual studies (i.e.&nbsp;how many participants received the intervention as planned, whether consistency of implementation was measured, and whether it is likely that participants received an unintended intervention/contamination of the intervention that may influence the results). In some topic areas, for example when a sham device or procedure is being used, it may also be relevant to assess the quality of the comparator. When an intervention relies on the skill of the care provider it may be useful to assess whether the performance of those providing the intervention was measured.</p>
+<p><strong>External validity</strong></p>
+<p>Bias should also not be confused with the&nbsp;<strong>external validity (AKA</strong> applicability or generalizability) of a study, that is, the extent to which the results of a study can be generalized to other populations and settings. For example, a study may enrols participants who are not representative of the population who most commonly experience a particular clinical condition. The results of this study may have limited generalizability to the wider population, but will not necessarily give a biased estimate of the effect in the highly specific population on which it is based.&nbsp;</p>
+<p>In addition to assessing the risk of bias (internal validity), researchers may also consider how closely a study reflects routine practice or the usual setting where the intervention would be implemented. However, this is not an inherent characteristic of a study as the extent to which a study is ‘generalizable’ depends also on the situation to which the findings are being applied.</p>
+<p><strong>The impact of risk of bias on the estimate of effect</strong></p>
+<p>Several empirical studies have explored how quality can influence the results of clinical trials (and therefore the results of reviews of trials). Trials with adequate concealment of allocation have been found to indicate less beneficial treatment effects than trials without these features. Similarly, exclusion of studies judged to be at high risk of bias, has led to less beneficial effects in meta-analyses. In meta-analyses of subjectively assessed outcomes (e.g.&nbsp;patient reported outcomes), inadequate allocation concealment and lack of blinding have been associated with substantially more beneficial treatment effects, whereas for objective outcomes (e.g.&nbsp;mortality) there was no effect of lack of blinding.</p>
+<p><strong>How will the risk of bias assessment information be used?</strong></p>
+<p>Risk of bias assessment can be incorporated into the synthesis either quantitatively through subgroup or sensitivity analyses, or in a narrative synthesis. In the latter, the assessment can be used to help interpret and explain differences in results across studies (e.g.&nbsp;unblinded studies with subjective outcomes may have consistently larger effects than blinded studies) and inform a qualitative interpretation of the risk of bias.</p>
+<p><strong>Summary: Risk of bias assessment</strong></p>
+<ul>
+<li><p>In the systematic review process, it is mandatory to assess the risk of bias in the included studies.</p></li>
+<li><p>Various tools are available. Choice should be guided by study design.</p></li>
+<li><p>Cochrane RoB 2 is used for individually randomized parallel group trials.</p></li>
+<li><p>Cochrane RoB 2 is structured into a fixed set of domains of bias, focusing on different aspects of trial design, conduct and reporting.</p></li>
+<li><p>Each assessment using the RoB 2 tool focuses on a specific result from a randomized trial.</p></li>
+<li><p>Where appropriate, the potential impact that methodological quality had on the findings of the included studies should be considered.</p></li>
+</ul>
+</section>
+<section id="synthesis" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="synthesis"><span class="header-section-number">2.5</span> Synthesis</h2>
+<p>Synthesis involves the collation, combination and summary of the findings of individual studies included in the systematic review. Synthesis can be done quantitatively using formal statistical techniques such as meta-analysis, or if formal pooling of results is inappropriate, through a narrative approach. As well as drawing results together, synthesis should consider the strength of evidence, explore whether any observed effects are consistent across studies, and investigate possible reasons for any inconsistencies. This enables reliable conclusions to be drawn from the assembled body of evidence.</p>
+<p><strong>Deciding what type of synthesis is appropriate</strong></p>
+<p>Many systematic reviews evaluating the effects of health interventions focus on evidence from RCTs, the results of which, generally, can be combined quantitatively. However, not all health care questions can be addressed by RCTs, and systematic reviews do not automatically involve statistical pooling. Meta-analysis is not always possible or sensible. For example, pooling results obtained from diverse non-randomized study types is not recommended. Similarly, <em>meta-analysis of poor quality studies could be seriously misleading as errors or biases in individual studies would be compounded and the very act of synthesis may give credence to poor quality studies</em>.</p>
+<p>However, when used appropriately, meta-analysis has the advantage of being explicit in the way that data from individual studies are combined, and is a powerful tool for combining study findings, helping avoid misinterpretation and allowing meaningful conclusions to be drawn across studies.</p>
+<p>The planned approach should be decided at the outset of the review, depending on the type of question posed and the type of studies that are likely to be available. There may be topics where it can be decided a priori that a narrative approach is appropriate. For example, in a systematic review of interventions for people bereaved by suicide, it was anticipated there would be such diversity in the included studies, in terms of settings, interventions and outcome measures, that a narrative synthesis alone was proposed in the protocol.</p>
+<p>Narrative and quantitative approaches are not mutually exclusive. Components of narrative synthesis can be usefully incorporated into a review that is primarily quantitative in focus and those that take a primarily narrative approach can incorporate some statistical analyses such as calculating a common outcome statistic for each study.</p>
+<p><strong>Initial descriptive synthesis</strong></p>
+<p>Both quantitative and narrative synthesis should begin by constructing a clear descriptive summary of the included studies. This is usually done by tabulating details about study type, interventions, numbers of participants, a summary of participant characteristics, outcomes and outcome measures. An indication of risk of bias is given in a separate table and figure. If the review will not involve re-calculating summary statistics, but will rather rely on the reported results of the author’s analyses, these may also be included in the table. The descriptive process should be both explicit and rigorous and decisions about how to group and tabulate data should be based on the review question and what has been planned in the protocol. This initial phase will also be helpful in confirming that studies are similar enough to synthesize, and that it is appropriate to pool results.</p>
+<section id="narrative-synthesis" class="level3" data-number="2.5.1">
+<h3 data-number="2.5.1" class="anchored" data-anchor-id="narrative-synthesis"><span class="header-section-number">2.5.1</span> Narrative synthesis</h3>
+<p>All systematic reviews should contain text and tables to provide an initial descriptive summary and explanation of the characteristics and findings of the included studies. However simply describing the studies is not sufficient for a synthesis. The defining characteristic of narrative synthesis is the adoption of a textual approach that provides an analysis of the relationships within and between studies and an overall assessment of the robustness of the evidence.</p>
+<p>A narrative synthesis of studies may be undertaken where studies are too diverse (either clinically or methodologically) to combine in a meta-analysis, but even where a meta-analysis is possible, aspects of narrative synthesis will usually be required in order to fully interpret the collected evidence.</p>
+<p>Narrative synthesis is inherently a more subjective process than meta-analysis; therefore, the approach used should be rigorous and transparent to reduce the potential for bias. The idea of narrative synthesis within a systematic review should not be confused with broader terms like ‘narrative review’, which are sometimes used to describe reviews that are not systematic.</p>
+<p><strong>A general framework for narrative synthesis</strong></p>
+<p>How narrative syntheses are carried out varies widely, and historically there has been a lack of consensus as to the constituent elements of the approach or the conditions for establishing credibility. A guidance on the conduct of narrative synthesis in systematic reviews offers both a general framework and specific tools and techniques that help to increase the transparency and trustworthiness of narrative synthesis. The general framework consists of four elements:</p>
+<ul>
+<li><p>Developing a theory of how the intervention works, why and for whom</p></li>
+<li><p>Developing a preliminary synthesis of findings of included studies</p></li>
+<li><p>Exploring relationships within and between studies</p></li>
+<li><p>Assessing the robustness of the synthesis</p></li>
+</ul>
+<p>Though the framework is divided into these four elements, the elements themselves do not have to be undertaken in a strictly sequential manner, nor are they totally independent of one another. A researcher is likely to move iteratively among the activities that make up these four elements.</p>
+<p>For each element of the framework, there is a range of practical tools and techniques. It is not mandatory (or indeed appropriate) to employ each one of these for every narrative synthesis, but the appropriate tools/techniques should be selected depending upon the nature of the evidence being synthesized.</p>
+<p><strong>Developing a theory of how the intervention works, why and for whom</strong></p>
+<p>The extent to which theory will play a role will partly depend upon the type of intervention(s) being evaluated. For example, theory may only play a minor role in a systematic review looking at the effects of a single therapeutic drug on patient outcomes because many aspects of the ‘mechanism of action’ will have been established in early studies investigating pharmacodynamics, dose-finding etc. Alternatively, in a systematic review evaluating the effects of a psychosocial or educational program, theories about the causal chain linking the intervention to the outcomes of interest will be of crucial importance and might be presented descriptively or in diagrammatic form.</p>
+<p><strong>Developing a preliminary synthesis of findings of included studies</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Textual descriptions of studies</td>
+<td>A descriptive paragraph on each included study. These descriptions should be produced in a systematic way, including the same type of information for all studies if possible and in the same order. It may be useful for recording purposes to do this for all excluded studies as well.</td>
+</tr>
+<tr class="even">
+<td>Groupings and clusters</td>
+<td>The included studies might be grouped at an early stage of the review, though it may be necessary to refine these initial groups as the synthesis develops. This can also be a useful way of aiding the process of description and analysis and looking for patterns within and across groups. It is important to use the review question(s) to inform decisions about how to group the included studies.</td>
+</tr>
+<tr class="odd">
+<td>Tabulation</td>
+<td>A common approach, used to represent data visually. The way in which data are tabulated may affect readers’ impressions of the relationships between studies, emphasizing the importance of a narrative interpretation to supplement the tabulated data.</td>
+</tr>
+<tr class="even">
+<td>Transforming data into a common measure</td>
+<td>In both narrative and quantitative synthesis it is important to ensure that data are presented in a common measure to allow an accurate description of the range of effects.</td>
+</tr>
+<tr class="odd">
+<td>Vote-counting as a descriptive tool</td>
+<td>Simple vote-counting might involve the tabulation of findings according to direction of effect. More complex approaches can be developed both in terms of the categories used and by assigning different weights or scores to different categories. However, vote-counting can disregard sample size and be misleading. So, the interpretation of the results must be approached with caution and subjected to further scrutiny.</td>
+</tr>
+<tr class="even">
+<td>Translating data: thematic analysis</td>
+<td>A technique used in the analysis of qualitative data in primary research can be used to systematically identify the main, recurrent and/or most important (based on the review question) themes and/or concepts across multiple studies.</td>
+</tr>
+<tr class="odd">
+<td>Translating data: content analysis</td>
+<td>A technique for compressing many words of text into fewer content categories based on explicit rules of coding. Unlike thematic analysis, it is essentially a quantitative method, since all the data are eventually converted into frequencies.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exploring relationships within and between studies</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 91%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Graphs, forest plots, funnel plots, and L’Abbe plots</td>
+<td>There are several visual or graphical tools that can help reviewers explore relationships within and between studies. These include: presenting results in graphical form; plotting findings (e.g.&nbsp;effect size) against study quality; plotting confidence intervals; and/or plotting outcome measures.</td>
+</tr>
+<tr class="even">
+<td>Moderator variables and subgroup analyses</td>
+<td>This refers to the analysis of variables which can be expected to moderate the main effects being examined in the review. This can be done at the study level, by examining characteristics that vary between studies (such as study quality, study design or study setting) or by analyzing characteristics of the sample (such as subgroups of participants).</td>
+</tr>
+<tr class="odd">
+<td>Idea webbing and conceptual mapping</td>
+<td>Involves using visual methods to help to construct groupings and relationships. The basic idea underpinning these approaches is (i) to group findings that are empirically and/or conceptually similar and (ii) to identify (again on the basis of empirical evidence and/or conceptual/theoretical arguments) relationships between these groupings.</td>
+</tr>
+<tr class="even">
+<td>Qualitative case descriptions</td>
+<td>Any process in which descriptive data from studies included in the systematic review are used to try to explain differences in statistical findings. For example why one intervention outperforms another apparently similar intervention or why some studies are statistical outliers.</td>
+</tr>
+<tr class="odd">
+<td>Investigator/methodological/ conceptual triangulation</td>
+<td>Triangulation makes use of a combination of different perspectives and/or assessment methods to study a particular phenomenon. This could apply to the methodological and theoretical approaches adopted by the researchers undertaking primary studies included in a systematic review, e.g.&nbsp;investigator triangulation explores the extent to which heterogeneity in study results may be attributable to the diverse approaches taken by different researchers. Triangulation involves analysing the data in relation to the context in which they were produced, notably the disciplinary perspectives and expertise of the researchers producing the data.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Assessing the robustness of the synthesis</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 91%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Use of assessment of the confidence (certainty) in evidence</td>
+<td>Use of specific rules to define high, moderate, low, or very low certainty of evidence. An example is the GRADE approach</td>
+</tr>
+<tr class="even">
+<td>Reflecting critically on the synthesis process</td>
+<td>Use of a critical discussion to address methodology of the synthesis used (especially focusing on its limitations and their potential influence on the results); evidence used (quality, validity, generalizability) - with emphasis on the possible sources of bias and their potential influence on results of the synthesis; assumptions made; discrepancies and uncertainties identified; expected changes in technology or evidence (e.g.&nbsp;identified ongoing studies); aspects that may have an influence on implementation and effectiveness in real settings. Such a discussion would provide information on both the robustness and generalizability of the synthesis.</td>
+</tr>
+<tr class="odd">
+<td>Checking the synthesis with authors of primary studies</td>
+<td>It is possible to consult with the authors of included primary studies in order to test the validity of the interpretations developed during the synthesis and the extent to which they are supported by the primary data. The authors of the primary studies may have useful insights into the possible accuracy and generalizability of the synthesis; this is most likely to be useful when the number of primary studies is small. This is a technique that has been used with qualitative evidence.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="quantitative-synthesis" class="level3" data-number="2.5.2">
+<h3 data-number="2.5.2" class="anchored" data-anchor-id="quantitative-synthesis"><span class="header-section-number">2.5.2</span> Quantitative synthesis</h3>
+<p>As with narrative synthesis, quantitative synthesis should consider the direction and size of any observed intervention effects in relation to the strength of evidence and should explore relationships within and between studies. The requirements for a careful and thoughtful approach, the need to assess the robustness of syntheses, and to reflect critically on the synthesis process, apply equally but are not repeated here.</p>
+<p>Decisions about which comparisons to make, and which outcomes and summary effect measures to use, should have been addressed as part of the protocol development. However, as synthesis depends partly on what results are actually reported, some planned analyses may not be possible, and others may have to be adapted or developed. Any departures from the analyses planned in the protocol should be clearly justified and reported.</p>
+<p>Decisions about what studies should and should not be combined require careful discussion and judgement. As far as possible a priori consideration at the time of writing the protocol is highly desirable. There will always be differences between studies that address a common question. Reserving meta-analyses for only those studies that evaluate exactly the same interventions in near identical participant populations would be severely limiting and seldom achievable in practice. For example, whilst it may not be sensible to average the results of studies using different classes of the intervention or comparator, it may be reasonable to combine results of studies that use analogues or drugs with similar mechanisms of action. Likewise, it will often be reasonable to combine results of studies that have used similar but not identical comparators (e.g.&nbsp;placebo and no treatment).</p>
+<p><strong>Reasons for meta-analysis</strong></p>
+<p>Combining the results of individual studies in a meta-analysis increases power and precision in estimating intervention effects. In most areas of health care, ‘breakthroughs’ are rare and we may reasonably expect that new interventions will lead to only modest improvements in outcome; such improvements can of course be extremely important to individuals and of significant benefit in terms of population health. Large numbers of events are required to detect modest effects, which are easily obscured by the play of chance, and studies are often too small to do so reliably. Thus, in any group of small trials addressing similar questions, although a few may have demonstrated statistically significant results by chance alone, most are likely to be inconclusive. However, combining the results of studies in a meta-analysis provides increased numbers of participants, reduces random error, narrows confidence intervals, and provides a greater chance of detecting a real effect as statistically significant (i.e.&nbsp;increases statistical power). Meta-analysis also allows observation and statistical exploration of the pattern of results across studies and quantification and exploration of any differences.</p>
+<p><strong>Why a meta-analysis of effect estimates may not be possible</strong></p>
+<p>There are circumstances where it may not be possible to undertake a meta-analysis. Some common reasons why it may not be possible to undertake a meta-analysis are outlined in <a href="#tbl-no-ma" class="quarto-xref">Table&nbsp;<span>2.1</span></a>.</p>
+<div id="tbl-no-ma" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-no-ma-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2.1: Scenarios that may preclude meta-analysis, with possible solutions
+</figcaption>
+<div aria-describedby="tbl-no-ma-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 49%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Scenario</strong></th>
+<th style="text-align: left;"><strong>Description</strong></th>
+<th style="text-align: left;"><strong>Possible solutions</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Limited evidence for a pre-specified comparison</td>
+<td style="text-align: left;">Meta-analysis is not possible with no studies, or only one study. This circumstance may reflect the infancy of research in a particular area, or that the specified&nbsp;<strong>PICO for the synthesis</strong>&nbsp;aims to address a narrow question.</td>
+<td style="text-align: left;">Build contingencies into the analysis plan to group one or more of the PICO elements at a broader level.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Incompletely reported outcome or effect estimate</td>
+<td style="text-align: left;">Within a study, the intervention effects may be incompletely reported (e.g.&nbsp;effect estimate with no measure of precision; direction of effect with P value or statement of statistical significance; only the direction of effect).</td>
+<td style="text-align: left;"><p>Calculate the effect estimate and measure of precision from the available statistics if possible.</p>
+<p>Impute missing statistics (e.g.&nbsp;standard deviations) where possible.</p></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Different effect measures</td>
+<td style="text-align: left;">Across studies, the same outcome could be treated differently (e.g.&nbsp;a time-to-event outcome has been dichotomized in some studies) or analysed using different methods. Both scenarios could lead to different effect measures (e.g.&nbsp;hazard ratios and odds ratios).</td>
+<td style="text-align: left;"><p>Calculate the effect estimate and measure of precision for the same effect measure from the available statistics if possible.</p>
+<p>Transform effect measures (e.g.&nbsp;convert standardized mean difference to an odds ratio) where possible.</p></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bias in the evidence</td>
+<td style="text-align: left;">Concerns about missing studies, missing outcomes within the studies, or bias in the studies, are legitimate reasons for not undertaking a meta-analysis. These concerns similarly apply to other synthesis methods.</td>
+<td style="text-align: left;"><em>When there are major concerns about bias in the evidence, use structured reporting of the available effects using tables and visual displays.</em></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Clinical and methodological diversity</td>
+<td style="text-align: left;">Concerns about diversity in the populations, interventions, outcomes, study designs, are often cited reasons for not using meta-analysis.</td>
+<td style="text-align: left;">Modify planned comparisons, providing rationale for post-hoc changes.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Statistical heterogeneity</td>
+<td style="text-align: left;">Statistical heterogeneity is an often cited reason for not reporting the meta-analysis result. Presentation of an average combined effect in this circumstance can be misleading, particularly if the estimated effects across the studies are both harmful and beneficial.</td>
+<td style="text-align: left;"><p>Attempt to reduce heterogeneity (e.g.&nbsp;checking the data, correcting an inappropriate choice of effect measure).</p>
+<p>Attempt to explain heterogeneity (e.g.&nbsp;using subgroup analysis.</p>
+<p>Consider (if possible) presenting a prediction interval, which provides a predicted range for the true intervention effect in an individual study, thus clearly demonstrating the uncertainty in the intervention effects.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p><strong>Meta-analysis</strong></p>
+<p>Most meta-analyses take a two-step approach in that they first analyze the outcome of interest and calculate summary statistics for each individual study. In the second stage, these individual study statistics are combined to give an overall summary estimate. This is usually calculated as a weighted average of the individual study estimates. The greater the weight awarded to a study, the more it influences the overall estimate. Studies are usually, at least in part, weighted in inverse proportion to their variance (or standard error squared), a method which essentially gives more weight to larger studies and less weight to smaller studies. It is also possible to weight studies according to other factors such as trial quality, but such methods are very seldom implemented and not recommended.</p>
+<p>Two main statistical models are used. Common effect model weights the contribution of each study proportional to the amount of information observed in the study. This model considers only variability in results within studies and no allowance is made for variation between studies. The idea behind the common effect model is that observed effect sizes may vary from study to study, but this is only because of the sampling error. In reality, their true effect sizes are&nbsp;<strong>all the same</strong>: they are common. For this reason, the common effect model is sometimes also referred to as the&nbsp;<strong>“fixed-effect”</strong>&nbsp;or&nbsp;<strong>“equal effects”</strong>&nbsp;model.</p>
+<p>Random-effects model allows for between-study variability in results by weighting studies using a combination of their own variance and the between-study variance. The random-effects model assumes that there is not only one true effect size but a <strong>distribution</strong> of true effect sizes. The goal of the random-effects model is therefore not to estimate the one true effect size of all studies, but the&nbsp;<strong>mean</strong>&nbsp;of the <strong>distribution</strong> of true effects. Where there is little between-study variability, the within-study variance will dominate and the random-effects weighting will tend towards that of the common effect weighting. If there is substantial between-study variability, this dominates the weighting factor and within-study variability contributes little to the analysis. In this way, all trials will tend towards contributing equally towards the overall estimate and it can be argued that small studies will unduly influence the estimate. Those in favor of random-effects argue that it formally allows for between-study variability and that the common-effect approach unrealistically assumes a single effect across trials and gives over-precise estimates. In practice, with well-defined questions, the results of both approaches are often very similar and it is common to run both, as a sensitivity analysis, to test robustness of the choice of statistical model.</p>
+<p><strong>Generic inverse variance method of combining study results</strong></p>
+<p>The most common way to calculate a pooled effect size is through the inverse-variance method. It is very flexible and can be used to combine any type of effect measure provided that an effect estimate and its standard error is available from each study. Effect estimates may include adjusted estimates, estimates corrected for clustering and repeat measurements, or other summaries derived from more complex statistical methods.</p>
+<p>A common effect meta-analysis using the generic inverse variance method calculates a weighted average of study effect estimates (EEIV) by summing individual effect estimates (EEi), for example, the log odds ratio or the mean difference, and weighting these by the reciprocal of their squared standard errors (SEi).</p>
+<p>A random-effects approach involves adjusting the study specific standard errors to incorporate between-study variation, which can be estimated from the effects and standard errors associated with the included studies.</p>
+<p><strong>Types of data</strong></p>
+<p><strong>Dichotomous (binary) outcomes</strong></p>
+<p>Dichotomous outcomes are those that either happen or do not happen and an individual can be in one of only two states, for example being pregnant or not. Dichotomous outcomes are most commonly expressed in terms of risks or odds.</p>
+<p>Risk describes the probability with which a health outcome will occur and is often expressed as a decimal number between 0.0 and 1.0, where 0.0 indicates that there is no risk of the event occurring, and 1.0 indicating certainty that the event will take place. A risk of 0.4 indicates that four in ten people will experience the event. Odds describe the ratio of the probability that an event will happen to the probability that it will not happen and can take any value between zero and infinity. Odds are sometimes expressed as the ratio of two integers such that 0.001 can be written 1:1000 indicating that for every one individual who will experience the event, one thousand will not.</p>
+<p>Risk ratios (RR) indicate the change in risk brought about by an intervention and are calculated as the risk of an event in the intervention group divided by the risk of an event in the control group (where the risk of an event is estimated by the total number of events observed in the group divided by the total number of individuals in that group). A risk ratio of 2.0 indicates that the intervention leads to the risk becoming twice that of the comparator. A risk ratio of 0.75 indicates that the risk has been reduced to three quarters of that of the comparator. This can also be expressed in terms of a reduction in risk whereby the relative risk reduction (RRR) is given as one minus the risk ratio multiplied by 100. For example, a risk ratio of 2.0 corresponds to a relative risk reduction of –100% (a 100% increase), while a risk ratio of 0.75 corresponds to a relative risk reduction of 25%. Risk ratios can be combined using the generic inverse variance method applied to the log risk ratio and its standard error (either in a fixed effect or a random-effects model).</p>
+<p>Odds ratios (OR) describe the ratio of the odds of events occurring on treatment to the odds of events occurring on control, and therefore describes the multiplication of the odds of the outcome that occur with use of the intervention.</p>
+<p>The Mantel-Haenszel method for combining risk ratios or odds ratios, which uses a different weighting scheme, is more robust when data are sparse, but assumes a fixed effect model.</p>
+<p>The Peto odds ratio is an alternative estimate of a combined odds ratio in a fixed effect model, and is based on the difference between the observed number of events and the number of events that would be expected (O - E) if there was no difference between experimental and control interventions. Combining studies using the Peto method is straightforward, and it may be particularly useful for meta-analysis of dichotomous data when event rates are very low, and where other methods fail. This approach works well when the effect is small (that is when the odds ratio is close to 1.0), events are relatively uncommon, and there are similar numbers in the experimental and control groups. The approach is commonly used to combine data from cancer trials which generally conform to these expectations. Correction for zero cells is not necessary and the method appears to perform better than alternative approaches when events are very rare. It can also be used to combine time-to-event data by pooling log rank observed minus expected (O - E) events and associated variance. However, the Peto method does give biased answers in some circumstances, especially when treatment effects are very large, or where there is a lack of balance in treatment allocation within the individual studies. Such conditions will not usually apply to RCTs but may be particularly important when combining the results of observational studies which are often unbalanced.</p>
+<p><strong><em>Although both risk ratios and odds ratios are perfectly valid ways of describing a treatment effect, it is important to note that they are not the same measure, cannot be used interchangeably and should not be confused</em></strong>. When events are relatively rare, say less than 10%, differences between the two will be small, but where the event rate is high, differences will be large. For treatments that increase the chance of events, the odds ratio will be larger than the risk ratio and for interventions that reduce the chance of events, the odds ratio will be smaller than the risk ratio. Thus if an odds ratio is misinterpreted as a risk ratio it will lead to an overestimation of the effect of intervention. Unfortunately, this error in interpretation is quite common in published reports of individual studies and systematic reviews. Although some statisticians prefer odds ratios owing to their mathematical properties (they do not have inherent range limitations associated with high baseline rates and naturally arise as the anti-log of coefficients in mathematical modelling, making them more suitable for statistical manipulation), they have been criticized for not being well understood by clinicians and patients. It may therefore be preferable, even when calculations have been based on odds ratios, to transform the findings to describe results as changes in the more intuitively understandable concept of risk.</p>
+<p>Neither the risk ratio nor the odds ratio can be calculated for a trial if there are no events in the control group (as calculation would involve division by zero), and so in this situation it is customary to add 0.5 to each cell of the 2x2 table. If there are no events (or all participants experience the event) in both groups, then the trial provides no information about relative probability and so it is omitted from the meta-analysis. These situations are likely to occur when the event of interest is rare, and in such situations the choice of effect measure requires careful thought. A simulation study has shown that when events are rare, most meta-analysis methods give biased estimates of effect, and that the Peto odds ratio (which does not require a 0.5 correction) may be the least biased.</p>
+<p><strong>Continuous outcomes</strong></p>
+<p>Continuous outcomes are those that take any value in a specified range and can theoretically be measured to many decimal places of accuracy, for example weight. Many other quantitative outcomes are typically treated as continuous data in meta-analysis, including measurement scales. Continuous data are usually summarized as means and presented with an indication of the variation around the mean using the standard deviation. The effect of an intervention on a continuous outcome is measured by the absolute difference between the mean outcome observed for the intervention and control, termed the mean difference (MD). This estimates the amount by which the treatment changes the outcome on average. Study mean differences and their associated standard errors can be combined using the generic inverse variance method.</p>
+<p>Where studies assess the same outcome but measure it using different scales (for example, different quality of life scales), the individual study results must be standardized before they can be combined. This is done using the standardized mean difference (SMD), which considers the effect size in each study relative to the variability in the study and is calculated as the mean difference divided by the standard deviation among all participants. Where scales differ in direction of effect (i.e.&nbsp;some increase with increasing severity of outcome whilst others decrease with increasing severity), this needs to be accounted for by assigning negative values to the mean of one set of studies thereby giving all scales the same direction of measurement. The standardized mean difference assumes that differences in the standard deviation between studies reflect differences in the measurement scale and not differences between the study populations. The summary intervention effect can be difficult to interpret as it is presented in abstract units of standard deviation rather than any particular scale.</p>
+<p><strong>Time-to-event outcomes</strong></p>
+<p>Time-to-event analysis takes account not only of whether an event happens but when it happens. This is especially important in chronic diseases where even although we may not be able to ultimately stop an event from happening, slowing its occurrence can be beneficial. For example, in cancer studies in adult patients we rarely anticipate cure, but hope that we can significantly prolong survival. Time-to-event data are often referred to as ‘survival’ data since death is often the event of interest, but can be used for many different types of event such as time free of seizures, time to healing or time to conception. Each study participant has data capturing the event status and the time of that status. An individual may be recorded with a particular elapsed time-to-event, or they may be recorded as not having experienced the event by a particular elapsed time or period of follow-up. When the event has not (yet) been observed, the individual is described as censored, and their event-free time contributes information to the analysis up until the point of censoring.</p>
+<p>The most appropriate way to analyse time-to-event data is usually to use Kaplan Meier analysis and express results as a hazard ratio (HR). The HR summarizes the entire survival experience and describes the overall likelihood of a participant experiencing an event on the experimental intervention compared to control. Meta-analyses that collect individual participant data are able to carry out such analysis for each included study and then pool these using a variant of the Peto method described above. Alternatively a modelling approach can be used.</p>
+<p>Meta-analyses of aggregate data often treat time-to-event data as dichotomous and carry out analyses using the numbers of individuals who did or did not experience an event by a particular point in time. However, using such dichotomous measures in a meta-analysis of time-to-event outcomes is discarding information and can pose additional problems. If the total number of events reported for each study is used to calculate an odds ratio or risk ratio, this can involve combining studies reported at different stages of maturity, with variable follow-up, resulting in an estimate that is both unreliable and difficult to interpret. This approach is not recommended. Alternatively, ORs or RRs can be calculated at specific points in time. Although this makes estimates comparable, interpretation can still be difficult, particularly if individual studies contribute data at different time points. In this case it is unclear whether any observed difference in effect between time points is attributable to the timing or to the analyses being based on different sets of contributing studies. Furthermore, bias could arise if the time points are subjectively chosen by the researcher or selectively reported by the study author at times of maximal or minimal difference between intervention groups.</p>
+<p>A preferable approach is to estimate HRs by using and manipulating published or other summary statistical data or survival curves. This approach has also been described in non-technical step-by-step terms. Currently, such methods are under-used in meta-analyses, which may reflect unfamiliarity with the methods and that study reports do not always include the necessary statistical information to allow the methods to be used.</p>
+<p><strong>Ordinal outcomes</strong></p>
+<p>Outcomes may be presented as ordinal scales, such as pain scales (where individuals’ rate their pain as none, mild moderate or severe). These are sometimes analysed as continuous data, with each category being assigned a numerical value (for example, 0 for none, 1 for mild, 2 for moderate and 3 for severe). This is usual when there are many categories, as is the case for many psychometric scales such as the Hamilton depression scale or the Mini-Mental State Examination for measuring cognition.</p>
+<p>However, a mean value may not be meaningful. Thus, an alternative way to analyse ordinal data is to dichotomize them (e.g.&nbsp;none or mild versus moderate or severe) to produce a standard 2x2 table. Methods are available for analyzing ordinal data directly, but these typically require expert input.</p>
+<p><strong>Counts and rates</strong></p>
+<p>When outcomes can be experienced repeatedly they are usually expressed as event counts, for example, the number of asthma attacks. When these represent common events, they are often treated and analysed as continuous data (for example, number of days in hospital) and where they represent uncommon events they are often dichotomized (for example, whether or not each individual had at least one stroke).</p>
+<p>When events are rare, analyses usually focus on rates expressed at the group level, such as the number of asthma attacks per person, per month. Although these can be combined as rate ratios using the generic inverse variance method, this is not always appropriate as it assumes a constant risk over time and over individuals, and is not often done in practice. It is important not to treat rate data as dichotomous data because more than one event may have arisen from the same individual.</p>
+<p><strong>Presentation of meta-analysis results</strong></p>
+<p>Results should be expressed in formats that are easily understood, and in both relative and absolute terms.</p>
+<p><strong>Relative and absolute effects</strong></p>
+<p>Risk ratios, odds ratios and hazard ratios describe relative effects of one intervention versus another, providing a measure of the overall chance of the event occurring on the intervention compared to control. These relative effects do not provide information on what this comparison means in absolute terms. Although there may be a large relative effect of an intervention, if the absolute risk is small, it may not be clinically significant because the change in absolute terms is minimal (a big percentage of a small amount may still be a small amount). For example, a risk ratio of 0.8 may represent a 20% relative reduction in events from 50% to 40% or it could represent a 20% relative reduction from 5% to 4% corresponding to absolute differences of 10% and 1% respectively. There may be situations where the former is judged to be clinically significant whilst the latter is not. Meta-analysis should use ratio measures; for example, dichotomous data should be combined as risk ratios or odds ratios and pooling risk differences should be avoided. However, when reporting results it is generally useful to convert relative effects to absolute effects. This can be expressed as either an absolute difference or as a number needed to treat (NNT). Absolute change is usually expressed as an absolute risk reduction which can be calculated from the underlying risk of experiencing an event if no intervention were given and the observed relative effect.</p>
+<p>Consideration of absolute effects is particularly important when considering how results apply to different types of individuals who may have different underlying prognoses and associated risks. Even if there is no evidence that the relative effects of an intervention vary across different types of individual (see Subgroup analyses and Meta-regression below), if the underlying risks for different categories of individual differ, then the effect of intervention in absolute terms will be different. It is therefore important when reporting results to consider how the absolute effect of an intervention varies for different types of individual and a table expressing results in this way can be useful. The underlying risk for different types of individual can be estimated from the studies included in the meta-analysis, or generally accepted standard estimates can be used. Confidence intervals should be calculated around absolute effects.</p>
+<p>The NNT, which is derived from the absolute risk reduction, also depends on both relative effect and the underlying risk. The NNT represents the number of individuals who need to be treated to prevent one event that would be experienced on the control intervention. The lower the number needed to treat, the fewer the patients that need to be treated to prevent one event, and the greater the efficacy of the treatment. For example a meta-analysis of anti-platelet agents for the prevention of pre-eclampsia found an RR of 0.90 (0.84 to 0.97) for pre-eclampsia. Plausible underlying risks of 2%, 6% and 18% had associated NNTs of 500 (313-1667), 167 (104-556) and 56 (35-185) respectively.</p>
+<p><strong>The forest plot</strong></p>
+<p>Results should be shown graphically. The most commonly used graphic is the forest plot (<a href="#fig-forest" class="quarto-xref">Figure&nbsp;<span>2.1</span></a>) , which illustrates the effect estimates from individual studies and the overall summary estimate. It also gives a good visual summary of the review findings, allowing readers to get a sense of the data. Forest plots provide a simple representation of the precision of individual and overall results and of the variation between-study results. They give an ‘at a glance’ identification of any studies with outlying or unusual results and can also indicate whether particular studies are driving the overall results. Forest plots can be used to illustrate results for dichotomous, continuous and time-to-event outcomes.</p>
+<div id="fig-forest" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forest-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/clipboard-3847277273.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forest-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: Forest plot
+</figcaption>
+</figure>
+</div>
+<p>Individual study results are shown as boxes centered on their estimate of effect, with extending horizontal lines indicating their confidence intervals. The confidence interval expresses the uncertainty around the point estimate, describing a range of values within which it is reasonably certain that the true effect lies; wider confidence intervals reflect greater uncertainty. Although intervals can be reported for any level of confidence, in most systematic reviews of health interventions, the 95% confidence interval is used. Thus, on the forest plot, studies with wide horizontal lines represent studies with more uncertain results. Different sized boxes may be plotted for each of the individual studies, the area of the box representing the weight that the study takes in the analysis providing a visual representation of the relative contribution that each study makes to the overall effect.</p>
+<p>The plot shows a vertical line of equivalence indicating the value where there is no difference between groups. For odds ratios, risk ratios or hazard ratios this line will be drawn at an odds ratio/risk ratio/hazard ratio value of 1.0, while for risk difference and mean difference it will be drawn through zero. Studies reach conventional levels of statistical significance where their confidence intervals do not cross the vertical line. Summary (meta-analytic) results are presented as diamonds whose extremities show the confidence interval for the summary estimate. A summary estimate reaches conventional levels of statistical significance if these extremities do not cross the line of no effect. If individual studies are too dissimilar to calculate an overall summary estimate of effect, a forest plot that omits the summary value and diamond can be produced.</p>
+<p>Odds ratios, risk ratios and hazard ratios can be plotted on a log-scale to introduce symmetry to the plot. The plot should also incorporate the extracted numerical data for the groups for each study, e.g.&nbsp;the number of events and number of individuals for odds ratios, the mean and standard deviation for continuous outcomes.</p>
+<p><strong>Exploring heterogeneity</strong></p>
+<p>There will inevitably be variation in the observed estimates of effect from the studies included in a meta-analysis. Some of this variation arises by chance alone, reflecting the fact that no study is so large that random error can be removed entirely. Statistical heterogeneity refers to variation other than that which arises by chance. It reflects methodological or clinical differences between studies. Exploring statistical heterogeneity in a meta-analysis aims to tease out the factors contributing to differences, such that sources of heterogeneity can be accounted for and taken into consideration when interpreting results and drawing conclusions.</p>
+<p>There is inevitably a degree of clinical diversity between the studies included in a review,160 for example because of differing patient characteristics and differences in interventions. If these factors influence the estimated intervention effect, then there will be some statistical heterogeneity between studies. Methodological differences that influence the observed intervention effect will also lead to statistical heterogeneity. For example, combining results from blinded and un-blinded studies may lead to statistical heterogeneity, indicating that they might best be analysed separately rather than in combination. Although it manifests itself in the same way, heterogeneity arising from clinical differences is likely to be because of differences in the true intervention effect, whereas heterogeneity arising from differences in methodology is more likely to be because of bias.</p>
+<p>An idea of heterogeneity can be obtained straightforwardly by visually examining forest plots for variations in effects. If there is poor overlap between the study confidence intervals, then this generally indicates statistical heterogeneity.</p>
+<p>More formally a X<sup>2</sup> (chi-squared) test, often also referred to as Q-statistic, can assess whether differences between results are compatible with chance alone. However, care must be taken in interpreting the chi-squared test as it has low power, consequently a larger P value (P&lt;0.1) is sometimes used to designate statistical significance. Although a statistically significant test result may point to a problem with heterogeneity, a non-significant test result does not preclude important between-study differences, and cannot be taken as evidence of no heterogeneity. Conversely, if there are many studies in a meta-analysis, the test has high power to detect a small amount of heterogeneity that, although statistically significant, may not be clinically important.</p>
+<p>Accepting that diversity is likely to be inherent in any review, methods have also been developed to quantify the degree of inconsistency across studies, shifting the focus from significance testing to quantifying heterogeneity.</p>
+<p>The I<sup>2</sup> statistic&nbsp;is one way to quantify between-study heterogeneity. The I<sup>2</sup> statistic is directly based on Cochran’s Q. It is defined as the percentage of variability in the effect sizes that is not caused by sampling error. Although the I<sup>2</sup> statistic often has wide confidence intervals and it is difficult to provide rules on what level of inconsistency is reasonable in a meta-analysis, as a rough guide it has been suggested that I<sup>2</sup> values of up to 40% might be unimportant, 30% to 60% might be moderate, 50 to 90% may be substantial and 75% to 100% considerable.</p>
+<p>If statistical heterogeneity is observed, then the possible reasons for differences should be explored and a decision made about if and how it is appropriate to combine studies. A systematic review does not always need to include a meta-analysis and, <strong><em>if there are substantial differences between study estimates of effect, particularly if they are in opposing directions,</em></strong> <strong><em>combining results in a meta-analysis can be misleading</em></strong>.</p>
+<p>One way of addressing this is to split studies into less heterogeneous groups according to particular study level characteristics (e.g.&nbsp;by type of drug), and perform separate analyses for each group. Forest plots can be produced to show subsets of studies on the same plot. Each subset of studies can have its own summary estimate, and if appropriate an overall estimate combined across all studies can also be shown. Showing these groupings alongside each other in this way provides a good visual summary of how they compare. This approach allows the consistency and inconsistency between subsets of studies to be examined. Differences can be summarized narratively, but where possible they should also be evaluated formally. A X<sup>2</sup> test for differences across subgroups can be carried out.</p>
+<p>The influence of patient-level characteristics (e.g.&nbsp;age, gender) or issues related to equity (e.g.&nbsp;ethnicity, socioeconomic group) can also be explored through subgroup analyses, meta-regression or other modelling approaches. However, there is generally insufficient information in published study reports to allow full exploration of heterogeneity in this way and this can usually only be addressed satisfactorily when IPD are available. Such exploration of heterogeneity may enable additional questions to be addressed, such as which particular treatments perform best or which types of patient will benefit most, but is unlikely to be helpful when there are few studies. Wherever possible, potential sources of heterogeneity should be considered when writing the review protocol and possible subgroup analyses pre-specified rather than trying to explain statistical heterogeneity after the fact.</p>
+<p><strong>Subgroup analyses</strong></p>
+<p>Subgroup analyses divide studies (for study level characteristics) or participant data (for participant level characteristics) into subgroups and make indirect comparisons between them. These analyses may be carried out to explore heterogeneity (see above) as well as to try to answer particular questions about patient or study factors. For example a subgroup analysis for study level characteristics might examine whether the results of trials carried out in primary health care settings are the same as trials carried out in a hospital setting. A participant level subgroup analysis might examine whether the effect of the intervention is the same in men as in women.</p>
+<p>In individual studies it is unusual to have sufficient numbers and statistical power to permit reliable subgroup analyses of patient characteristics. However, provided that such data have been collected uniformly across studies, a meta-analysis may achieve sufficient power in each subgroup to permit a more reliable exploration of whether the effect of an intervention is larger (or smaller) for any particular type of individual. Although, owing to the multiplicity of testing, these analyses are still potentially misleading, subgroup analysis within the context of a large meta-analysis may be the only reasonable way of performing such exploratory investigations. Not only do the greater numbers give increased statistical power, but consistency across trials can be investigated. Indeed, the possibility of undertaking such analyses is a major attraction of IPD meta-analyses as dividing participant data into groups for subgroup analysis is seldom possible in standard reviews of aggregate data. Subgroup analyses in most (non IPD) systematic reviews focus on grouping according to trial attributes.</p>
+<p>The interpretation of the results of subgroup analyses must be treated with some caution. Even where the original data have come from RCTs, the investigation of between-study differences is indirect and equivalent to an observational study. There may be explanations for the observed differences between groups, other than the attributes chosen to categorize groupings. Comparisons which are planned in advance on the basis of a plausible hypothesis and written into the protocol are more credible than findings that are found through post hoc exploratory analyses. Furthermore, the likelihood of finding false negative and false positive significance tests rises rapidly as more subgroup analyses are done. Subgroups should therefore be restricted to a few potentially important characteristics where it is reasonable to suspect that the characteristic will interact with or modify the effect of the intervention. Note that there is often confusion between prognostic factors and potential effect modifiers; just because a characteristic is prognostic does not mean that it will modify the effect of an intervention. For example, whilst gender is prognostic for survival (women live longer than men) it does not necessarily mean that women will benefit more than men will from a drug to treat lung cancer.</p>
+<p><strong>Meta-regression</strong></p>
+<p>Meta-regression can be used to investigate the effects of differences in study characteristics on the estimates of the treatment effect, and can explore continuous as well as categorical characteristics. In principle it can allow for the simultaneous exploration of several characteristics and their interactions, though in practice this is seldom possible because of small numbers of studies. As in any simple regression analysis, meta- regression aims to predict outcome according to explanatory variables or covariates of interest. The covariates may be constant for the entire trial, for example, the protocol dose of a drug, or a summary measure of attributes describing the patient population, for example, mean age or percentage of males. The regression is weighted by precision of study estimates such that larger studies have more influence than smaller studies.</p>
+<p>The regression coefficient is tested to establish whether there is an association between the intervention effect and the covariate of interest. Provided that enough data are available (at least 10 studies), the technique may be a useful exploratory tool.</p>
+<p>However, there are limitations. Not all publications will report on all the covariates of interest (and there could be potential bias associated with selective presentation of data that have shown a positive association within a primary study). If a study is missing a covariate it drops out of the regression, limiting the power and usefulness of the analysis, which is already likely to be based on relatively few data points.</p>
+<p>Meta-regression is not a good way to explore differences in treatment effects between different types of individual as summary data may misrepresent individual participants. What is true of a study with a median participant age of 60 may not necessarily be true for a 60-year-old patient. Potentially all the benefit could have been shown in the 50-year-olds and none in the 60 and 70-year-olds. Comparison of treatment effects between different types of individual, for example between men and women, should be done using subgroup analyses and not by using meta-regression incorporating the proportion of women in each trial. It should always be borne in mind that finding a significant association in a meta-regression does not prove causality and should rather be regarded as hypothesis generating.</p>
+<p><strong>Sensitivity analyses</strong></p>
+<p>Sensitivity analyses explore the robustness of the main meta-analysis results by repeating the analyses having made some changes to the data or methods. Analyses run with and without the inclusion of certain trials will assess the degree to which studies (perhaps those with poorer methodology) affect the results. For example, analyses might be carried out on all eligible trials and a sensitivity analysis restricted to only those that used a placebo in the control group. If results differ substantially, the final results will require careful interpretation. However, care must be taken in attributing reasons for differences, especially when a single or small numbers of trials are included/excluded in the sensitivity analysis, as a study may differ in additional ways to the issue being explored in the sensitivity analysis. Some sensitivity analyses should be proposed in the protocol, but as many issues suitable for exploration in sensitivity analyses only come to light whilst the review is being done, and in response to decisions made or difficulties encountered, these may have to change and/ or be supplemented.</p>
+<p><strong>Dealing with special study designs and analysis issues</strong></p>
+<p><strong>Intention to treat analyses</strong></p>
+<p>ITT is usually the preferred type of analysis as it is less likely to introduce bias than alternative approaches. True intention to treat analysis captures two criteria: (i) participants should be analysed irrespective of whether or not they received their allocated intervention and irrespective of what occurred subsequently, for example, participants with protocol violations or those subsequently judged ineligible should be included in the analysis; (ii) all participants should be included irrespective of whether outcomes were collected. Although the first criterion is generally accepted, there is no clear consensus on the second as it involves including participants in the analyses whose outcomes are unknown, and therefore requires imputation of data. Many authors describe their analyses as ITT when only the first criterion has been met. Alternative analysis of all participants for whom outcome data are available is termed available case analysis. Some studies present analysis of all participants who completed their allocated treatment, this is per protocol or treatment received analysis which may be seriously biased.</p>
+<p><strong>Imputing missing data</strong></p>
+<p>Although statistical techniques are available to impute missing data, this cannot reliably compensate for missing data and in most situations imputation of data is not recommended. It is reasonable for most systematic reviews to aim for an available case analysis and include data from only those participants whose outcome is known.</p>
+<p>Achieving this may require making contact with the study author if individuals for whom outcome data were recorded have been excluded from the published analyses. The extent and implications of missing data should always be reported and discussed in the review. If the number of participants missing from the final analysis is large it will be helpful to detail the reasons for their exclusion.</p>
+<p>In some circumstances, it might be informative to impute data in sensitivity analyses to explore the impact of missing data. For missing dichotomous data the analysis can assume that either all participants with missing data experienced the event, or that they all did not experience the event. This generates the theoretical extremes of possible effect. Data could also be imputed using the rate of events observed in the control group, however this does not add information, gives inflated precision and is not recommended. Where missing data are few, imputation will have little impact on the results. Where missing data are substantial, analysis of worst/best case scenarios will give a wide range of possible effect sizes and may not be particularly helpful.</p>
+<p>Approaches to imputing missing continuous data have received little attention. In some cases it may be possible to use last observation carried forward, or to assume that no change took place. However, this cannot be done from aggregate data and the value of such analysis is unclear. Any researcher contemplating imputing missing data should consult with an experienced statistician.</p>
+<p><strong>Cluster randomized trials</strong></p>
+<p>In cluster randomized trials, groups rather than individuals are randomized, for example clinical practices or geographical areas. Reasons for allocating interventions in this way include evaluating policy interventions or group effects such as in immunization programs, and avoiding cross-contamination, for example, health promotion information may be easily shared by members of the same clinic or community. In many instances clustering will be obvious, for example where primary care practices are allocated to receive a particular intervention. In other situations the clustering may be less obvious, for example where multiple body parts on the same individual are allocated treatments or where a pregnant woman has more than one fetus. It is important that any cluster randomized trials are identified as such in the review.</p>
+<p>As participants within any one cluster are likely to respond in a manner more similar to each other than to other individuals (owing to shared environmental exposure or personal interactions), their data cannot be assumed to be independent. It is therefore inappropriate to ignore the clustering and analyse as though allocation had been at the individual level. This unit of analysis error would result in overly narrow confidence intervals and straightforward inclusion of trials analysed in this way would give undue weight to that study in a meta-analysis. Unfortunately, many primary studies have ignored clustering and analysed results as though from an individual randomized trial. One way to avoid the problem of inappropriately analysed cluster trials is to carry out meta-analyses using a summary measure for each cluster as a single observation. The sample size becomes the number of clusters (not the number of individuals) and the analysis then proceeds as normal. However, depending on the size and number of clusters, this will reduce the statistical power of the analysis considerably and unnecessarily. Indeed, the information required to do this is unlikely to be available in many study publications.</p>
+<p>A better approach is to adjust the results of inappropriately analysed primary studies to take account of the clustering, by increasing the standard error of the estimate of effect. This may be achieved by multiplying the original standard error by the square root of the ‘design effect’. The design effect can be calculated from the intracluster correlation coefficient, which, although seldom reported, can use external values from similar studies. A common design effect is usually adopted across the intervention groups.</p>
+<p>These values can then be used in a generic inverse variance meta-analysis alongside unadjusted values from appropriately analysed trials.</p>
+<p><strong>Cross-over trials</strong></p>
+<p>Cross-over trials allocate each individual to a sequence of interventions, for example one group may be allocated to receive treatment A followed by treatment B, and the other group allocated to receive B followed by A. This type of trial has the advantage that each participant acts as their own control, eliminating between participant variability such that fewer participants are required to obtain the same statistical power. They are suitable for evaluating interventions that have temporary effects in treating stable conditions. They are not appropriate where an intervention can have a lasting effect that compromises treatment in subsequent periods of the trial, or where a condition has rapid evolution, or the primary outcome is irreversible. The first task of the researcher is to decide whether the cross-over design is appropriate in assessing the review question.</p>
+<p>Appropriate analysis of cross-over trials involves paired analysis, for example using a paired t-test to analyse a study with two interventions and two periods (using experimental measurement - control measurement) for each participant, with standard errors calculated for these paired measurements. These values can then be combined in a generic inverse variance meta-analysis. Unfortunately, cross-over trials are frequently inappropriately analysed and reported.</p>
+<p>A common naive analysis of cross-over data is to treat all measurements on experimental and control interventions as if they were from a standard parallel group trial. This results in confidence intervals that are too wide and the trial receives too little weight in the meta-analysis. However, as this is a conservative approach, it might not be unreasonable in some circumstances. Where the effect of the first intervention is thought to have influenced the outcome in subsequent periods (carry-over), a common approach is to use only the data from the first period for each individual. However, this will be biased if the decision to analyse in this way is based on a test of carry-over and studies analysed in this way may differ from those using paired analyses. One approach to combining studies with differing types of reported analyses is to carry out an analysis grouped by type of study i.e.&nbsp;grouped by cross-over trial paired analysis, cross-over trial with first period analysis, parallel group trial, and explore whether their results differ (see Subgroup analyses above).</p>
+<p>Alternatively, the researcher can carry out their own paired analysis for each trial if</p>
+<ol type="1">
+<li><p>the mean and standard deviation or standard error of participant differences are available;</p></li>
+<li><p>the mean difference plus a t-statistic, p-value or confidence interval from a paired analysis is available;</p></li>
+<li><p>a graph from which individual matched measurements can be extracted; or</p></li>
+<li><p>if individual participant data are available.</p></li>
+</ol>
+<p>Another approach is to attempt to approximate a paired analysis by imputing missing standard errors by ‘borrowing’ from other studies that have used the same measurement scale or by a correlation coefficient obtained from other studies or external sources. Researchers will need to decide whether excluding trials is preferable to inferring data. If imputation is thought to be reasonable, advice should be sought from an experienced statistician. Authors should state explicitly where studies have used a cross-over design and how this has been handled in the meta-analysis.</p>
+<p><strong>Mixed treatment comparisons</strong></p>
+<p>Mixed treatment comparisons (MTC), or network meta-analyses, are used to analyse studies with multiple intervention groups and to synthesize evidence across a series of studies in which different interventions were compared. These are used to rank or identify the optimal intervention. They build a network of evidence that includes both direct evidence from head-to-head studies and indirect comparisons whereby interventions that have not been compared directly are linked through common comparators. A framework has been described that outlines some of the circumstances in which such syntheses might be considered. Methods for conducting indirect comparisons and more complex mixed treatment methods require expert advice. Researchers wishing to undertake such analyses should consult with an appropriately experienced statistician.</p>
+<p><strong>Bayesian methods</strong></p>
+<p>Unlike standard analysis techniques, Bayesian analyses allow for the combination of existing information with new evidence using established rules of probability. A simple Bayesian analysis model includes three key elements:</p>
+<ol type="1">
+<li><p>Existing knowledge on the effect of an intervention can be retrieved from a variety of sources and summarized as a prior distribution</p></li>
+<li><p>The data from the studies are used to form the likelihood function</p></li>
+<li><p>The prior distribution and the likelihood function are formally combined to provide a posterior distribution which represents the updated knowledge about the effect of the intervention</p></li>
+</ol>
+<p>Bayesian approaches to meta-analysis may be useful when evidence comes from a diverse range of sources particularly when few data from RCTs exist. They can also be used to account for the uncertainty introduced by estimating the between-study variance in the random-effects model, which can lead to reliable estimates and predictions of treatment effects. While there are several good texts available, if a Bayesian approach is to be used, the advice of a statistical expert is strongly recommended.</p>
+</section>
+</section>
+<section id="reporting-biases-meta-bias" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="reporting-biases-meta-bias"><span class="header-section-number">2.6</span> Reporting biases (Meta-bias)</h2>
+<p>Although thorough searches should ensure that a systematic review captures as many relevant studies as possible, they cannot eliminate the risk of publication bias. As publication and associated biases can potentially influence profoundly the findings of a review, the risk of such bias should be considered in the review’s conclusions and inferences.</p>
+<p>The obvious way to test for publication bias is to compare formally the results of published and unpublished studies. However, more often than not unpublished studies are hidden from the reviewer, and more ad hoc methods are required. A common technique to help assess potential publication bias is the funnel plot.</p>
+<p>This is a scatter plot based on the fact that precision in estimating effect increases with increasing sample size. Effect size is plotted against some measure of study precision - of which standard error is likely to be the best choice. A wide scatter in results of small studies, with the spread narrowing as the trial size increases, is expected. If there is no difference between the results of small and large studies, the shape of the plot should resemble an inverted funnel (<a href="#fig-funnel-sym" class="quarto-xref">Figure&nbsp;<span>2.2</span></a>). If there are differences, the plot will be skewed and a gap where the small unfavorable studies ought to be is often cited as evidence of publication bias (<a href="#fig-funnel-asym" class="quarto-xref">Figure&nbsp;<span>2.3</span></a>). However, the shape of a funnel plot can also depend on the measures selected for estimating effect and precision and could be attributable to differences between small and large studies other than publication bias. These differences could be a result of other types of methodological bias (<a href="#fig-funnel-small" class="quarto-xref">Figure&nbsp;<span>2.4</span></a>), or genuine clinical differences. For example, small studies may have a more selected participant population where a larger treatment effect might be expected. Funnel plots are therefore more accurately described as a tool for investigating small study effects.</p>
+<div id="fig-funnel-sym" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-funnel-sym-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/clipboard-4161934926.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-funnel-sym-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.2: Symmetrical plot in the absence of bias due to missing evidence
+</figcaption>
+</figure>
+</div>
+<div id="fig-funnel-asym" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-funnel-asym-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/clipboard-1538892079.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-funnel-asym-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.3: Asymmetrical plot in the presence of bias due to missing evidence
+</figcaption>
+</figure>
+</div>
+<div id="fig-funnel-small" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-funnel-small-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/clipboard-2657010065.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-funnel-small-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.4: Asymmetrical plot in the presence of bias because some smaller studies (open circles) had flaws and therefore produced exaggerated intervention effect estimates
+</figcaption>
+</figure>
+</div>
+<p>Although visual inspection of funnel plots has been shown to be unreliable, this might be improved if contour zones illustrating conventional levels of significance are overlaid on the plot to illustrate whether ‘missing’ studies are from zones of statistical significance or not. If the ‘missing’ studies are from non-significant zones, this may support a publication bias. On the other hand if ‘missing’ studies are from statistically significant zones, the asymmetry may be more likely to be attributable to other causes.</p>
+<p>A range of statistical and modelling methods have been developed to test for asymmetry, the most frequently used of which are those based on rank correlation or linear regression and complex modelling methods.</p>
+<p>Some methods (for example, the trim and fill method) attempt to adjust for any publication bias detected. However, all methods are by nature indirect and the appropriateness of many methods is based on some strict assumptions that can be difficult to justify in practice.</p>
+<p>Although frequently used to help assess possible publication bias, funnel plots and associated statistical tests are often used and interpreted inappropriately, potentially giving false assurance where a symmetrical plot overlooks important bias or undermining important valid evidence because of an asymmetric plot. The methods are inappropriate where there is statistical heterogeneity; have low power and are of little use where there are few studies; and are meaningless where studies are of similar size. Consequently, situations where they are helpful are few and their use is not generally a good way of dealing with publication bias. Therefore use of these methods to identify or adjust for publication bias in a meta-analysis should be considered carefully and generally be restricted to sensitivity analyses. Results should be interpreted with caution. Statistical tests will not resolve bias and avoidance of publication bias is preferable. In time this may become easier with more widespread registration of clinical trials and other studies at inception.</p>
+</section>
+<section id="certainty-of-evidence" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="certainty-of-evidence"><span class="header-section-number">2.7</span> Certainty of evidence</h2>
+<p>The authors should use the Grading of Recommendations, Assessment, Development and Evaluation (GRADE) approach to create the Summary of Findings. GRADE uses study limitations, consistency of effect, imprecision, indirectness, and publication bias to assess the certainty of evidence for each outcome. A summary of the intervention effect and a measure of certainty should be produced using the GRADE Profiler Guideline Development Tool (GRADEpro GDT) software for the prespecified important outcomes. <span class="citation" data-cites="GRADEproGDT">(<a href="ref.html#ref-GRADEproGDT" role="doc-biblioref"><span>“GRADEpro GDT: Guideline Development Tool”</span> 2025</a>)</span></p>
+</section>
+<section id="interpreting-results" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="interpreting-results"><span class="header-section-number">2.8</span> Interpreting results</h2>
+<p>When describing review findings, the results of all analyses should be considered as a whole, and overall coherence discussed. Consistency across studies should be considered and results interpreted in relation to biological and clinical plausibility.</p>
+<p>Where there have been many analyses and tests, care should be taken in interpreting unexpected or implausible findings as among a large number of tests the play of chance alone is likely to generate spurious statistically significant results.</p>
+<p>Quantitative results of meta-analyses should be expressed as point estimates together with associated confidence intervals and exact p-values. They should not be presented or discussed only in terms of statistical significance. This is particularly important where results are not statistically significant as nonsignificance can arise both when estimates are close to no effect with narrow confidence intervals, or when estimates of effect are large with wide confidence intervals. Whilst in the former, we can be confident that there is little difference between the interventions compared, in the latter there is insufficient evidence to draw conclusions. Researchers should be aware that describing a result as ‘there is no statistical (or statistically significant) difference between the two interventions’ can be (mis)read as there being no difference between interventions.</p>
+<p>It is important that inconclusive results are not interpreted as indicating that an intervention is ineffective and estimates with wide confidence intervals that span no effect should be described as showing no clear evidence of a benefit or harm rather than as there being no difference between interventions. Demonstrating lack of sufficient evidence to reach a clear conclusion is an important finding in its own right.</p>
+<p>Similarly, care should be taken not to overplay results that are statistically significant, as with large enough numbers, even very modest differences between interventions can be statistically significant. The size of the estimated effect, and its confidence intervals, should be considered in view of how this relates to current or future practice.</p>
+<p>It is usually helpful to present findings in both relative and absolute terms and in particular to consider how relative effects may translate into different absolute effects for people with differing underlying prognoses (see Relative and absolute effects section above). Where a number of outcomes or subgroup analyses are included in a review it can be helpful to tabulate the main findings in terms of effect, confidence intervals and inconsistency or heterogeneity statistics.</p>
+<p><strong>Summary: Data synthesis</strong></p>
+<ul>
+<li><p>Synthesis involves bringing the results of individual studies together and summarizing their findings.</p></li>
+<li><p>This may be done quantitatively or, if formal pooling of results is inappropriate, through a narrative approach.</p></li>
+<li><p>Synthesis should also explore whether observed intervention effects are consistent across studies, and investigate possible reasons for any inconsistencies.</p></li>
+<li><p>Initial descriptive synthesis</p>
+<ul>
+<li>All syntheses should begin by constructing a clear descriptive summary of the included studies.</li>
+</ul></li>
+<li><p>Narrative synthesis is an essential part of a systematic review, and as with every other stage of the process, bias must be minimized.</p>
+<ul>
+<li><p>A general framework can be applied in order to help maintain transparency and add credibility to the process. The four elements of this framework are:</p>
+<ul>
+<li><p>Developing a theory of how the intervention works, why and for whom</p></li>
+<li><p>Developing a preliminary synthesis of findings of included studies</p></li>
+<li><p>Exploring relationships within and between studies</p></li>
+<li><p>Assessing the robustness of the synthesis</p></li>
+</ul></li>
+<li><p>Each element contains a range of tools and techniques that can be applied. A researcher is likely to move iteratively among the four elements, choosing those tools and techniques that are appropriate to the data being synthesized and providing justifications for these choices.</p></li>
+</ul></li>
+<li><p>Quantitative synthesis</p>
+<ul>
+<li><p>Meta-analysis increases power and precision in estimating intervention effects.</p></li>
+<li><p>Results of individual studies are combined statistically to give a pooled estimate of the ‘average’ intervention effect.</p></li>
+<li><p>Most meta-analysis methods are based on calculating a <strong><em>weighted average</em></strong> of the effect estimates from each study.</p></li>
+<li><p>The methods used to combine results will depend on the type of outcome assessed.</p></li>
+<li><p>Quantitative results should be expressed as point estimates together with associated confidence intervals and exact p-values.</p></li>
+<li><p>Variation in results across studies should be investigated.</p></li>
+<li><p>Sensitivity analyses give an indication of the robustness of results to the type of study included and the methods used.</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="report-writing" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="report-writing"><span class="header-section-number">2.9</span> Report writing</h2>
+<p>Report writing is an integral part of the systematic review process. The report should describe the review methods clearly and in sufficient detail that others could, if they wished, repeat them. There is evidence that the quality of reporting in reports of primary studies may affect the readers’ interpretation of the results, and the same is likely to be true of systematic reviews. It has also been argued that trials and reviews often provide incomplete or omit the crucial ‘how to’ details about interventions, limiting a clinicians’ ability to implement findings in practice. PRISMA (Preferred Reporting Items for Systematic Reviews and Meta- Analyses), flow chart, and checklist, provide guidance for the reporting of systematic reviews with or without a meta-analysis. <span class="citation" data-cites="page2021">(<a href="ref.html#ref-page2021" role="doc-biblioref">Page et al. 2021</a>)</span></p>
+<p><strong>Style and structure</strong></p>
+<p>Commissioning bodies and journals usually have specific requirements regarding presentation and layout that should be followed when preparing a report or article. Some organisations offer detailed guidance while others are less specific. In the absence of guidance, a layered approach such as a one page summary of the research ‘actionable messages’, three-page executive summary and a 25-page report is advocated as the optimal way to present research evidence to health service managers and policy-makers.</p>
+<p>Many journals publish papers electronically ahead of print publication and electronic publishing often allows additional material, such as large tables, or search strategies to be made available through the journal’s website. There is no specific word limit for reports published in electronic format only, for example in the Cochrane Library, although Cochrane reviews ‘should be as succinct as possible’.</p>
+<p>Researchers should familiarize themselves with the conventions favored by their commissioning body or ‘target’ journal. Many journals now prefer a clear and active style that is understandable to a general audience. Weaknesses in the use of grammar and spelling constitute obstacles to clear communication and should be eliminated as far as possible. The field of scientific and technical communication predominantly uses English as its common language, so those who are unsure of their ability in written English may find it helpful to have their report checked by an accomplished speaker/ writer who is familiar with the subject matter before submission.</p>
+<p>Contents lists and headings are essential for guiding the reader through longer documents. Inclusion of an index may also be helpful. It is particularly important to adopt a consistent style (e.g.&nbsp;font, point size, font style) for different levels of main headings and sub-headings.</p>
+<p><strong>Planning</strong></p>
+<p>Time spent preparing a brief outline covering the main points to be included in the report can save time overall. The outline should focus on who the intended audience is and what they need to know. The review team will need to agree the outline and, if the report is to be written by multiple authors, allocate writers for each section. Dividing the work amongst a number of people reduces the burden on each individual but there is a risk of loss of consistency in style and terminology. In addition, completion of the report relies on all the team members working to the agreed schedule. It is essential for the lead author (corresponding author for journal articles) to monitor progress and take responsibility for accuracy and consistency.</p>
+<p><strong>Authors and contributors</strong></p>
+<p>The report of a systematic review will usually have a number of authors. The ICMJE <span class="citation" data-cites="ICMJE">(<a href="ref.html#ref-ICMJE" role="doc-biblioref">International Committee of Medical Journal Editors 2025</a>)</span> recommends that authorship be based on the following 4 criteria:</p>
+<ul>
+<li><p>Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND</p></li>
+<li><p>Drafting the work or reviewing it critically for important intellectual content; AND</p></li>
+<li><p>Final approval of the version to be published; AND</p></li>
+<li><p>Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.</p></li>
+</ul>
+<p>In addition to being accountable for the parts of the work done, an author should be able to identify which co-authors are responsible for specific other parts of the work. In addition, authors should have confidence in the integrity of the contributions of their co-authors.</p>
+<p>All authors should meet all of these conditions. The review team should agree among themselves who will be authors and the order of authorship. Order of authorship is often taken to reflect an individual’s contribution to the report and methods are available for scoring contributions to determine authorship. Alternatively authors can simply be listed alphabetically. Contributions that do not meet the criteria for authorship (e.g.&nbsp;data extraction or membership of an advisory group) should be included in the acknowledgements.</p>
+<p><strong>Conflict of interests</strong></p>
+<p>The ICMJE state that a conflict of interests exists if ‘an author (or the author’s institution), reviewer, or editor has financial or personal relationships that inappropriately influence (bias) his or her actions’. Relationships that might constitute a conflict of interests are common and there is nothing wrong with having such relationships. However, it is important that they are declared so that readers are aware of the possibility that authors’ judgments may have been influenced by other factors. Review authors need to be explicit about any potential conflict of interests because such transparency is important in maintaining the readers’ confidence. <span class="citation" data-cites="ICMJE">(<a href="ref.html#ref-ICMJE" role="doc-biblioref">International Committee of Medical Journal Editors 2025</a>)</span></p>
+<p><strong>Executive summary or abstract</strong></p>
+<p>The executive summary (for full-length reports) or abstract (for journal articles) is the most important part of the report because potentially it is the only section that many readers will actually read (perhaps in conjunction with the discussion and conclusions). It should present the findings of the review clearly and concisely and allow readers to quickly judge the quality of the review and the generalizability of its findings. Providing a good balance between detail of the intervention and how the review was conducted, and the results and conclusions is always a challenge, and may require several iterations across the whole review team. The summary is usually the last section to be written so that full consideration can be given to all relevant aspects of the project. However, the process of summary writing may help in the further development of the recommendations by forcing review teams to identify the one or two most important findings and the conclusions which flow from them. It should be remembered that revisions to the report or article following peer review may also need to be reflected in the summary. Assistance from outside parties and medical writers may be helpful in developing a good summary.</p>
+<p><strong>Formulating the discussion</strong></p>
+<p>The purpose of the discussion section of a report is to help readers to interpret the results of the review. This should be done by presenting an analysis of the findings and outlining the strengths and weaknesses of the review. The discussion should also place the findings in the context of the existing evidence base, particularly in relation to any existing relevant reviews. It has been suggested that more could and should be done in discussion sections to contextualize both the nature of the research and the findings to the existing evidence base. There should be a balance between objectively describing the results, and subjectively speculating on their meaning. It is important to present a clear and logical train of thought and reasoning, supported by the findings of the review and other existing knowledge.</p>
+<p><strong>Conclusions, implications, recommendations</strong></p>
+<p>Faced with the need to make decisions and limited time to read the whole report, many readers may go directly to the conclusions. Therefore, whether incorporated in the discussion section or presented separately, it is essential that the conclusions be clearly worded and based solely on the evidence reviewed.</p>
+<p>The conclusions should summarize the evidence and draw out the implications for health care, and preferably be worded to show how they have been derived from the evidence.</p>
+<p>We advise authors to follow the model of Cochrane reviews when drafing the conclusions. Authors’ conclusions from Cochrane reviews are presented as the implications for practice and research; recommendations are not made. Recommendations for practice are usually only made in guidelines, and are formulated from a variety of sources of information in addition to review findings.</p>
+<p>A clear statement of the implications for future research should be made; vague statements along the lines of ‘more research is needed’ are not helpful and should be avoided. Specific gaps in the evidence should be highlighted to identify the research questions that need answering. Where methodological issues have been identified in existing studies, suggestions for future approaches may be made. Where possible, research recommendations should be listed in order of priority, and an indication of how rapidly the knowledge base in the area is developing should be included. This can assist in planning an update of the review and help guide commissioners when allocating funding.</p>
+<p><strong>Summary: Report writing</strong></p>
+<ul>
+<li><p>Report writing is an integral part of the systematic review process.</p></li>
+<li><p>Reviews may be published as a report for the commissioner, as a journal article or both.</p></li>
+<li><p>Readability is a key aspect of reporting; a review’s findings will not be acted on if they are not clearly presented and understood.</p></li>
+<li><p>The executive summary (for full-length reports) or abstract (for journal articles) is the most important part of the report, because it is potentially the only section that many readers will actually read (perhaps in conjunction with the discussion and conclusions).</p></li>
+<li><p>Implications for practice or policy and recommendations for further research should be based solely on the evidence contained in the review.</p></li>
+<li><p>The findings from systematic reviews are frequently used to inform guideline development. Guideline recommendations are often formulated using a grading scheme. Systematic review reports should therefore aim to provide the information required for such grading schemes.</p></li>
+</ul>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-GRADEproGDT" class="csl-entry" role="listitem">
+<span>“GRADEpro GDT: Guideline Development Tool.”</span> 2025. <span>McMaster University and Evidence Prime</span>. <a href="https://gdt.gradepro.org/app/">https://gdt.gradepro.org/app/</a>.
+</div>
+<div id="ref-higgins2023chapter8" class="csl-entry" role="listitem">
+Higgins, Julian P. T., Jonathan J. Deeks, Jacqueline Chandler, Matthew J. Page, Patrick C. Bossuyt, Tianjing Li, and Vivian A. Welch. 2023. <span>“Chapter 8: Assessing Risk of Bias in a Randomized Trial.”</span> In <em>Cochrane Handbook for Systematic Reviews of Interventions</em>, edited by Julian P. T. Higgins, James Thomas, Jacqueline Chandler, Miranda Cumpston, Tianjing Li, Matthew J. Page, and Vivian A. Welch, version 6.5 (updated February 2023). Chichester, UK: Wiley-Blackwell. <a href="https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-08">https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-08</a>.
+</div>
+<div id="ref-ICMJE" class="csl-entry" role="listitem">
+International Committee of Medical Journal Editors. 2025. <span>“ICMJE: Recommendations for Scholarly Work in Medical Journals [Homepage on the Internet].”</span> 2025. <a href="https://www.icmje.org/recommendations/">https://www.icmje.org/recommendations/</a>.
+</div>
+<div id="ref-page2021" class="csl-entry" role="listitem">
+Page, Matthew J., Joanne E. McKenzie, Patrick M. Bossuyt, Isabelle Boutron, Tammy C. Hoffmann, Cynthia D. Mulrow, Larissa Shamseer, et al. 2021. <span>“The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews.”</span> <em>Systematic Reviews</em> 10 (1). <a href="https://doi.org/10.1186/s13643-021-01626-4">https://doi.org/10.1186/s13643-021-01626-4</a>.
+</div>
+<div id="ref-sterne2019" class="csl-entry" role="listitem">
+Sterne, Jonathan A C, Jelena Savović, Matthew J Page, Roy G Elbers, Natalie S Blencowe, Isabelle Boutron, Christopher J Cates, et al. 2019. <span>“RoB 2: A Revised Tool for Assessing Risk of Bias in Randomised Trials.”</span> <em>BMJ</em>, August, l4898. <a href="https://doi.org/10.1136/bmj.l4898">https://doi.org/10.1136/bmj.l4898</a>.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./protocol.html" class="pagination-link" aria-label="Planning the reviews">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Planning the reviews</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./tests.html" class="pagination-link" aria-label="Reviews of DTA studies">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Reviews of DTA studies</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

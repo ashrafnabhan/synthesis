@@ -1,4 +1,4 @@
-# Planning the review
+# Planning the reviews {#sec-planning-systematic-reviews-of-interventions}
 
 Healthcare decision makers in search of reliable information that compares health interventions increasingly turn to systematic reviews for the best summary of the evidence. Systematic reviews identify, select, assess, and synthesize the findings of similar but separate studies, and can help clarify what is known and not known about the potential benefits and harms of drugs, devices, and other healthcare services. Systematic reviews can be helpful for clinicians who want to integrate research findings into their daily practices, for patients to make well-informed choices about their own care, for professional medical societies and other organizations that develop clinical practice guidelines.
 
@@ -8,7 +8,7 @@ Specifying the methods in advance reduces the risk of introducing bias into the 
 
 If modifications to the protocol are required, these should be clearly documented and justified. Modifications may arise from a clearer understanding of the review question and should not be made because of an awareness of the results of individual studies. Protocol development is often an iterative process that requires communication within the review team and advisory group and sometimes with the funder.
 
-This section covers the development of the protocol and the information it should contain. The formulation of the review objectives from the review question and the setting of inclusion criteria are covered in detail here as these must be agreed before starting a review. The search strategy, study selection, data extraction, quality assessment, synthesis and dissemination are also mentioned briefly as they are essential parts of the review protocol. However, to avoid repetition, full details of the issues related to both protocol requirements and carrying out the review are provided in [Section @sec-conducting-the-review] .
+This section covers the development of the protocol and the information it should contain. The formulation of the review objectives from the review question and the setting of inclusion criteria are covered in detail here as these must be agreed before starting a review. The search strategy, study selection, data extraction, quality assessment, synthesis and dissemination are also mentioned briefly as they are essential parts of the review protocol. However, to avoid repetition, full details of the issues related to both protocol requirements and carrying out the review are provided in [Section @sec-conducting-systematic-reviews-of-interventions].
 
 ## Introduction
 

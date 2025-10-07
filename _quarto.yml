@@ -1,29 +1,52 @@
 project:
   type: book
+  output-dir: docs
 
+toc-title: "On this page"
+toc: true
 book:
-  title: "An Introduction to Evidence Synthesis"
+  title: "Evidence Synthesis"
+  subtitle: "Finding what works in healthcare"
+  date: today
+  url: https://www.ecebm.com
+  author:
+  - name: "Prof. Ashraf Nabhan"
+    affiliations:
+      - "Faculty of Medicine, Ain Shams University"
+      - "Head of Clinical Research Unit, Faculty of Medicine, MTI University"
+    email: "anabhan@med.asu.edu.eg" 
+    orcid: "0000-0003-4572-2210"
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+  page-navigation: true
+  reader-mode: true
+  sidebar:
+    search: true
+  description: |
+    Intended for students, researchers, and practitioners, 
+    this book aims to strengthen readers’ capacity to conduct and critically appraise systematic reviews, 
+    thereby advancing evidence-based practice and research integrity.
+  keyword: Systematic reviews, Meta-analysis, Evidence Synthesis, Knowledge translation
   chapters:
     - index.qmd
-    - preface.qmd
     - introduction.qmd
-    - part: "Healthcare interventions"
-      chapters: 
+    - part: "Reviews of Healthcare Interventions"
+      chapters:
         - protocol.qmd
         - review.qmd
-    - part: "Clinical tests"
-      chapters: 
+    - part: "Reviews of Clinical Tests"
+      chapters:
         - tests.qmd
-    - summary.qmd
     - ref.qmd
 
 bibliography: references.bib
 
-csl: vancouver-brackets.csl
-
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+    mainfont: "Invention, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Noto Sans, Liberation Sans, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji"
+    code-link: true  
     css: nocopy.css
   pdf:
     documentclass: scrreprt
@@ -32,5 +55,5 @@ format:
 
 editor: visual
 
-copyright: "© 2025 Ashraf Nabhan. All rights reserved."
+copyright: "© 2025 Ashraf Nabhan. All rights reserved"
 
