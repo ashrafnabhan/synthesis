@@ -45,6 +45,14 @@ format:
     theme-toggle: true
   pdf:
     documentclass: scrreprt
+    keep-tex: true
+    fontsize: 11pt
+    papersize: A4
+    geometry:
+      - top=25mm
+      - left=25mm
+      - right=25mm
+      - bottom=25mm
   epub:
     cover-image: cover.png  
 
