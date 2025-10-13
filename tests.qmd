@@ -1,6 +1,8 @@
-# Reviews of DTA studies
+# Reviews of clinical tests
 
-Clinical tests are routinely used for diagnosis, confirming or excluding the presence of a disease or condition. They are also used to monitor disease progression, assess prognosis, and screen asymptomatic populations for disease. Any process that yields information used to inform patient management can be regarded as a clinical test. This includes a wide range of processes from history taking and physical examination to complex imaging techniques. The test forms part of the continuum of patient care. New tests are adopted into clinical practice for a number of reasons, including replacement of an existing test (where the new test is expected to reduce the negative impact on the patient, provide better information, or equivalent information for less cost), triage (to decide whether a more expensive or invasive test is necessary), or as an addition to the existing testing protocol.
+Healthcare professionals use clinical tests for diagnosis, confirming or excluding the presence of a disease or condition. They also use clinical tests to monitor disease progression, assess prognosis, and screen asymptomatic populations for disease. Any process that yields information used to inform patient management can be regarded as a clinical test. This includes a wide range of processes from history taking and physical examination to complex imaging techniques. The test forms part of the continuum of patient care.
+
+New tests are adopted into clinical practice for a number of reasons, including **replacement** of an existing test (where the new test is expected to reduce the negative impact on the patient, provide better information, or equivalent information for less cost), **triage** (to decide whether a more expensive or invasive test is necessary), or as an **add-on** (addition to the existing testing protocol to increase the accuracy of a testing strategy).
 
 The ultimate aim of any research on clinical tests should be to determine impact upon patient management and outcome. To date much of the research on clinical tests is in the form of test accuracy studies. The basic aim of test accuracy studies is to assess how well a test can distinguish between people with and without the disease/condition of interest. The outcome measures used describe the probabilistic relationships between positive and negative test results, and the presence or absence of disease, as compared with the best currently available method (i.e. the reference test).
 
@@ -8,7 +10,19 @@ When considering a systematic review of test accuracy studies, it is important t
 
 ## The review question
 
-As with all systematic reviews, the development of a clear, well-defined question is essential to maintaining transparency of the review process and to the quality and relevance of the findings. Some aspects of the question require consideration when planning a review of test accuracy.
+As with all systematic reviews, the development of a clear, well-defined question is essential to maintaining transparency of the review process and to the quality and relevance of the findings.
+
+We prefer the alternative acronym PIT for test accuracy questions, where the three letters refer to population, index test(s) and target condition. P describes the persons for whom the test is considered, and may include the healthcare setting and tests done prior to using the index test. We prefer ‘population’ rather than ‘patients’, because tests may also be used in asymptomatic persons, as in population screening programmes. I describes the index test(s). T describes the target condition. These three elements are further explained below.
+
+### From question to objectives
+
+The primary objective will typically refer to the accuracy of the index test(s) for the diagnosis of the target condition in the relevant population.
+
+**Example**:
+
+***Review question***: In immuno-compromised patients (P), is measuring galactomannan in blood (I) sufficiently sensitive to serve as a triage test for fungal disease (T)?
+
+***Objective***: To assess the diagnostic accuracy of galactomannan detection in serum for the diagnosis of invasive aspergillosis in immuno-compromised patients, at different cut‐off values for test positivity.
 
 ## Eligibility criteria
 
