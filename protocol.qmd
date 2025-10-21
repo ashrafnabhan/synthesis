@@ -1,4 +1,4 @@
-# Planning the reviews {#sec-planning-systematic-reviews-of-interventions}
+# Planning an intervention review {#sec-planning-systematic-reviews-of-interventions}
 
 Healthcare decision makers in search of reliable information that compares health interventions increasingly turn to systematic reviews for the best summary of the evidence. Systematic reviews identify, select, assess, and synthesize the findings of similar but separate studies, and can help clarify what is known and not known about the potential benefits and harms of drugs, devices, and other healthcare services. Systematic reviews can be helpful for clinicians who want to integrate research findings into their daily practices, for patients to make well-informed choices about their own care, for professional medical societies and other organizations that develop clinical practice guidelines.
 

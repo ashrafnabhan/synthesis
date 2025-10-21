@@ -1,4 +1,4 @@
-# Conducting the review {#sec-conducting-systematic-reviews-of-interventions}
+# Conducting an intervention review {#sec-conducting-systematic-reviews-of-interventions}
 
 This chapter addresses the detailed methodology that will be followed during the review, covering the search for studies, selection of studies into the review, data collection, risk of bias assessment, synthesis (including any meta-analysis approaches), and overall assessment of the certainty of evidence. 
 
