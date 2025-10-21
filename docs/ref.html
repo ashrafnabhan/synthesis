@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -53,14 +53,15 @@ div.csl-indent {
 <link href="./tests.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cbfe1f73d606af3a0524037a01bc65ab.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9af2a04aeb50ac66bd1d6628facf0c3d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -115,7 +116,9 @@ div.csl-indent {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Evidence Synthesis</a> 
         <div class="sidebar-tools-main">
@@ -235,6 +238,11 @@ div.csl-indent {
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bossuyt2006" class="csl-entry" role="listitem">
+Bossuyt PM, Irwig L, Craig J, Glasziou P. Comparative accuracy:
+Assessing new tests against existing diagnostic pathways. BMJ
+[Internet]. 2006 May 4;332(7549):1089–92. Available from: <a href="http://dx.doi.org/10.1136/bmj.332.7549.1089">http://dx.doi.org/10.1136/bmj.332.7549.1089</a>
+</div>
 <div id="ref-mada" class="csl-entry" role="listitem">
 Doebler P. Mada: Meta-analysis of diagnostic accuracy. 2025; Available
 from: <a href="https://CRAN.R-project.org/package=mada">https://CRAN.R-project.org/package=mada</a>
@@ -256,6 +264,13 @@ version 6.5 (updated February 2023). Chichester, UK: Wiley-Blackwell;
 ICMJE. International committee of medical journal editors:
 Recommendations for scholarly work in medical journals [Internet]. 2025.
 Available from: <a href="https://www.icmje.org/recommendations/">https://www.icmje.org/recommendations/</a>
+</div>
+<div id="ref-Leeflang2023" class="csl-entry" role="listitem">
+Leeflang MM, Davenport C, Bossuyt PM. Chapter 5: Defining the review
+question. In: Deeks JJ, Bossuyt PM, Leeflang MM, Takwoingi Y, editors.
+Cochrane handbook for systematic reviews of diagnostic test accuracy
+[Internet]. Version 2.0 (updated July 2023). Cochrane; 2023. Available
+from: <a href="https://training.cochrane.org/handbook-diagnostic-test-accuracy/current">https://training.cochrane.org/handbook-diagnostic-test-accuracy/current</a>
 </div>
 <div id="ref-McInnes2018" class="csl-entry" role="listitem">
 McInnes MDF, Moher D, Thombs BD, McGrath TA, Bossuyt PM, Clifford T, et
@@ -369,13 +384,14 @@ Accuracy Studies. Annals of Internal Medicine [Internet]. 2011 Oct
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

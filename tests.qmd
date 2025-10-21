@@ -2,7 +2,7 @@
 
 Healthcare professionals use clinical tests for diagnosis, confirming or excluding the presence of a disease or condition. They also use clinical tests to monitor disease progression, assess prognosis, and screen asymptomatic populations for disease. Any process that yields information used to inform patient management can be regarded as a clinical test. This includes a wide range of processes from history taking and physical examination to complex imaging techniques. The test forms part of the continuum of patient care.
 
-New tests are adopted into clinical practice for a number of reasons, including **replacement** of an existing test (where the new test is expected to reduce the negative impact on the patient, provide better information, or equivalent information for less cost), **triage** (to decide whether a more expensive or invasive test is necessary), or as an **add-on** (addition to the existing testing protocol to increase the accuracy of a testing strategy).
+New tests are adopted into clinical practice for a number of reasons, including **replacement** of an existing test (where the new test is expected to reduce the negative impact on the patient, provide better information, or equivalent information for less cost), **triage** (to decide whether a more expensive or invasive test is necessary), or as an **add-on** (addition to the existing testing protocol to increase the accuracy of a testing strategy). [@bossuyt2006]
 
 The ultimate aim of any research on clinical tests should be to determine impact upon patient management and outcome. To date much of the research on clinical tests is in the form of test accuracy studies. The basic aim of test accuracy studies is to assess how well a test can distinguish between people with and without the disease/condition of interest. The outcome measures used describe the probabilistic relationships between positive and negative test results, and the presence or absence of disease, as compared with the best currently available method (i.e. the reference test).
 
@@ -12,7 +12,7 @@ When considering a systematic review of test accuracy studies, it is important t
 
 As with all systematic reviews, the development of a clear, well-defined question is essential to maintaining transparency of the review process and to the quality and relevance of the findings.
 
-We prefer the alternative acronym PIT for test accuracy questions, where the three letters refer to population, index test(s) and target condition. P describes the persons for whom the test is considered, and may include the healthcare setting and tests done prior to using the index test. We prefer ‘population’ rather than ‘patients’, because tests may also be used in asymptomatic persons, as in population screening programmes. I describes the index test(s). T describes the target condition. These three elements are further explained below.
+We prefer the alternative acronym **PIT** for test accuracy questions, where the three letters refer to population, index test(s) and target condition. P describes the persons for whom the test is considered, and may include the healthcare setting and tests done prior to using the index test. We can use ‘population’ rather than ‘patients’, because tests may also be used in asymptomatic persons, as in population screening programs. I describes the index test. T describes the target condition. [@Leeflang2023]
 
 ### From question to objectives
 
@@ -54,9 +54,7 @@ Where several tests are available to diagnose the target condition, there is oft
 
 In some instances, it is deemed unethical to use an invasive procedure as a reference standard in a study. In such cases, clinical follow-up and final diagnosis may sometimes be used as a reference standard. There will also be occasions when clinical follow-up and final diagnosis provides the most appropriate reference standard. The length of follow-up should ideally be defined in advance. Studies using follow-up and clinical outcome in this way may be viewed as prognostic studies in that they are measuring the accuracy with which the test is able to predict a future event, rather than the accuracy with which it is able to determine current status. Where such studies are included in a systematic review, it is important to define, in advance, what constitutes appropriate follow-up and hence an adequate reference standard.
 
-The index test may also be evaluated against the test currently in practice. Ideally, this should be done by comparing index test and currently available test to the reference standard in the same population.
-
-**Outcome measures**
+**Target condition**
 
 The primary outcome of interest for any systematic review of test accuracy is the data required to populate 2 x 2 contingency tables. These describe the relationship between the results of the index test and the reference standard at a given diagnostic threshold (point at which results are classified as positive or negative). The table includes the number of true positives (TP: those that have the disease and test positive), false positives (FP: those that do not have the disease and test positive), false negatives (FN: those that do have the disease and test negative) and true negatives (TN: those that do not have the disease and test negative).
 
@@ -67,29 +65,25 @@ The primary outcome of interest for any systematic review of test accuracy is th
 | Index test | Positive | TP                 | FP         |
 |            | Negative | FN                 | TN         |
 
-From the 2 x 2 contingency table (AKA confusion matrix), the following commonly used measures of test performance can be calculated: sensitivity (true positive proportion, A test with a higher sensitivity has a lower type II error rate), specificity (true negative proportion, a test with a higher specificity has a lower type I error rate), diagnostic accuracy (the correctly classified proportion), diagnostic odds ratio, the number needed to diagnose, positive predictive value (precision), negative predictive value, Likelihood ratio of a positive test (LR+), and Likelihood ratio of a negative test (LR-).
+From the 2 x 2 contingency table (AKA confusion matrix), the following measures of test performance can be calculated: sensitivity (true positive proportion, a test with a higher sensitivity has a lower type II error rate), specificity (true negative proportion, a test with a higher specificity has a lower type I error rate), diagnostic accuracy (the correctly classified proportion), diagnostic odds ratio, the number needed to diagnose, positive predictive value (precision), negative predictive value, Likelihood ratio of a positive test (LR+), and Likelihood ratio of a negative test (LR-).
 
 In primary studies, a receiver operating characteristic (ROC) curve describes the relationship between 'true positive fraction' (sensitivity) and 'false positive fraction' (1- specificity) for different positivity thresholds. It is used to display the trade-offs between sensitivity and specificity as a result of varying the diagnostic threshold.
 
-In some scenarios (e.g. tests used in population screening) a threshold which skews diagnostic performance may be preferable (e.g. minimizing the number of false negatives at the expense of some increase in the number of false positive results, in conditions/diseases where missing the presence of disease will lead to serious consequences). Overall diagnostic accuracy is summarized by the area under the curve (AUC); the closer the curve is to the upper left hand corner the better the diagnostic performance. The AUC ranges from 0 to 1, with 0.5 indicating a poor test where the accuracy is equivalent to chance.
-
-As with other types of intervention, when assessing the clinical effectiveness of a diagnostic test, it is important to consider all outcome measures which may be relevant to the use of the test in practice. These might include adverse events and the preferences of patients, although inclusion of such information is rare.
+In some scenarios (e.g. tests used in population screening) a threshold which skews diagnostic performance may be preferable (e.g. minimizing the number of false negatives at the expense of some increase in the number of false positive results, in conditions/diseases where missing the presence of disease will lead to serious consequences). Overall diagnostic accuracy is summarized by the area under the curve (AUC); the closer the curve is to the upper left hand corner the better the diagnostic performance. The AUC ranges from 0 to 1, with 0.5 indicating a poor test where the accuracy is equivalent to coin flipping.
 
 **Study design**
 
-There are two basic types of test accuracy study: 'single-gate' which are similar to consecutive series and 'two-gate' which are similar to case-control studies. The term 'two-gate' being used where two sets of inclusion criteria or 'gates' are applied, one for participants who have the target condition and one for those who do not. These designs differ in structure from other cohort and case-control studies in that both are generally cross-sectional in nature.
+There are two basic types of test accuracy study: '**single-gate**' which are similar to consecutive series and '**two-gate**' which are similar to case-control studies. The term 'two-gate' being used where two sets of inclusion criteria or 'gates' are applied, one for participants who have the target condition and one for those who do not. These designs differ in structure from other cohort and case-control studies in that both are generally cross-sectional in nature.
 
--   The single-gate design includes participants in whom ***the disease status is unknown***, and compares the results of the index test with those of the reference standard used to confirm diagnosis, i.e. it is broadly representative of the scenario in which the test would be used in practice.
+The ***single-gate design*** includes participants in whom ***the disease status is unknown***, and compares the results of the index test with those of the reference standard used to confirm diagnosis, i.e. it is broadly representative of the scenario in which the test would be used in practice.
 
--   The two-gate design compares the results of the index test in patients with an established diagnosis of the target condition with its results in healthy controls or controls with another diagnosis (known status, with respect to the target condition, is therefore treated as the reference standard); i.e. it is unrepresentative of practice and is unlikely to contain the full spectrum of health and disease over which the test would be used.
-
-There are inherent problems with the two-gate design that may lead to bias. The selective inclusion of cases with more advanced disease is likely to lead to over estimations of sensitivity and inclusion of healthy controls is likely to lead to over estimations of specificity. The recruitment of healthy controls from the general population has been associated with two- to three-fold increases in measures of test performance time-to-events derived from a diagnostic cohort design. This over estimation can be increased further when cases of severe disease are used alongside healthy controls. By contrast, where cases are derived from individuals with mild disease, underestimations of sensitivity can result. Where the control group is derived from patients with alternative diagnoses, specificity may be under or overestimated, depending upon the alternative diagnosis. In theory, the two-gate study design could produce a valid estimate of test performance if the cases were sampled to match the reference standard positive patients in a single-gate study (in terms of the spectrum of disease severity) and controls were matched to the reference standard negative patients (in terms of the spectrum of alternative conditions). In practice however, this is difficult to achieve. Whilst two-gate studies are therefore of limited use in assessing how a test is likely to perform in clinical practice, they can be useful in the earlier phases of test development. Where systematic reviews include both single and two-gate study designs, careful consideration should be given to the methods of analysis and the impact of study design should be assessed in any meta-analyses.
+The ***two-gate design*** compares the results of the index test in patients with an established diagnosis of the target condition with its results in healthy controls or controls with another diagnosis (known status, with respect to the target condition, is therefore treated as the reference standard); i.e. it is unrepresentative of practice and is unlikely to contain the full spectrum of health and disease over which the test would be used. There are inherent problems with the two-gate design that may lead to bias. The selective inclusion of cases with more advanced disease is likely to lead to over estimations of sensitivity and inclusion of healthy controls is likely to lead to over estimations of specificity. The recruitment of healthy controls from the general population has been associated with two- to three-fold increases in measures of test performance time-to-events derived from a diagnostic cohort design. This over estimation can be increased further when cases of severe disease are used alongside healthy controls. By contrast, where cases are derived from individuals with mild disease, underestimations of sensitivity can result. Where the control group is derived from patients with alternative diagnoses, specificity may be under or overestimated, depending upon the alternative diagnosis. Whilst two-gate studies are therefore of limited use in assessing how a test is likely to perform in clinical practice, they can be useful in the earlier phases of test development.
 
 ## Identifying research evidence
 
 **Sources**
 
-The importance of searching a wide range of databases to avoid missing relevant diagnostic test accuracy studies has been demonstrated, with MEDLINE and EMBASE providing unique records. The reference lists of included studies can also be a useful resource.
+The importance of searching a wide range of databases to avoid missing relevant diagnostic test accuracy studies has been demonstrated, with MEDLINE and Embase providing unique records. The reference lists of included studies can also be a useful resource.
 
 **Database searching**
 
@@ -129,7 +123,7 @@ There are many differences in the design and conduct of diagnostic accuracy stud
 
 ### Sources of bias and variation in test accuracy studies
 
-Variation
+**Variation**
 
 -   Population
 
@@ -153,7 +147,7 @@ Variation
 
     -   Test execution: Differences in the execution of the index test and/or reference standard can result in different estimates of diagnostic performance; clear reporting of the methods used is therefore important.
 
-Bias
+**Bias**
 
 -   **Population**
 

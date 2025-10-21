@@ -1,7 +1,7 @@
 project:
   type: book
   output-dir: docs
-
+  
 toc-title: "On this page"
 toc: true
 book:
@@ -48,10 +48,13 @@ format:
     css: nocopy.css
     theme-toggle: true
   pdf:
-    documentclass: scrreprt
-    keep-tex: true
-    fontsize: 11pt
+    fontsize: 10pt
     papersize: a4
+    include-in-header:
+          text: |
+            \usepackage[automark]{scrlayer-scrpage}
+            \ihead{Evidence Synthesis}
+            \ohead{Nabhan 2025}
     geometry:
       - top=25mm
       - left=25mm
