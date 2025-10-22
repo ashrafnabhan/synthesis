@@ -56,7 +56,7 @@ In addition to searching electronic databases, published and unpublished researc
 
 -   **Searching relevant Internet resources**
 
-    -   Internet searching can be a useful means of retrieving grey literature, such as unpublished papers, reports and conference abstracts. Identifying and scanning specific relevant websites will usually be more practical than using a general search engine such as 'Google'. It is worth considering using the Internet when investigating a topic area where it is likely that studies have been published informally rather than in a journal indexed in a bibliographic database. Internet searching should be carried out in as structured a way as possible and the procedure documented.
+    -   Internet searching can be a useful means of retrieving grey literature, such as unpublished papers, reports and conference abstracts. Identifying and scanning specific relevant websites will usually be more practical than using a general search engine such as 'Google'. Internet searching should be carried out in as structured a way as possible and the procedure documented.
 
 -   **Using a project Internet site to canvas for studies**
 
