@@ -1,6 +1,6 @@
 ## Preface {.unnumbered}
 
-This book presents a comprehensive and structured introduction to systematic reviews as a methodological framework for evidence synthesis. Systematic reviews provide a rigorous and reproducible means of identifying, appraising, and synthesizing research findings, enabling reliable conclusions that inform clinical practice, public health policy, and future research. In an era of expanding scientific literature, systematic reviews offer a structured approach to distilling credible evidence and minimizing bias.
+This book presents a comprehensive structured introduction to systematic reviews as a methodological framework for evidence synthesis. Systematic reviews provide a rigorous and reproducible means of identifying, appraising, and synthesizing research findings, enabling reliable conclusions that inform clinical practice, public health policy, and future research. In an era of expanding scientific literature, systematic reviews offer a structured approach to distilling credible evidence and minimizing bias.
 
 Covering the full continuum of the review process—from formulating research questions and developing protocols to searching, selecting, appraising, extracting, synthesizing, and reporting evidence—it serves as both an instructional guide and a reference text.
 
